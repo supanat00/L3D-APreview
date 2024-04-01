@@ -6,7 +6,7 @@ export default function Portal(props) {
   const { nodes, materials } = useGLTF("/models/portal.glb");
   return (
     <group ref={group} {...props} dispose={null}>
-      <group name="Sketchfab_Scene" scale={[ 1, 1, 1]}>
+      <group name="Sketchfab_Scene" scale={[1, 1, 1]}>
         <group name="Sketchfab_model" rotation={[-Math.PI / 2, 0, 0]}>
           <group name="root">
             <group name="GLTF_SceneRootNode" rotation={[Math.PI / 2, 0, 0]}>
