@@ -7,11 +7,11 @@ import { Environment } from "@react-three/drei";
 
 export default function Scene() {
   return (
-    <div className="mt-10 lg:w-[70%] rounded-xl">
+    <div className="rounded-xl">
       <Canvas className="w-full">
         <Environment preset="city" />
-        <SingModel />
         <DanceModel />
+        <SingModel />
       </Canvas>
     </div>
 
