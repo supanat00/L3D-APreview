@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
+import VideoPlayerControls from "./VideoPlayerControls";
 
 export default function Video() {
     const [isPaused, setIsPaused] = useState(false);
@@ -40,9 +41,15 @@ export default function Video() {
         }
     }
     return (
-        <div className="mt-20 w-full lg:rounded-xl lg:w-[70%]">
-            <p className="text-white text-center">{videoProgress}</p>
-            <video className="w-full lg:rounded-xl lg:w-[70%]" ref={videoRef} loop muted autoPlay>
+        <div className="relative mt-20 w-full lg:rounded-xl lg:w-[70%]">
+            <div className="absolute top-4 right-4 z-10">
+                <VideoPlayerControls
+                    progress={videoProgress}
+                    isPaused={isPaused}
+                    onPlayerPause={togglePlayPause}
+                />
+            </div>
+            <video className="w-full lg:rounded-xl" ref={videoRef} loop muted autoPlay>
                 <source src="/video/G-Junior.mp4" />
             </video>
         </div>
