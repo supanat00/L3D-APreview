@@ -1,3 +1,4 @@
+"use client";
 import dynamic from "next/dynamic";
 import Image from 'next/image'
 
@@ -6,7 +7,7 @@ const Scene = dynamic(() => import('@/components/Scene'), {
 });
 
 const Video = dynamic(() => import('@/components/Video'), {
-  ssr: false,
+  ssr: true,
 });
 
 
