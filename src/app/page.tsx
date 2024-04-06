@@ -1,46 +1,94 @@
-import Image from "next/image";
 import dynamic from "next/dynamic";
-import styles from "./page.module.css";
+import Image from 'next/image'
 
 const Scene = dynamic(() => import('@/components/Scene'), {
   ssr: false,
 });
 
+const Video = dynamic(() => import('@/components/Video'), {
+  ssr: false,
+});
+
+
+
 export default function Home() {
   return (
-    <main className={styles.main}>
-      {/* Video Background */}
-      <video
-        src="/video/rgb-bg.mp4"
-        autoPlay
-        muted
-        loop
-        className={styles.video}
-      />
-
-      {/* Part One */}
-      <div className="flex before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:blur-2xl before:dark:from-transparent before:lg:h-[360px] z-[-1] p-20">
-        {/* Logo */}
+    <div className="flex flex-col h-full w-full">
+      <div className="flex flex-col items-center">
+        {/* BLKGEM LOGO*/}
         <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/logos/tkobro_logo.png"
-          alt="Next.js Logo"
-          width={200}
-          height={200}
-          priority
+          className="w-36 mt-16 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
+          src="/logos/blkgem.svg"
+          alt={"BLKGEM LOGO"}
+          width={450}
+          height={450}
+          sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
         />
+        {/* TITLE */}
+        <p className="text-white text-center mt-14 px-5 md:px-20 lg:px-40 font-bold text-3xl md:text-5xl lg:text-6xl">THE ART OF ENTERTAINMENT ACADEMY</p>
+
+        {/* Video Show */}
+        <Video />
+
+        {/* Icon BLKGEM / GMMMUSIC / HARIEM SHAKE */}
+        <div className="flex mt-16">
+          {/* GMM LOGO */}
+          <Image
+            className="w-16 md:w-40 lg:w-64 xl:w-80 2xl:w-96 "
+            src="/logos/gmm.svg"
+            alt={"GMM LOGO"}
+            width={450}
+            height={450}
+            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+          />
+          {/* BLKGEM LOGO */}
+          <Image
+            className="mx-8 w-24 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
+            src="/logos/blkgem.svg"
+            alt={"BLKGEM LOGO"}
+            width={450}
+            height={450}
+            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+          />
+          {/* HARIEM LOGO */}
+          <Image
+            className="w-16 md:w-40 lg:w-64 xl:w-80 2xl:w-96 "
+            src="/logos/hariem.svg"
+            alt={"BLKGEM LOGO"}
+            width={450}
+            height={450}
+            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+          />
+        </div>
+
+        {/* BLKGEM ICONIC */}
+        <div className="">
+          <p className="text-white text-center mt-10">BLKGEM ICONIC</p>
+          <Scene />
+        </div>
+
+
+
+        {/* OUR PROJECT */}
+        <div>
+          <p className="text-white">OUR PROJECT</p>
+        </div>
+        {/* OUR PROFESSIONAL TRAINERS */}
+        {/* POWERFUL PARTNERS */}
+        {/* OUR PLACE */}
+        {/* VISIT OUR WEBSITE */}
+        {/* STICKER LINE */}
+        {/* DOWNLOAD APPLICATION */}
+        {/* SOCIAL */}
+
+
+
+        {/* GO TO TOP BUTTON */}
+
+
       </div>
-      {/* Model Show */}
-      <div className="flex before:absolute h-screen w-screen">
-        <Scene />
-      </div>
 
+    </div>
 
-
-      {/* part.3 */}
-      {/* <div className="text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-
-      </div> */}
-    </main>
   );
 }
