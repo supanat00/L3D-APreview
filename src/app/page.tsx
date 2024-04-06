@@ -64,7 +64,7 @@ export default function Home() {
         {/* BLKGEM ICONIC */}
         <div className="">
           <p className="text-white text-center mt-10">BLKGEM ICONIC</p>
-          {/* <Scene /> */}
+          <Scene />
         </div>
 
 
