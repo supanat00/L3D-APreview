@@ -244,8 +244,56 @@ export default function Home() {
       </div>
 
       {/* PART POWERFUL PARTNERS */}
-      <div className="flex flex-col mt-12 items-center">
-
+      <div className="flex flex-col mt-16 items-center">
+        <p className="text-white text-center text-xs md:text-2xl lg:text-3xl">POWERFUL PARTNERS</p>
+        <div className="flex flex-col mt-6 items-center">
+          <div className="mt-5">
+            <Image
+              className="w-32"
+              src="/logos/gmmmusic.svg"
+              alt={"gmmmusic"}
+              width={450}
+              height={450}
+              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            />
+          </div>
+          <div className="flex mt-6 justify-around">
+            <Image
+              className="w-16 mr-1"
+              src="/logos/gnest.svg"
+              alt={"gnest"}
+              width={450}
+              height={450}
+              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            />
+            <Image
+              className="w-16 mx-1"
+              src="/logos/whitefox.svg"
+              alt={"whitefox"}
+              width={450}
+              height={450}
+              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            />
+            <Image
+              className="w-16 mx-1"
+              src="/logos/wm.svg"
+              alt={"wm"}
+              width={450}
+              height={450}
+              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            />
+            <Image
+              className="w-16 ml-1"
+              src="/logos/one31.svg"
+              alt={"one31"}
+              width={450}
+              height={450}
+              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            />
+          </div>
+          <div className="flex mt-1 justify-between"></div>
+          <div className="flex mt-1 justify-between"></div>
+        </div>
 
       </div>
 
