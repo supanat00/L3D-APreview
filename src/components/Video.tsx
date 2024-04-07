@@ -1,8 +1,10 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import VideoPlayerControls from "./VideoPlayerControls";
+import VideoPlayerMute from "./VideoPlayerMute";
 
 export default function Video() {
+    const [muted, setMuted] = useState(true); // [muted, setmuted]
     const [isPaused, setIsPaused] = useState(false);
     const videoRef = useRef<HTMLVideoElement>(null);
     const [videoDuration, setVideoDuration] = useState<number>();
@@ -33,6 +35,7 @@ export default function Video() {
         }
     }, [videoProgress, videoDuration, isPaused]);
 
+
     const togglePlayPause = () => {
         const video = videoRef.current;
         if (video) {
@@ -40,13 +43,27 @@ export default function Video() {
             video.paused ? video.play() : video.pause();
         }
     }
+
+    const toggleMute = () => {
+        const video = videoRef.current;
+        if (video) {
+            video.muted = !video.muted;
+            setMuted(video.muted);
+        }
+    }
     return (
         <div className="relative mt-20 w-full lg:rounded-xl lg:w-[70%]">
-            <div className="absolute top-4 right-4 z-10">
+            {/* <div className="absolute top-2 right-12 z-10">
                 <VideoPlayerControls
                     progress={videoProgress}
                     isPaused={isPaused}
                     onPlayerPause={togglePlayPause}
+                />
+            </div> */}
+            <div className="absolute top-2 right-2 z-10">
+                <VideoPlayerMute
+                    muted={muted}
+                    onPlayerMuted={toggleMute}
                 />
             </div>
             <video className="w-full lg:rounded-xl" ref={videoRef} loop muted autoPlay>
