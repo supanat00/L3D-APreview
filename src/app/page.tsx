@@ -187,9 +187,10 @@ export default function Home() {
       {/* PART OUR PROFESIONAL TRAINERS */}
       <div className="flex flex-col mt-12 items-center">
         <p className="text-white text-center text-xs md:text-2xl lg:text-3xl">OUR PROFESIONAL TRAINERS</p>
+        {/* PROFESIONAL TRAINERS PICTURE */}
         <div className="w-full flex mt-12 items-center justify-center overflow-hidden">
           <Image
-            className="w-1/2"
+            className="w-3/5 mx-3"
             src="/logos/longhair.png"
             alt={"longhair"}
             width={450}
@@ -197,7 +198,7 @@ export default function Home() {
             sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
           />
           <Image
-            className="w-1/2 mx-8"
+            className="w-3/5 mx-3"
             src="/logos/redhead.png"
             alt={"redhead"}
             width={450}
@@ -205,7 +206,7 @@ export default function Home() {
             sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
           />
           <Image
-            className="w-1/2"
+            className="w-3/5 mx-3"
             src="/logos/blacksuit.png"
             alt={"blacksuit"}
             width={450}
@@ -356,24 +357,144 @@ export default function Home() {
 
       {/* PART OUR PLACE */}
       <div className="flex flex-col mt-16 items-center">
-        {/* OUR PROJECT */}
+        {/* OUR PLACE */}
         <p className="text-white text-center font-bold text-sm md:text-2xl lg:text-3xl">OUR PLACE</p>
+        {/* BLKGEM PLACE PICTURE */}
+        <div className="w-full flex mt-12 items-center justify-center overflow-hidden">
+          <Image
+            className="w-2/3 mx-3"
+            src="/logos/blkgemplace1.png"
+            alt={"blkgemplace1"}
+            width={450}
+            height={450}
+            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+          />
+          <Image
+            className="w-2/3 mx-3"
+            src="/logos/blkgemplace2.png"
+            alt={"blkgemplace2"}
+            width={450}
+            height={450}
+            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+          />
+          <Image
+            className="w-2/3 mx-3"
+            src="/logos/blkgemplace3.png"
+            alt={"blkgemplace3"}
+            width={450}
+            height={450}
+            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+          />
+          <Image
+            className="w-2/3 mx-3"
+            src="/logos/blkgemplace4.png"
+            alt={"blkgemplace4"}
+            width={450}
+            height={450}
+            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+          />
+          <Image
+            className="w-2/3 mx-3"
+            src="/logos/blkgemplace5.png"
+            alt={"blkgemplace5"}
+            width={450}
+            height={450}
+            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+          />
+        </div>
+        <p className="text-white mt-10 text-center text-sm md:text-2xl lg:text-3xl">M THEATRE & GMM BUILDING FLOOR 22</p>
       </div>
 
       {/* ENDDING */}
-      <Image
-        className="w-full mt-10"
-        src="/logos/blackgem.svg"
-        alt={"BLACKGEM"}
-        width={450}
-        height={450}
-        sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-      />
+      <div className="flex flex-col mt-8 items-center">
+        {/* symbol */}
+        <div className="w-full flex justify-between px-6">
+          <Image
+            className="w-8 transform rotate-90"
+            src="/logos/arrow.svg"
+            alt={"ARROW"}
+            width={450}
+            height={450}
+            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+          />
+          <Image
+            className="w-8 transform -rotate-180"
+            src="/logos/arrow.svg"
+            alt={"ARROW"}
+            width={450}
+            height={450}
+            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+          />
+        </div>
+        {/* OFFICIAL */}
+        {/* VISIT OUR IMAGE */}
+        {/* SOCIAL */}
+        <p className="text-white mt-8 text-center font-bold text-xs md:text-2xl lg:text-3xl">BLKGEM.OFFICIAL</p>
+        <div className="w-full flex justify-center mt-4 px-8">
+          <Image
+            className="w-4 mx-4"
+            src="/logos/facebook.svg"
+            alt={"FACEBOOK"}
+            width={450}
+            height={450}
+            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+          />
+          <Image
+            className="w-6 mx-4"
+            src="/logos/x.svg"
+            alt={"X"}
+            width={450}
+            height={450}
+            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+          />
+          <Image
+            className="w-6 mx-4"
+            src="/logos/ig.svg"
+            alt={"IG"}
+            width={450}
+            height={450}
+            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+          />
+          <Image
+            className="w-6 mx-4"
+            src="/logos/youtube.svg"
+            alt={"YOUTUBE"}
+            width={450}
+            height={450}
+            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+          />
+          <Image
+            className="w-6 mx-4"
+            src="/logos/line.svg"
+            alt={"LINE"}
+            width={450}
+            height={450}
+            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+          />
 
+        </div>
+        {/* Texts */}
+        <p className="text-white mt-16 text-center font-bold text-xs md:text-2xl lg:text-3xl">THE ART OF ENTERTAINMENT ACADEMY</p>
+        <Image
+          className="w-full mt-10"
+          src="/logos/blackgem.svg"
+          alt={"BLACKGEM"}
+          width={450}
+          height={450}
+          sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+        />
+      </div>
 
-
-
-
+      <div className="fixed w-8 bottom-12 right-2">
+        <Image
+          className="w-full"
+          src="/logos/top.svg"
+          alt={"TOP"}
+          width={450}
+          height={450}
+          sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+        />
+      </div>
     </div>
 
   );
