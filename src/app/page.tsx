@@ -131,7 +131,7 @@ export default function Home() {
           {/* DOT DOT DOT */}
 
         </div>
-
+        {/* Detail */}
         <div className="w-full flex flex-col mt-10 px-2 ">
           {/* Vocal */}
           <div className="flex border-b border-white justify-between pb-4">
@@ -181,11 +181,7 @@ export default function Home() {
               sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
             />
           </div>
-
-
         </div>
-
-
       </div>
 
       {/* PART OUR PROFESIONAL TRAINERS */}
@@ -257,6 +253,7 @@ export default function Home() {
               sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
             />
           </div>
+          {/* row one */}
           <div className="flex mt-6 justify-around">
             <Image
               className="w-16 mr-1"
@@ -291,12 +288,87 @@ export default function Home() {
               sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
             />
           </div>
-          <div className="flex mt-1 justify-between"></div>
-          <div className="flex mt-1 justify-between"></div>
+          {/* row two */}
+          <div className="flex mt-6 justify-around">
+            <Image
+              className="w-16 mr-1"
+              src="/logos/gmmshow.svg"
+              alt={"gmmshow"}
+              width={450}
+              height={450}
+              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            />
+            <Image
+              className="w-16 mx-1"
+              src="/logos/sanam.svg"
+              alt={"sanam"}
+              width={450}
+              height={450}
+              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            />
+            <Image
+              className="w-16 mx-1"
+              src="/logos/grammygold.svg"
+              alt={"wm"}
+              width={450}
+              height={450}
+              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            />
+            <Image
+              className="w-16 ml-1"
+              src="/logos/newcountry.svg"
+              alt={"one31"}
+              width={450}
+              height={450}
+              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            />
+          </div>
+          {/* row three */}
+          <div className="flex mt-6 justify-around">
+            <Image
+              className="w-16 mr-1"
+              src="/logos/thaidall.svg"
+              alt={"thaidall"}
+              width={450}
+              height={450}
+              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            />
+            <Image
+              className="w-16 mx-1"
+              src="/logos/clubclass.svg"
+              alt={"clubclass"}
+              width={450}
+              height={450}
+              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            />
+            <Image
+              className="w-16 ml-1"
+              src="/logos/hariemshake.svg"
+              alt={"one31"}
+              width={450}
+              height={450}
+              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            />
+          </div>
         </div>
 
       </div>
 
+      {/* PART OUR PLACE */}
+      <div className="flex flex-col mt-16 items-center">
+        {/* OUR PROJECT */}
+        <p className="text-white text-center font-bold text-sm md:text-2xl lg:text-3xl">OUR PLACE</p>
+      </div>
+
+      {/* ENDDING */}
+      <Image
+        className="w-full mt-10"
+        src="/logos/blackgem.svg"
+        alt={"BLACKGEM"}
+        width={450}
+        height={450}
+        sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+      />
 
 
 
