@@ -194,7 +194,7 @@ export default function Home() {
         <div className="w-full flex mt-12 items-center justify-center overflow-hidden">
           <Image
             className="w-1/2"
-            src="/logos/LONGHAIR.png"
+            src="/logos/longhair.png"
             alt={"longhair"}
             width={450}
             height={450}
