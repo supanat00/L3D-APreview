@@ -193,7 +193,7 @@ export default function Home() {
         <p className="text-white text-center text-xs md:text-2xl lg:text-3xl">OUR PROFESIONAL TRAINERS</p>
         <div className="w-full flex mt-12 items-center justify-center overflow-hidden">
           <Image
-            className="w-1/2 md:w-40 lg:w-48 xl:w-64 2xl:w-80"
+            className="w-1/2"
             src="/logos/LONGHAIR.png"
             alt={"longhair"}
             width={450}
@@ -201,7 +201,7 @@ export default function Home() {
             sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
           />
           <Image
-            className="w-1/2 mx-8 md:w-40 lg:w-48 xl:w-64 2xl:w-80 "
+            className="w-1/2 mx-8"
             src="/logos/redhead.png"
             alt={"redhead"}
             width={450}
@@ -209,7 +209,7 @@ export default function Home() {
             sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
           />
           <Image
-            className="w-1/2 md:w-40 lg:w-48 xl:w-64 2xl:w-80 "
+            className="w-1/2"
             src="/logos/blacksuit.png"
             alt={"blacksuit"}
             width={450}
