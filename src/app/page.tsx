@@ -1,9 +1,9 @@
 import dynamic from "next/dynamic";
 import Image from 'next/image'
 
-const Scene = dynamic(() => import('@/components/Scene'), {
-  ssr: false,
-});
+// const Scene = dynamic(() => import('@/components/Scene'), {
+//   ssr: false,
+// });
 
 const Video = dynamic(() => import('@/components/Video'), {
   ssr: true,
@@ -66,13 +66,22 @@ export default function Home() {
       {/* PART BLKGEM ICONIC */}
       <div className="flex flex-col items-center">
         {/* BLKGEM ICONIC */}
-        <div className="mt-28">
+        <div className="flex flex-col justify-center items-center w-full mt-28">
           <p className="text-white text-center font-bold text-md md:text-2xl lg:text-3xl">BLKGEM ICONIC</p>
-          <Scene />
-          <div className="flex items-center justify-center">
+          {/* <Scene /> */}
+
+          <Image
+            className="w-2/3"
+            src="/logos/model.png"
+            alt={"GG LOGO"}
+            width={450}
+            height={450}
+            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+          />
+          <div className="flex items-center justify-center mt-6">
             {/* bb logo */}
             <Image
-              className="w-24 mr-6 md:w-40 lg:w-48 xl:w-64 2xl:w-80 "
+              className="w-28 mx-6 md:w-40 lg:w-48 xl:w-64 2xl:w-80 "
               src="/logos/bb.svg"
               alt={"BB LOGO"}
               width={450}
@@ -80,7 +89,7 @@ export default function Home() {
               sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
             />
             <Image
-              className="w-24 ml-6 md:w-40 lg:w-48 xl:w-64 2xl:w-80 "
+              className="w-28 mx-6 md:w-40 lg:w-48 xl:w-64 2xl:w-80 "
               src="/logos/gg.svg"
               alt={"GG LOGO"}
               width={450}
@@ -428,8 +437,68 @@ export default function Home() {
         </div>
         {/* OFFICIAL */}
         {/* VISIT OUR IMAGE */}
+
+        {/* STICKER LINE DOWNLOAD */}
+        <div className="w-full px-4 mt-8">
+          <div className="relative bg-white w-full p-2 rounded-xl">
+            <Image
+              className="absolute w-6 top-2 right-2"
+              src="/logos/line2.svg"
+              alt={"LINE2"}
+              width={450}
+              height={450}
+              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            />
+            <p className="text-center text-lg md:text-2xl lg:text-3xl">FREE</p>
+            <div className="flex justify-center mt-8">
+              <Image
+                className="w-24 mx-2"
+                src="/logos/sticker1.svg"
+                alt={"sticker1"}
+                width={450}
+                height={450}
+                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+              />
+              <Image
+                className="w-24 mx-2"
+                src="/logos/sticker3.svg"
+                alt={"sticker3"}
+                width={450}
+                height={450}
+                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+              />
+              <Image
+                className="w-20 mx-2"
+                src="/logos/sticker2.svg"
+                alt={"sticker2"}
+                width={450}
+                height={450}
+                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+              />
+            </div>
+            <p className="text-center mt-8 mb-1 text-lg md:text-2xl lg:text-3xl">DOWNLOAD STICKER LINE</p>
+          </div>
+        </div>
+
+        {/* APPLICATION DOWNLOAD */}
+        <div className="w-full px-4 mt-8">
+          <div className="bg-white flex flex-col w-full p-2 rounded-xl justify-center items-center">
+            <Image
+              className="w-40 mt-8"
+              src="/logos/blkgem2.svg"
+              alt={"blkgem2"}
+              width={450}
+              height={450}
+              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            />
+            <p className="text-center mt-8 mb-1 text-lg md:text-2xl lg:text-3xl">DOWNLOAD APPLICATION</p>
+          </div>
+        </div>
+
+
+
         {/* SOCIAL */}
-        <p className="text-white mt-8 text-center font-bold text-xs md:text-2xl lg:text-3xl">BLKGEM.OFFICIAL</p>
+        <p className="text-white mt-8 text-center text-xs md:text-2xl lg:text-3xl">BLKGEM.OFFICIAL</p>
         <div className="w-full flex justify-center mt-4 px-8">
           <Image
             className="w-4 mx-4"
@@ -485,7 +554,8 @@ export default function Home() {
         />
       </div>
 
-      <div className="fixed w-8 bottom-12 right-2">
+      {/* TOP BUTTON */}
+      <div className="fixed w-10 bottom-32 right-2">
         <Image
           className="w-full"
           src="/logos/top.svg"
