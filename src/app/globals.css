@@ -10,13 +10,13 @@ body {
 }
 
 .moveL {
-  width: 200%;
-  animation: bannermoveL 15s linear infinite;
+  width: 1100%;
+  animation: bannermoveL 30s linear infinite alternate;
 }
 
 .moveR {
-  width: 200%;
-  animation: bannermoveR 15s linear infinite;
+  width: 1100%;
+  animation: bannermoveR 30s linear infinite alternate;
 }
 
 @keyframes bannermoveL {
@@ -24,7 +24,7 @@ body {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }
 
@@ -33,6 +33,6 @@ body {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(50%);
+    transform: translateX(100%);
   }
 }
