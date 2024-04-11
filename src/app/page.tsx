@@ -9,6 +9,10 @@ const Video = dynamic(() => import("../components/Video"), {
   ssr: true,
 });
 
+const Trainers = dynamic(() => import("../components/Trainers"), {
+  ssr: false,
+});
+
 
 
 export default function Home() {
@@ -215,7 +219,7 @@ export default function Home() {
       <div className="flex flex-col mt-12 items-center">
         <p className="text-gray-400 text-center font-medium text-sm md:text-2xl lg:text-3xl">OUR PROFESSIONAL TRAINERS</p>
         {/* PROFESIONAL TRAINERS PICTURE */}
-        <div className="w-full flex mt-12 items-center justify-center overflow-hidden">
+        {/* <div className="w-full flex mt-12 items-center justify-center overflow-hidden">
           <Image
             className="w-3/5 mx-3"
             src="/logos/longhair.png"
@@ -240,7 +244,10 @@ export default function Home() {
             height={450}
             sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
           />
-        </div>
+        </div> */}
+
+        <Trainers />
+
         <Image
           className="w-full mt-10"
           src="/logos/blackgem.svg"

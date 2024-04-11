@@ -8,3 +8,31 @@ body {
   height: 100vh;
   background-color: black;
 }
+
+.moveL {
+  width: 200%;
+  animation: bannermoveL 15s linear infinite;
+}
+
+.moveR {
+  width: 200%;
+  animation: bannermoveR 15s linear infinite;
+}
+
+@keyframes bannermoveL {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes bannermoveR {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
