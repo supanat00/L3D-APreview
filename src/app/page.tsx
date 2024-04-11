@@ -532,12 +532,12 @@ export default function Home() {
         </div>
         <div className="flex w-full -mt-16">
           <Image
-            className="w-full "
+            className="w-full"
             src="/logos/model2.png"
             alt={"model2"}
-            width={4000}
-            height={4000}
-            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            width={1920}
+            height={1080}
+            sizes="(min-width: 1080px) 1920px, calc(95.5vw - 19px)"
           />
         </div>
         <div className="flex w-full bg-white items-center justify-center">
