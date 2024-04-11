@@ -5,7 +5,7 @@ import Image from 'next/image'
 //   ssr: false,
 // });
 
-const Video = dynamic(() => import('@/components/Video'), {
+const Video = dynamic(() => import("../components/Video"), {
   ssr: true,
 });
 
