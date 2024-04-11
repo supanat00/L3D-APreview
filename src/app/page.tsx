@@ -17,6 +17,10 @@ const PowerfulPartners = dynamic(() => import("../components/PowerfulPartners"),
   ssr: true,
 });
 
+const TopScroll = dynamic(() => import('../components/TopScroll'), {
+  ssr: true,
+});
+
 
 
 export default function Home() {
@@ -506,19 +510,7 @@ export default function Home() {
       </div>
 
       {/* TOP BUTTON */}
-      <div className="fixed w-10 bottom-32 right-2">
-
-        <Image
-          className="w-full"
-          src="/logos/top.svg"
-          alt={"TOP"}
-          width={450}
-          height={450}
-          sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-        />
-
-
-      </div>
+      <TopScroll />
     </div>
 
   );
