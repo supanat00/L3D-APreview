@@ -4,8 +4,9 @@ import Image from 'next/image'
 
 export default function Trainers() {
     return (
-        <div className="w-full flex flex-col items-center justify-center overflow-hidden">
-            <div className="moveL w-full flex mt-12 items-center justify-center ">
+        <div className="w-full flex flex-col  overflow-hidden">
+            {/* line1 */}
+            <div className="moveL w-full flex mt-12 ">
                 {images.map((pic, idx) => (
                     <Image
                         key={idx}
@@ -29,7 +30,8 @@ export default function Trainers() {
                     />
                 ))}
             </div>
-            <div className="moveR w-full flex mt-12 items-center justify-center ">
+            {/* line2 */}
+            <div className="moveR w-full flex flex-row-reverse mt-12  ">
                 {images.map((pic, idx) => (
                     <Image
                         key={idx}
