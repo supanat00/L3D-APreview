@@ -6,7 +6,7 @@ export default function Dance(props) {
   const { nodes, materials } = useGLTF("/models/sing.glb");
   return (
     <group ref={group} {...props} dispose={null}>
-      <group scale={[100, 100, 100]}>
+      <group scale={[150, 150, 150]}>
         <group>
           <group>
             <primitive object={nodes.sing_white_Rig_V04_FinSing} />

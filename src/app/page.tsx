@@ -1,9 +1,9 @@
 import dynamic from "next/dynamic";
 import Image from 'next/image'
 
-// const Scene = dynamic(() => import('@/components/Scene'), {
-//   ssr: false,
-// });
+const Scene = dynamic(() => import('../components/Scene'), {
+  ssr: false,
+});
 
 const Video = dynamic(() => import("../components/Video"), {
   ssr: true,
@@ -83,16 +83,16 @@ export default function Home() {
         {/* BLKGEM ICONIC */}
         <div className="flex flex-col justify-center items-center w-full mt-28">
           <p className="text-white text-center font-Montserrat font-bold text-md md:text-2xl lg:text-3xl">BLKGEM ICONIC</p>
-          {/* <Scene /> */}
+          <Scene />
 
-          <Image
+          {/* <Image
             className="w-2/3"
             src="/logos/model.png"
             alt={"Model"}
             width={450}
             height={450}
             sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-          />
+          /> */}
           <div className="flex items-center justify-center mt-6">
             {/* bb logo */}
             <Image
@@ -702,6 +702,7 @@ export default function Home() {
 
       {/* TOP BUTTON */}
       <div className="fixed w-10 bottom-32 right-2">
+
         <Image
           className="w-full"
           src="/logos/top.svg"
@@ -710,6 +711,8 @@ export default function Home() {
           height={450}
           sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
         />
+
+
       </div>
     </div>
 
