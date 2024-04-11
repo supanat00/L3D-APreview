@@ -10,7 +10,7 @@ const Video = dynamic(() => import("../components/Video"), {
 });
 
 const Trainers = dynamic(() => import("../components/Trainers"), {
-  ssr: false,
+  ssr: true,
 });
 
 

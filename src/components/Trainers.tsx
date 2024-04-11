@@ -17,8 +17,30 @@ export default function Trainers() {
                         sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
                     />
                 ))}
+                {images.map((pic, idx) => (
+                    <Image
+                        key={idx}
+                        className="w-40 mx-3"
+                        src={pic.src}
+                        alt={""}
+                        width={450}
+                        height={450}
+                        sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                    />
+                ))}
             </div>
             <div className="moveR w-full flex mt-12 items-center justify-center ">
+                {images.map((pic, idx) => (
+                    <Image
+                        key={idx}
+                        className="w-40 mx-3"
+                        src={pic.src}
+                        alt={""}
+                        width={450}
+                        height={450}
+                        sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                    />
+                ))}
                 {images.map((pic, idx) => (
                     <Image
                         key={idx}
