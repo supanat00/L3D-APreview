@@ -30,7 +30,7 @@ const config: Config = {
       black: '1000',
     },
     fontFamily: {
-      // Montserrat: ["Montserrat", "sans-serif"],
+      Montserrat: ["Montserrat", "sans-serif"],
     },
     extend: {
       backgroundImage: {

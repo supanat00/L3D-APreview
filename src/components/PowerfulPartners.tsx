@@ -6,7 +6,7 @@ export default function Trainers() {
         // POWERFUL PARTNERS
         <div className="flex flex-col mt-10 items-center justify-center">
             {/* Header */}
-            <p className="text-gray-500 text-center text-md ">POWERFUL PARTNERS</p>
+            <p className="text-gray-500 font-Montserrat text-center text-md ">POWERFUL PARTNERS</p>
             {/* Body */}
             <div className="flex flex-col mt-6 items-center">
                 {/* GMM MUSIC ICON */}
@@ -148,7 +148,7 @@ export default function Trainers() {
             </div>
 
             {/* BRIDGE TO ASIA. */}
-            <p className="text-gray-500 text-center text-md mt-12">BRIDGE TO ASIA.</p>
+            <p className="text-gray-500 text-center font-Montserrat text-md mt-12">BRIDGE TO ASIA.</p>
             {/*  */}
             <div className="flex mt-8 w-full justify-center">
                 <div className="flex flex-col mx-3">
@@ -161,7 +161,7 @@ export default function Trainers() {
                             height={450}
                             sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
                         />
-                        <p className="text-white font-bold text-center text-md">THAILAND</p>
+                        <p className="text-white font-Montserrat font-bold text-center text-md">THAILAND</p>
                     </div>
                     <div className="flex w-full space-x-4 mt-6">
                         <Image
@@ -172,7 +172,7 @@ export default function Trainers() {
                             height={450}
                             sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
                         />
-                        <p className="text-white font-bold text-center text-md">JAPAN</p>
+                        <p className="text-white font-Montserrat font-bold text-center text-md">JAPAN</p>
                     </div>
 
                 </div>
@@ -187,7 +187,7 @@ export default function Trainers() {
                             height={450}
                             sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
                         />
-                        <p className="text-white font-bold text-center text-md">KOREA</p>
+                        <p className="text-white font-Montserrat font-bold text-center text-md">KOREA</p>
                     </div>
                     <div className="flex w-full space-x-4 mt-6">
                         <Image
@@ -198,7 +198,7 @@ export default function Trainers() {
                             height={450}
                             sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
                         />
-                        <p className="text-white font-bold text-center text-md">CHINA</p>
+                        <p className="text-white font-Montserrat font-bold text-center text-md">CHINA</p>
                     </div>
 
                 </div>
@@ -214,11 +214,11 @@ export default function Trainers() {
                 />
             </div>
             <div className="flex w-full bg-white items-center justify-center">
-                <p className="text-black font-bold text-center text-3xl leading-none">BE AN ARTIST <br /> HEAR & NOW</p>
+                <p className="text-black font-Montserrat font-bold text-center text-3xl leading-none">BE AN ARTIST <br /> HEAR & NOW</p>
             </div>
 
             <div className="flex flex-col w-full  items-center justify-center mt-10">
-                <p className="text-white text-center text-sm">VISIT OUR WEBSITE</p>
+                <p className="text-white text-center text-sm font-Montserrat">VISIT OUR WEBSITE</p>
                 <div className="flex w-full items-center justify-center">
                     <a
                         rel="noopener"
@@ -226,7 +226,7 @@ export default function Trainers() {
                         target="_blank">
                         <button
                             type="button"
-                            className="mt-6 py-0.5 text-gray-900  bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 rounded-full text-lg  px-24  dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+                            className="mt-6 py-0.5 text-gray-900 font-Montserrat bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 rounded-full text-lg  px-24  dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
                         >BLKGEMOFFICIAL.COM</button>
                     </a>
                 </div>

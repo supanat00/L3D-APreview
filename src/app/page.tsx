@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import Image from 'next/image'
+import { imagesour } from "../utils/constants";
 
 const Scene = dynamic(() => import('../components/Scene'), {
   ssr: true,
@@ -41,7 +42,7 @@ export default function Home() {
           sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
         />
         {/* TITLE */}
-        <p className="text-primary text-center leading-none font-black mt-16 px-8 md:px-20 lg:px-40 text-3xl md:text-5xl lg:text-6xl"
+        <p className="text-primary text-center font-Montserrat leading-none font-black mt-16 px-8 md:px-20 lg:px-40 text-3xl md:text-5xl lg:text-6xl"
         >THE ART OF
           ENTERTAINMENT
           ACADEMY
@@ -142,17 +143,17 @@ export default function Home() {
           sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
         />
 
-        <p className="mt-12 text-white text-center text-sm font-medium md:text-2xl lg:text-3xl">AUTHENTIC ARTIST EXPERIENCE</p>
+        <p className="mt-12 text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">AUTHENTIC ARTIST EXPERIENCE</p>
 
         {/* Project Highlight */}
         <div className="w-full flex flex-col mt-8 px-3 items-center">
           <div className="w-full border border-gray-500 px-8 py-4">
-            <p className="text-gray-400 text-center text-xs ">PROJECT HIGHLIGHT :</p>
-            <p className="text-white  text-xs mt-3">• MV.FULL PRODUCTION 100 SQ.M VIRTUAL PRODUCTION LED VOLUME</p>
-            <p className="text-white  text-xs ">• INDIVIDUAL PICTURE & VDO PROFILE</p>
-            <p className="text-white  text-xs ">• PROFESSIONAL TRAINING TEAM</p>
-            <p className="text-white  text-xs ">• EXCLUSIVE MUSIC TRACK</p>
-            <p className="text-white  text-xs mb-3">• PROFILE SHARING WITHIN LABELS UNDER GMM MUSIC</p>
+            <p className="text-gray-400 font-Montserrat text-center text-xs ">PROJECT HIGHLIGHT :</p>
+            <p className="text-white  font-Montserrat text-xs mt-3">• MV.FULL PRODUCTION 100 SQ.M VIRTUAL PRODUCTION LED VOLUME</p>
+            <p className="text-white  font-Montserrat text-xs ">• INDIVIDUAL PICTURE & VDO PROFILE</p>
+            <p className="text-white  font-Montserrat text-xs ">• PROFESSIONAL TRAINING TEAM</p>
+            <p className="text-white  font-Montserrat text-xs ">• EXCLUSIVE MUSIC TRACK</p>
+            <p className="text-white  font-Montserrat text-xs mb-3">• PROFILE SHARING WITHIN LABELS UNDER GMM MUSIC</p>
           </div>
 
           {/* SEE MORE BUTTON */}
@@ -162,7 +163,7 @@ export default function Home() {
             target="_blank">
             <button
               type="button"
-              className="mt-6 py-0.5 text-gray-900 font-medium bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 rounded-full text-xxs px-8   dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+              className="mt-6 py-0.5 text-gray-900 font-Montserrat font-medium bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 rounded-full text-xxs px-8   dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
             >SEE MORE</button>
           </a>
 
@@ -174,7 +175,7 @@ export default function Home() {
         <div className="w-full flex flex-col mt-10 px-2 ">
           {/* Vocal */}
           <div className="flex border-b border-white justify-between pb-4 pl-2">
-            <p className="text-white  font-bold text-2xl md:text-3xl lg:text-4xl">VOCAL</p>
+            <p className="text-white font-Montserrat font-bold text-2xl md:text-3xl lg:text-4xl">VOCAL</p>
             <Image
               className="w-6"
               src="/logos/arrow.svg"
@@ -186,7 +187,7 @@ export default function Home() {
           </div>
           {/* Dance */}
           <div className="flex border-b mt-5 border-white justify-between pb-4 pl-2">
-            <p className="text-white  font-bold text-2xl md:text-3xl lg:text-4xl">DANCE</p>
+            <p className="text-white font-Montserrat font-bold text-2xl md:text-3xl lg:text-4xl">DANCE</p>
             <Image
               className="w-6"
               src="/logos/arrow.svg"
@@ -198,7 +199,7 @@ export default function Home() {
           </div>
           {/* Rap */}
           <div className="flex border-b mt-5 border-white justify-between pb-4 pl-2">
-            <p className="text-white  font-bold text-2xl md:text-3xl lg:text-4xl">RAP</p>
+            <p className="text-white font-Montserrat font-bold text-2xl md:text-3xl lg:text-4xl">RAP</p>
             <Image
               className="w-6"
               src="/logos/arrow.svg"
@@ -210,7 +211,7 @@ export default function Home() {
           </div>
           {/* Performance */}
           <div className="flex border-b mt-5 border-white justify-between pb-4 pl-2">
-            <p className="text-white  font-bold text-2xl md:text-3xl lg:text-4xl">PERFORMANCE</p>
+            <p className="text-white font-Montserrat font-bold text-2xl md:text-3xl lg:text-4xl">PERFORMANCE</p>
             <Image
               className="w-6"
               src="/logos/arrow.svg"
@@ -225,7 +226,7 @@ export default function Home() {
 
       {/* PART OUR PROFESSIONAL TRAINERS */}
       <div className="flex flex-col mt-12 items-center">
-        <p className="text-gray-400 text-center font-medium text-sm md:text-2xl lg:text-3xl">OUR PROFESSIONAL TRAINERS</p>
+        <p className="text-gray-400 text-center font-Montserrat font-medium text-sm md:text-2xl lg:text-3xl">OUR PROFESSIONAL TRAINERS</p>
         {/* PROFESIONAL TRAINERS PICTURE */}
         {/* <div className="w-full flex mt-12 items-center justify-center overflow-hidden">
           <Image
@@ -267,15 +268,15 @@ export default function Home() {
         <div className="w-full px-8">
           {/* VISION */}
           <div className="flex flex-col mt-16 w-full">
-            <p className="text-gray-600 text-left text-sm md:text-2xl lg:text-3xl">VISION</p>
-            <p className="text-white mt-4 font-bold text-left text-md md:text-2xl lg:text-3xl ">
+            <p className="text-gray-600 font-Montserrat text-left text-sm md:text-2xl lg:text-3xl">VISION</p>
+            <p className="text-white mt-4 font-Montserrat font-bold text-left text-md md:text-2xl lg:text-3xl ">
               ❝<br />ACADEMY OF ARTISTIC<br />INSPIRATION IN ASIA<br />❞
             </p>
           </div>
           {/* MISSION */}
           <div className="flex flex-col mt-12 w-full">
-            <p className="text-gray-600 text-right text-sm md:text-2xl lg:text-3xl">MISSION</p>
-            <p className="text-white mt-4 text-right font-bold text-md md:text-2xl lg:text-3xl">
+            <p className="text-gray-600 text-right text-sm font-Montserrat md:text-2xl lg:text-3xl">MISSION</p>
+            <p className="text-white mt-4 text-right font-Montserrat font-bold text-md md:text-2xl lg:text-3xl">
               ❝<br />ENHANCE<br />ENTERTAINMENT<br />INDUSTRY TALENT<br />❞
             </p>
           </div>
@@ -285,81 +286,65 @@ export default function Home() {
       {/* PART OUR PLACE */}
       <div className="flex flex-col mt-16 items-center">
         {/* OUR PLACE */}
-        <p className="text-white text-center font-bold text-sm md:text-2xl lg:text-3xl">OUR PLACE</p>
+        <p className="text-white text-center font-Montserrat font-bold text-sm md:text-2xl lg:text-3xl">OUR PLACE</p>
         {/* BLKGEM PLACE PICTURE */}
-        <div className="w-full flex mt-8 items-center justify-center overflow-hidden">
-          <Image
-            className="w-2/3 mx-3"
-            src="/logos/blkgemplace1.png"
-            alt={"blkgemplace1"}
-            width={450}
-            height={450}
-            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-          />
-          <Image
-            className="w-2/3 mx-3"
-            src="/logos/blkgemplace2.png"
-            alt={"blkgemplace2"}
-            width={450}
-            height={450}
-            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-          />
-          <Image
-            className="w-2/3 mx-3"
-            src="/logos/blkgemplace3.png"
-            alt={"blkgemplace3"}
-            width={450}
-            height={450}
-            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-          />
-          <Image
-            className="w-2/3 mx-3"
-            src="/logos/blkgemplace4.png"
-            alt={"blkgemplace4"}
-            width={450}
-            height={450}
-            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-          />
-          <Image
-            className="w-2/3 mx-3"
-            src="/logos/blkgemplace5.png"
-            alt={"blkgemplace5"}
-            width={450}
-            height={450}
-            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-          />
+        <div className="w-full flex mt-8 overflow-hidden">
+          <div className="ourplace w-full flex ">
+            {imagesour.map((pic, idx) => (
+              <Image
+                key={idx}
+                className="w-60 mx-3"
+                src={pic.src}
+                alt={""}
+                width={450}
+                height={450}
+                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+              />
+            ))}
+            {imagesour.map((pic, idx) => (
+              <Image
+                key={idx}
+                className="w-60 mx-3"
+                src={pic.src}
+                alt={""}
+                width={450}
+                height={450}
+                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+              />
+            ))}
+          </div>
         </div>
-        <p className="text-gray-400 mt-10 text-center text-md md:text-2xl lg:text-3xl">M THEATRE & GMM BUILDING FLOOR 22</p>
+        <p className="text-gray-400 mt-10 text-center text-md font-Montserrat md:text-2xl lg:text-3xl">M THEATRE & GMM BUILDING FLOOR 22</p>
         <div className="flex w-full flex-col mt-24 px-4">
-          <p className="text-white text-center text-3xl font-bold leading-none">
+          <p className="text-white text-center text-3xl font-Montserrat font-bold leading-none">
             ARTIST RECRUIT <br />
             & DEVELOPMENT</p>
           {/* 80 */}
           <div className="flex w-full border-b border-gray-400 items-center px-16 mt-2 py-2">
-            <p className="text-white text-left text-3xl font-bold mr-16">
+            <p className="text-white text-left text-3xl font-Montserrat font-bold mr-16">
               80</p>
-            <p className="text-white text-left text-md font-bold">
+            <p className="text-white text-left text-md font-Montserrat font-bold">
               AUDITIONS</p>
           </div>
           {/* 68 */}
           <div className="flex w-full border-b border-gray-400 items-center px-16 py-2">
-            <p className="text-white text-left text-3xl font-bold mr-16">
+            <p className="text-white text-left text-3xl font-Montserrat font-bold mr-16">
               68</p>
-            <p className="text-white text-left text-md font-bold">
+            <p className="text-white text-left text-md font-Montserrat font-bold">
               BANGKOK</p>
           </div>
           {/* 12 */}
           <div className="flex w-full border-b border-gray-400 items-center px-16 py-2">
-            <p className="text-white text-left text-3xl font-bold mr-16">
+            <p className="text-white text-left text-3xl font-Montserrat font-bold mr-16">
               12</p>
-            <p className="text-white text-left text-md font-bold">
+            <p className="text-white text-left text-md font-Montserrat font-bold">
               NATIONWIDE</p>
           </div>
           {/* 200 */}
           <div className="flex w-full  items-center px-16 py-2">
-            <p className="text-white text-left text-3xl font-bold mr-12">
+            <p className="text-white text-left text-3xl font-Montserrat font-bold mr-12">
               200</p>
-            <p className="text-white text-left text-md font-bold">
+            <p className="text-white text-left text-md font-Montserrat font-bold">
               TRAINEES/YEAR</p>
           </div>
         </div>
@@ -404,7 +389,7 @@ export default function Home() {
               height={450}
               sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
             />
-            <p className="text-center text-lg md:text-2xl lg:text-3xl">FREE</p>
+            <p className="text-center text-lg md:text-2xl lg:text-3xl font-Montserrat">FREE</p>
             <div className="flex justify-center mt-8">
               <Image
                 className="w-24 mx-2"
@@ -431,7 +416,7 @@ export default function Home() {
                 sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
               />
             </div>
-            <p className="text-center mt-8 mb-1 text-lg md:text-2xl lg:text-3xl">DOWNLOAD STICKER LINE</p>
+            <p className="text-center mt-8 mb-1 text-lg md:text-2xl lg:text-3xl font-Montserrat">DOWNLOAD STICKER LINE</p>
           </div>
         </div>
 
@@ -446,14 +431,14 @@ export default function Home() {
               height={450}
               sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
             />
-            <p className="text-center mt-8 mb-1 text-lg md:text-2xl lg:text-3xl">DOWNLOAD APPLICATION</p>
+            <p className="text-center mt-8 mb-1 text-lg md:text-2xl lg:text-3xl font-Montserrat">DOWNLOAD APPLICATION</p>
           </div>
         </div>
 
 
 
         {/* SOCIAL */}
-        <p className="text-white mt-8 text-center text-md md:text-2xl lg:text-3xl">BLKGEM.OFFICIAL</p>
+        <p className="text-white mt-8 text-center text-md md:text-2xl lg:text-3xl font-Montserrat">BLKGEM.OFFICIAL</p>
         <div className="w-full flex justify-center mt-4 px-8">
           <Image
             className="w-4 mx-4"
@@ -498,7 +483,7 @@ export default function Home() {
 
         </div>
         {/* Texts */}
-        <p className="text-white mt-16 text-center font-bold text-sm md:text-2xl lg:text-3xl">THE ART OF ENTERTAINMENT ACADEMY</p>
+        <p className="text-white mt-16 text-center font-bold text-sm md:text-2xl lg:text-3xl font-Montserrat">THE ART OF ENTERTAINMENT ACADEMY</p>
         <Image
           className="w-full mt-10"
           src="/logos/blackgem.svg"

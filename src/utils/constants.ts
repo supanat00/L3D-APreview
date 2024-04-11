@@ -100,3 +100,25 @@ export const images = [
         src: "/trainers/1.png",
     }
 ]
+export const imagesour = [
+    {
+        id: 1,
+        src: "/logos/blkgemplace1.png",
+    },
+    {
+        id: 2,
+        src: "/logos/blkgemplace2.png",
+    },
+    {
+        id: 3,
+        src: "/logos/blkgemplace3.png",
+    },
+    {
+        id: 4,
+        src: "/logos/blkgemplace4.png",
+    },
+    {
+        id: 5,
+        src: "/logos/blkgemplace5.png",
+    }
+]
