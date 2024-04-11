@@ -2,7 +2,7 @@ import dynamic from "next/dynamic";
 import Image from 'next/image'
 
 const Scene = dynamic(() => import('../components/Scene'), {
-  ssr: false,
+  ssr: true,
 });
 
 const Video = dynamic(() => import("../components/Video"), {
@@ -134,10 +134,10 @@ export default function Home() {
 
         {/* Project Highlight */}
         <div className="w-full flex flex-col mt-8 px-3 items-center">
-          <div className="w-full border border-gray-500 px-10 py-4">
+          <div className="w-full border border-gray-500 px-8 py-4">
             <p className="text-gray-400 text-center text-xs ">PROJECT HIGHLIGHT :</p>
-            <p className="text-white  text-xs mt-3">• MV.FULL PRODUCTION 100 SQ.M VIRTUAL PRODUCTTION LED VOLUME</p>
-            <p className="text-white  text-xs ">• INDIVIDUAL PICTURE & VIDEO PROFILE</p>
+            <p className="text-white  text-xs mt-3">• MV.FULL PRODUCTION 100 SQ.M VIRTUAL PRODUCTION LED VOLUME</p>
+            <p className="text-white  text-xs ">• INDIVIDUAL PICTURE & VDO PROFILE</p>
             <p className="text-white  text-xs ">• PROFESSIONAL TRAINING TEAM</p>
             <p className="text-white  text-xs ">• EXCLUSIVE MUSIC TRACK</p>
             <p className="text-white  text-xs mb-3">• PROFILE SHARING WITHIN LABELS UNDER GMM MUSIC</p>
@@ -211,9 +211,9 @@ export default function Home() {
         </div>
       </div>
 
-      {/* PART OUR PROFESIONAL TRAINERS */}
+      {/* PART OUR PROFESSIONAL TRAINERS */}
       <div className="flex flex-col mt-12 items-center">
-        <p className="text-gray-400 text-center font-medium text-sm md:text-2xl lg:text-3xl">OUR PROFESIONAL TRAINERS</p>
+        <p className="text-gray-400 text-center font-medium text-sm md:text-2xl lg:text-3xl">OUR PROFESSIONAL TRAINERS</p>
         {/* PROFESIONAL TRAINERS PICTURE */}
         <div className="w-full flex mt-12 items-center justify-center overflow-hidden">
           <Image
