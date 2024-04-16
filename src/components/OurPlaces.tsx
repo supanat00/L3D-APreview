@@ -10,7 +10,7 @@ export default function OurPlaces() {
                 {imagesour.map((pic, idx) => (
                     <Image
                         key={idx}
-                        className="w-40 mx-3"
+                        className="w-60mx-3"
                         src={pic.src}
                         alt={""}
                         width={450}
@@ -21,7 +21,7 @@ export default function OurPlaces() {
                 {imagesour.map((pic, idx) => (
                     <Image
                         key={idx}
-                        className="w-40 mx-3"
+                        className="w-60 mx-3"
                         src={pic.src}
                         alt={""}
                         width={450}
