@@ -23,12 +23,12 @@ body {
   animation: bannermoveR 30s linear infinite alternate;
 }
 
-.ourplace {
+.ourplaces {
   width: 1100%;
-  animation: bannermoveOUR 30s linear infinite alternate;
+  animation: bannermoveOURs 30s linear infinite alternate;
 }
 
-@keyframes bannermoveOUR {
+@keyframes bannermoveOURs {
   0% {
     transform: translateX(0);
   }

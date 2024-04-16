@@ -6,7 +6,7 @@ export default function OurPlaces() {
     return (
         <div className="w-full flex flex-col overflow-hidden">
             {/* line1 */}
-            <div className="ourplace w-full mt-8 flex ">
+            <div className="ourplaces w-full mt-8 flex ">
                 {imagesour.map((pic, idx) => (
                     <Image
                         key={idx}
