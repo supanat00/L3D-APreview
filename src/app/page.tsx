@@ -257,8 +257,8 @@ export default function Home() {
             sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
           />
         </div> */}
-
-        <Trainers />
+        <OurPlaces />
+        {/* <Trainers /> */}
 
         <Image
           className="w-full mt-10"
@@ -291,7 +291,7 @@ export default function Home() {
         {/* OUR PLACE */}
         <p className="text-white text-center font-Montserrat font-bold text-sm md:text-2xl lg:text-3xl">OUR PLACE</p>
         {/* BLKGEM PLACE PICTURE */}
-        <OurPlaces />
+        {/* <OurPlaces /> */}
         <p className="text-gray-400 mt-10 text-center text-md font-Montserrat md:text-2xl lg:text-3xl">M THEATRE & GMM BUILDING FLOOR 22</p>
         <div className="flex w-full flex-col mt-24 px-4">
           <p className="text-white text-center text-3xl font-Montserrat font-bold leading-none">

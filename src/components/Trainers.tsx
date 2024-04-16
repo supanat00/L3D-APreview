@@ -1,4 +1,4 @@
-"use client";
+
 import { images } from "../utils/constants";
 import Image from 'next/image'
 

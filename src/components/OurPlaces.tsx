@@ -1,4 +1,4 @@
-"use client";
+
 import { imagesour } from "../utils/constants";
 import Image from 'next/image'
 
