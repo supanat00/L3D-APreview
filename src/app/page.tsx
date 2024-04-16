@@ -1,6 +1,5 @@
 import dynamic from "next/dynamic";
 import Image from 'next/image'
-import { imagesour } from "../utils/constants";
 
 const Scene = dynamic(() => import('../components/Scene'), {
   ssr: true,
