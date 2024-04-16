@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function OurPlaces() {
     return (
-        <div className="w-full flex mt-8 overflow-hidden">
+        <div className="w-full flex flex-col mt-8 overflow-hidden">
             {/* line1 */}
             <div className="ourplace w-full flex ">
                 {imagesour.map((pic, idx) => (

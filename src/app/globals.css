@@ -24,7 +24,7 @@ body {
 }
 
 .ourplace {
-  width: 1000%;
+  width: 800%;
   animation: bannermoveOUR 20s linear infinite alternate;
 }
 
