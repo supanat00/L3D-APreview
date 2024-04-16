@@ -292,6 +292,7 @@ export default function Home() {
         <p className="text-white text-center font-Montserrat font-bold text-sm md:text-2xl lg:text-3xl">OUR PLACE</p>
         {/* BLKGEM PLACE PICTURE */}
         <OurPlaces />
+
         <p className="text-gray-400 mt-10 text-center text-md font-Montserrat md:text-2xl lg:text-3xl">M THEATRE & GMM BUILDING FLOOR 22</p>
 
         <div className="flex w-full flex-col mt-24 px-4">
