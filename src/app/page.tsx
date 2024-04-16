@@ -14,6 +14,10 @@ const Trainers = dynamic(() => import("../components/Trainers"), {
   ssr: true,
 });
 
+const OurPlaces = dynamic(() => import("../components/OurPlaces"), {
+  ssr: true,
+});
+
 const PowerfulPartners = dynamic(() => import("../components/PowerfulPartners"), {
   ssr: true,
 });
@@ -288,43 +292,7 @@ export default function Home() {
         {/* OUR PLACE */}
         <p className="text-white text-center font-Montserrat font-bold text-sm md:text-2xl lg:text-3xl">OUR PLACE</p>
         {/* BLKGEM PLACE PICTURE */}
-        <div className="w-full flex mt-8 overflow-hidden">
-          <div className="ourplace w-full flex ">
-            {imagesour.map((pic, idx) => (
-              <Image
-                key={idx}
-                className="w-60 mx-3"
-                src={pic.src}
-                alt={""}
-                width={450}
-                height={450}
-                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-              />
-            ))}
-            {imagesour.map((pic, idx) => (
-              <Image
-                key={idx}
-                className="w-60 mx-3"
-                src={pic.src}
-                alt={""}
-                width={450}
-                height={450}
-                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-              />
-            ))}
-            {imagesour.map((pic, idx) => (
-              <Image
-                key={idx}
-                className="w-60 mx-3"
-                src={pic.src}
-                alt={""}
-                width={450}
-                height={450}
-                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-              />
-            ))}
-          </div>
-        </div>
+        <OurPlaces />
         <p className="text-gray-400 mt-10 text-center text-md font-Montserrat md:text-2xl lg:text-3xl">M THEATRE & GMM BUILDING FLOOR 22</p>
         <div className="flex w-full flex-col mt-24 px-4">
           <p className="text-white text-center text-3xl font-Montserrat font-bold leading-none">
