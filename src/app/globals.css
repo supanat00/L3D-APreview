@@ -24,8 +24,8 @@ body {
 }
 
 .ourplace {
-  width: 100%;
-  animation: bannermoveOUR 10s linear infinite alternate;
+  width: 1000%;
+  animation: bannermoveOUR 20s linear infinite alternate;
 }
 
 @keyframes bannermoveOUR {
@@ -33,7 +33,7 @@ body {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-350%);
+    transform: translateX(-100%);
   }
 }
 
