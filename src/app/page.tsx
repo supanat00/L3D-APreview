@@ -273,14 +273,14 @@ export default function Home() {
           {/* VISION */}
           <div className="flex flex-col mt-16 w-full">
             <p className="text-gray-600 font-Montserrat text-left text-sm md:text-2xl lg:text-3xl">VISION</p>
-            <p className="text-white mt-4 font-Montserrat font-bold text-left text-md md:text-2xl lg:text-3xl ">
+            <p className="text-white mt-4 font-Montserrat font-bold text-left text-md md:text-2xl lg:text-3xl leading-5">
               ❝<br />ACADEMY OF ARTISTIC<br />INSPIRATION IN ASIA<br />❞
             </p>
           </div>
           {/* MISSION */}
           <div className="flex flex-col mt-12 w-full">
             <p className="text-gray-600 text-right text-sm font-Montserrat md:text-2xl lg:text-3xl">MISSION</p>
-            <p className="text-white mt-4 text-right font-Montserrat font-bold text-md md:text-2xl lg:text-3xl">
+            <p className="text-white mt-4 text-right font-Montserrat font-bold text-md md:text-2xl lg:text-3xl leading-5">
               ❝<br />ENHANCE<br />ENTERTAINMENT<br />INDUSTRY TALENT<br />❞
             </p>
           </div>
