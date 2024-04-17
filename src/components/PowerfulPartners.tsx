@@ -12,7 +12,7 @@ export default function Trainers() {
                 <div className="mt-5">
                     <Image
                         className="w-24"
-                        src="/logos/gmmmusic.svg"
+                        src="/logos/gmmmusic.png"
                         alt={"gmmmusic"}
                         width={450}
                         height={450}
@@ -24,7 +24,7 @@ export default function Trainers() {
                     <div className="w-1/4 flex justify-center px-2">
                         <Image
                             className="w-full"
-                            src="/logos/gnest.svg"
+                            src="/logos/gnest.png"
                             alt={"gnest"}
                             width={450}
                             height={450}
@@ -35,7 +35,7 @@ export default function Trainers() {
                     <div className="w-1/4 flex justify-center px-4">
                         <Image
                             className="w-full"
-                            src="/logos/whitefox.svg"
+                            src="/logos/whitefox.png"
                             alt={"whitefox"}
                             width={450}
                             height={450}
@@ -46,7 +46,7 @@ export default function Trainers() {
                     <div className="w-1/4 flex justify-center px-6">
                         <Image
                             className="w-full"
-                            src="/logos/wm.svg"
+                            src="/logos/wm.png"
                             alt={"wm"}
                             width={450}
                             height={450}
@@ -57,7 +57,7 @@ export default function Trainers() {
                     <div className="w-1/4 flex justify-center px-4">
                         <Image
                             className="w-full "
-                            src="/logos/one31.svg"
+                            src="/logos/one31.png"
                             alt={"one31"}
                             width={450}
                             height={450}
@@ -71,7 +71,7 @@ export default function Trainers() {
                     <div className="w-1/4 flex justify-center px-4">
                         <Image
                             className="w-full"
-                            src="/logos/gmmshow.svg"
+                            src="/logos/gmmshow.png"
                             alt={"gmmshow"}
                             width={450}
                             height={450}
@@ -81,7 +81,7 @@ export default function Trainers() {
                     <div className="w-1/4 flex justify-center px-4">
                         <Image
                             className="w-full"
-                            src="/logos/sanam.svg"
+                            src="/logos/sanam.png"
                             alt={"sanam"}
                             width={450}
                             height={450}
@@ -91,7 +91,7 @@ export default function Trainers() {
                     <div className="w-1/4 flex justify-center px-0.5">
                         <Image
                             className="w-full"
-                            src="/logos/grammygold.svg"
+                            src="/logos/grammygold.png"
                             alt={"grammygold"}
                             width={450}
                             height={450}
@@ -101,7 +101,7 @@ export default function Trainers() {
                     <div className="w-1/4 flex justify-center px-3">
                         <Image
                             className="w-full"
-                            src="/logos/newcountry.svg"
+                            src="/logos/newcountry.png"
                             alt={"newcountry"}
                             width={450}
                             height={450}
@@ -114,7 +114,7 @@ export default function Trainers() {
                     <div className="w-1/3 flex justify-center px-4">
                         <Image
                             className="w-full"
-                            src="/logos/thaidall.svg"
+                            src="/logos/thaidall.png"
                             alt={"thaidall"}
                             width={450}
                             height={450}
@@ -124,7 +124,7 @@ export default function Trainers() {
                     <div className="w-1/3 flex justify-center px-5">
                         <Image
                             className="w-full"
-                            src="/logos/clubclass.svg"
+                            src="/logos/clubclass.png"
                             alt={"clubclass"}
                             width={450}
                             height={450}
@@ -134,7 +134,7 @@ export default function Trainers() {
                     <div className="w-1/3 flex justify-center px-0.5">
                         <Image
                             className="w-full"
-                            src="/logos/hariemshake.svg"
+                            src="/logos/hariemshake.png"
                             alt={"hariemshake"}
                             width={450}
                             height={450}

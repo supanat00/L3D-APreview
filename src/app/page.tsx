@@ -288,7 +288,7 @@ export default function Home() {
       </div>
 
       {/* PART OUR PLACE */}
-      {/* <OurPlaces /> */}
+      <OurPlaces />
 
       {/* PART ARTIST RECRUIT */}
       <div className="flex w-full flex-col mt-24 px-4">
