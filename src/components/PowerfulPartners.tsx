@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Trainers() {
     return (
         // POWERFUL PARTNERS
-        <div className="flex flex-col mt-10 items-center justify-center">
+        <div className="flex flex-col w-full mt-10 items-center justify-center">
             {/* Header */}
             <p className="text-gray-500 font-Montserrat text-center text-md ">POWERFUL PARTNERS</p>
             {/* Body */}

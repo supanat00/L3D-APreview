@@ -288,55 +288,48 @@ export default function Home() {
       </div>
 
       {/* PART OUR PLACE */}
-      <div className="flex flex-col mt-16 items-center">
-        {/* OUR PLACE */}
-        <p className="text-white text-center font-Montserrat font-bold text-sm md:text-2xl lg:text-3xl">OUR PLACE</p>
-        {/* BLKGEM PLACE PICTURE */}
-        <OurPlaces />
+      {/* <OurPlaces /> */}
 
-        <p className="text-gray-400 mt-10 text-center text-md font-Montserrat md:text-2xl lg:text-3xl">M THEATRE & GMM BUILDING FLOOR 22</p>
-
-        <div className="flex w-full flex-col mt-24 px-4">
-          <p className="text-white text-center text-3xl font-Montserrat font-bold leading-none">
-            ARTIST RECRUIT <br />
-            & DEVELOPMENT</p>
-          {/* 80 */}
-          <div className="flex w-full border-b border-gray-400 items-center px-16 mt-2 py-2">
-            <p className="text-white text-left text-3xl font-Montserrat font-bold mr-16">
-              80</p>
-            <p className="text-white text-left text-md font-Montserrat font-bold">
-              AUDITIONS</p>
-          </div>
-          {/* 68 */}
-          <div className="flex w-full border-b border-gray-400 items-center px-16 py-2">
-            <p className="text-white text-left text-3xl font-Montserrat font-bold mr-16">
-              68</p>
-            <p className="text-white text-left text-md font-Montserrat font-bold">
-              BANGKOK</p>
-          </div>
-          {/* 12 */}
-          <div className="flex w-full border-b border-gray-400 items-center px-16 py-2">
-            <p className="text-white text-left text-3xl font-Montserrat font-bold mr-16">
-              12</p>
-            <p className="text-white text-left text-md font-Montserrat font-bold">
-              NATIONWIDE</p>
-          </div>
-          {/* 200 */}
-          <div className="flex w-full  items-center px-16 py-2">
-            <p className="text-white text-left text-3xl font-Montserrat font-bold mr-12">
-              200</p>
-            <p className="text-white text-left text-md font-Montserrat font-bold">
-              TRAINEES/YEAR</p>
-          </div>
+      {/* PART ARTIST RECRUIT */}
+      <div className="flex w-full flex-col mt-24 px-4">
+        <p className="text-white text-center text-3xl font-Montserrat font-bold leading-none">
+          ARTIST RECRUIT <br />
+          & DEVELOPMENT</p>
+        {/* 80 */}
+        <div className="flex w-full border-b border-gray-400 items-center px-16 mt-2 py-2">
+          <p className="text-white text-left text-3xl font-Montserrat font-bold mr-16">
+            80</p>
+          <p className="text-white text-left text-md font-Montserrat font-bold">
+            AUDITIONS</p>
         </div>
-
+        {/* 68 */}
+        <div className="flex w-full border-b border-gray-400 items-center px-16 py-2">
+          <p className="text-white text-left text-3xl font-Montserrat font-bold mr-16">
+            68</p>
+          <p className="text-white text-left text-md font-Montserrat font-bold">
+            BANGKOK</p>
+        </div>
+        {/* 12 */}
+        <div className="flex w-full border-b border-gray-400 items-center px-16 py-2">
+          <p className="text-white text-left text-3xl font-Montserrat font-bold mr-16">
+            12</p>
+          <p className="text-white text-left text-md font-Montserrat font-bold">
+            NATIONWIDE</p>
+        </div>
+        {/* 200 */}
+        <div className="flex w-full  items-center px-16 py-2">
+          <p className="text-white text-left text-3xl font-Montserrat font-bold mr-12">
+            200</p>
+          <p className="text-white text-left text-md font-Montserrat font-bold">
+            TRAINEES/YEAR</p>
+        </div>
       </div>
 
       {/* PART POWERFUL PARTNERS */}
       <PowerfulPartners />
 
       {/* ENDDING */}
-      <div className="flex flex-col mt-8 items-center">
+      <div className="flex w-full flex-col mt-8 items-center">
 
         {/* OFFICIAL */}
         {/* VISIT OUR IMAGE */}
