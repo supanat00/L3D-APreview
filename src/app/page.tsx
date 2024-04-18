@@ -295,33 +295,51 @@ export default function Home() {
         <p className="text-white text-center text-3xl font-Montserrat font-black leading-none">
           ARTIST RECRUIT <br />
           & DEVELOPMENT</p>
-        {/* 80 */}
-        <div className="flex w-full border-b border-gray-400 items-center px-16 mt-2 py-2">
-          <p className="text-white text-left text-3xl font-Montserrat font-bold mr-16">
-            80</p>
-          <p className="text-white text-left text-md font-Montserrat font-bold">
-            AUDITIONS</p>
-        </div>
-        {/* 68 */}
-        <div className="flex w-full border-b border-gray-400 items-center px-16 py-2">
-          <p className="text-white text-left text-3xl font-Montserrat font-bold mr-16">
-            68</p>
-          <p className="text-white text-left text-md font-Montserrat font-bold">
-            BANGKOK</p>
-        </div>
-        {/* 12 */}
-        <div className="flex w-full border-b border-gray-400 items-center px-16 py-2">
-          <p className="text-white text-left text-3xl font-Montserrat font-bold mr-16">
-            12</p>
-          <p className="text-white text-left text-md font-Montserrat font-bold">
-            NATIONWIDE</p>
-        </div>
-        {/* 200 */}
-        <div className="flex w-full  items-center px-16 py-2">
-          <p className="text-white text-left text-3xl font-Montserrat font-bold mr-12">
-            200</p>
-          <p className="text-white text-left text-md font-Montserrat font-bold">
-            TRAINEES/YEAR</p>
+        <div className="flex flex-col w-full mt-8">
+          {/* 80 */}
+          <div className="flex w-full border-b border-gray-400 items-center px-16 py-2">
+            <div className="w-28">
+              <p className="text-white text-left text-3xl font-Montserrat font-bold mr-16">
+                80</p>
+            </div>
+            <div>
+              <p className="text-white text-left text-md font-Montserrat font-bold">
+                AUDITIONS</p>
+            </div>
+          </div>
+          {/* 68 */}
+          <div className="flex w-full border-b border-gray-400 items-center px-16 py-2">
+            <div className="w-28">
+              <p className="text-white text-left text-3xl font-Montserrat font-bold mr-16">
+                68</p>
+            </div>
+            <div>
+              <p className="text-white text-left text-md font-Montserrat font-bold">
+                BANGKOK</p>
+            </div>
+          </div>
+          {/* 12 */}
+          <div className="flex w-full border-b border-gray-400 items-center px-16 py-2">
+            <div className="w-28">
+              <p className="text-white text-left text-3xl font-Montserrat font-bold mr-16">
+                12</p>
+            </div>
+            <div>
+              <p className="text-white text-left text-md font-Montserrat font-bold">
+                NATIONWIDE</p>
+            </div>
+          </div>
+          {/* 200 */}
+          <div className="flex w-full border-b border-gray-400 items-center pl-16  py-2">
+            <div className="w-28">
+              <p className="text-white text-left text-3xl font-Montserrat font-bold mr-16">
+                200</p>
+            </div>
+            <div>
+              <p className="text-white text-left text-md font-Montserrat font-bold">
+                TRAINEES / YEAR</p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -345,7 +363,6 @@ export default function Home() {
               height={450}
               sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
             />
-            <p className="text-center text-lg md:text-2xl lg:text-3xl font-Montserrat">FREE</p>
             <div className="flex justify-center mt-8">
               <Image
                 className="w-24 mx-2"
