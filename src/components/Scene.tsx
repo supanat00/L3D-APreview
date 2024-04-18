@@ -1,9 +1,8 @@
 "use client";
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
-import DanceModel from "./Dance/Dance";
-import SingModel from "../models/Sing";
+import DanceModel from "./Models/Dance";
+import SingModel from "./Models/Sing";
 import { Environment } from "@react-three/drei";
 
 export default function Scene() {
@@ -12,7 +11,6 @@ export default function Scene() {
       {/* Sing */}
       <Canvas className="w-full">
         <Environment preset="city" />
-        <OrbitControls />
         <Suspense fallback={null}>
           <DanceModel />
           <SingModel />

@@ -28,7 +28,7 @@
     "**/*.ts",
     "**/*.tsx",
     "src/models/dance.tsx",
-    "src/components/Dance/Dance.tsx"
+    "src/components/Models/Dance.tsx"
   ],
   "exclude": [
     "node_modules"
