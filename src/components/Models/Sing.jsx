@@ -20,7 +20,7 @@ export default function Sing(props) {
 
   return (
     <group ref={group} {...props} dispose={null}>
-      <group scale={(150, 150, 150)}>
+      <group scale={(180, 180, 180)}>
         <primitive object={nodes.sing_white_Rig_V04_FinSing} />
       </group>
     </group>
