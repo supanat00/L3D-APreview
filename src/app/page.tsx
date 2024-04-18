@@ -56,11 +56,11 @@ export default function Home() {
         <Video />
 
         {/* Icon BLKGEM / GMMMUSIC / HARIEM SHAKE */}
-        <div className="flex mt-20 justify-between px-12">
+        <div className="flex mt-20 justify-center item-center px-12">
           {/* GMM LOGO */}
-          <div className="flex px-4">
+          <div className="flex justify-center item-center px-4">
             <Image
-              className="w-full md:w-40 lg:w-64 xl:w-80 2xl:w-96 "
+              className="w-full"
               src="/logos/gmm.svg"
               alt={"GMM LOGO"}
               width={450}
@@ -70,9 +70,9 @@ export default function Home() {
           </div>
 
           {/* BLKGEM LOGO */}
-          <div className="flex px-4">
+          <div className="flex justify-center item-center px-4">
             <Image
-              className="w-full md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
+              className="w-full"
               src="/logos/blkgem.svg"
               alt={"BLKGEM LOGO"}
               width={450}
@@ -82,9 +82,9 @@ export default function Home() {
           </div>
 
           {/* HARIEM LOGO */}
-          <div className="flex px-4">
+          <div className="flex justify-center item-center px-4">
             <Image
-              className="w-full md:w-40 lg:w-64 xl:w-80 2xl:w-96 "
+              className="w-full"
               src="/logos/hariem.svg"
               alt={"BLKGEM LOGO"}
               width={450}
@@ -99,7 +99,7 @@ export default function Home() {
       <div className="flex flex-col items-center">
         {/* BLKGEM ICONIC */}
         <div className="flex flex-col justify-center items-center w-full mt-28">
-          <p className="text-white text-center font-Montserrat font-bold text-md md:text-2xl lg:text-3xl">BLKGEM ICONIC</p>
+          <p className="text-white text-center font-Montserrat font-black text-md md:text-2xl lg:text-3xl">BLKGEM ICONIC</p>
           <Scene />
 
           {/* <Image
@@ -135,7 +135,7 @@ export default function Home() {
       {/* PART OUR PROJECT */}
       <div className="flex flex-col mt-12 items-center">
         {/* OUR PROJECT */}
-        <p className="text-white text-center font-Montserrat font-bold text-sm md:text-2xl lg:text-3xl">OUR PROJECT</p>
+        <p className="text-white text-center font-Montserrat font-black text-sm md:text-2xl lg:text-3xl">OUR PROJECT</p>
 
         {/* AWESOME LOGO */}
         <Image
@@ -292,7 +292,7 @@ export default function Home() {
 
       {/* PART ARTIST RECRUIT */}
       <div className="flex w-full flex-col mt-24 px-4">
-        <p className="text-white text-center text-3xl font-Montserrat font-bold leading-none">
+        <p className="text-white text-center text-3xl font-Montserrat font-black leading-none">
           ARTIST RECRUIT <br />
           & DEVELOPMENT</p>
         {/* 80 */}

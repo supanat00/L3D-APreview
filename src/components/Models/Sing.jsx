@@ -21,11 +21,11 @@ export default function Sing(props) {
   return (
     <group ref={group} {...props} dispose={null}>
       <group
-        position-y={-2.5}
+        position-y={-3}
         position-x={5}
-        position-z={0.5}
+        position-z={-0.5}
         rotation-y={0.1}
-        rotation-x={-0.3}
+        rotation-x={0.2}
         rotation-z={0}
         scale={(240, 240, 240)}
       >
