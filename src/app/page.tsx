@@ -150,8 +150,8 @@ export default function Home() {
         <p className="mt-12 text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">AUTHENTIC ARTIST EXPERIENCE</p>
 
         {/* Project Highlight */}
-        <div className="w-full flex flex-col mt-8 pl-3 pr-1 items-center">
-          <div className="w-full border border-gray-500 px-8 py-4">
+        <div className="w-full flex flex-col mt-8 px-3 items-center">
+          <div className="w-full border border-gray-500 pl-4 pr-2 py-4">
             <p className="text-gray-400 font-Montserrat text-center text-xs ">PROJECT HIGHLIGHT :</p>
             <p className="text-white  font-Montserrat text-xs mt-3">• MV.FULL PRODUCTION 100 SQ.M VIRTUAL PRODUCTION LED VOLUME</p>
             <p className="text-white  font-Montserrat text-xs ">• INDIVIDUAL PICTURE & VDO PROFILE</p>
@@ -167,7 +167,7 @@ export default function Home() {
             target="_blank">
             <button
               type="button"
-              className="mt-6 py-0.5 text-gray-900 font-Montserrat font-medium bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 rounded-full text-xxs px-8   dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+              className="mt-6 py-0.5 text-gray-900 font-Montserrat font-medium bg-white border border-gray-300 focus:ring-4 focus:ring-gray-100 rounded-full text-xxs px-8"
             >SEE MORE</button>
           </a>
 
