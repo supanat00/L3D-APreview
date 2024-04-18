@@ -23,11 +23,11 @@ export default function Sing(props) {
       <group
         position-y={-2.5}
         position-x={5}
-        position-z={0}
+        position-z={0.5}
         rotation-y={0.1}
         rotation-x={-0.3}
         rotation-z={0}
-        scale={(230, 230, 230)}
+        scale={(240, 240, 240)}
       >
         <primitive object={nodes.sing_white_Rig_V04_FinSing} />
       </group>
