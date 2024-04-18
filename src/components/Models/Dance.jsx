@@ -25,7 +25,7 @@ export default function Sing(props) {
         position-x={-5}
         position-z={-0.5}
         rotation-y={0}
-        rotation-x={0.2}
+        rotation-x={0}
         rotation-z={0}
         scale={(240, 240, 240)}
       >
