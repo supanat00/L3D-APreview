@@ -57,4 +57,5 @@ body {
 
 canvas {
   height: 30vh;
+  overflow: hidden;
 }

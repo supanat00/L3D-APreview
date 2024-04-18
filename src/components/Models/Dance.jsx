@@ -23,7 +23,7 @@ export default function Sing(props) {
       <group
         position-y={-2.5}
         position-x={-5}
-        position-z={1}
+        position-z={0}
         rotation-y={0}
         rotation-x={-0.3}
         rotation-z={0}
