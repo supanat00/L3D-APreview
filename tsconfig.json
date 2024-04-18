@@ -27,7 +27,8 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx",
-    "src/models/dance.tsx"
+    "src/models/dance.tsx",
+    "src/components/Dance/Dance.tsx"
   ],
   "exclude": [
     "node_modules"

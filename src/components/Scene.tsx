@@ -2,7 +2,7 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import DanceModel from "../models/Dance";
+import DanceModel from "./Dance/Dance";
 import SingModel from "../models/Sing";
 import { Environment } from "@react-three/drei";
 
@@ -14,8 +14,8 @@ export default function Scene() {
         <Environment preset="city" />
         <OrbitControls />
         <Suspense fallback={null}>
-          <SingModel />
           <DanceModel />
+          <SingModel />
         </Suspense>
       </Canvas>
     </div>
