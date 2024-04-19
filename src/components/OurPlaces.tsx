@@ -1,6 +1,6 @@
-"use client"
 import { imagesour } from "../utils/constants";
 import { Swiper, SwiperSlide } from "swiper/react"
+import { Autoplay, Pagination, Navigation, EffectCoverflow } from 'swiper/modules';
 
 import Image from 'next/image'
 
@@ -12,10 +12,31 @@ export default function OurPlaces() {
             {/* BLKGEM PLACE PICTURE */}
             <div className="w-full flex flex-row overflow-hidden">
                 {/* line1 */}
-                <Swiper className="mt-8 flex w-48">
+                <Swiper
+                    effect={'coverflow'}
+                    coverflowEffect={{
+                        rotate: -45,
+                        stretch: 0,
+                        depth: 0,
+                        modifier: 1,
+                        slideShadows: true,
+                    }}
+                    slidesPerView={1.7}
+                    spaceBetween={-10}
+                    centeredSlides={true}
+                    autoplay={{
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    }}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    navigation={true}
+                    modules={[Autoplay, Pagination, Navigation, EffectCoverflow]}
+                    className="mt-8 flex w-full">
 
                     {imagesour.map((pic, idx) => (
-                        <SwiperSlide className="mx-4" key={idx}>
+                        <SwiperSlide className="" key={idx}>
                             <Image
                                 className="w-full"
                                 src={pic.src}
