@@ -26,6 +26,10 @@ const TopScroll = dynamic(() => import('../components/TopScroll'), {
   ssr: true,
 });
 
+const OurProject = dynamic(() => import('../components/OurProject'), {
+  ssr: true,
+});
+
 
 
 export default function Home() {
@@ -133,100 +137,7 @@ export default function Home() {
       </div>
 
       {/* PART OUR PROJECT */}
-      <div className="flex flex-col mt-12 items-center">
-        {/* OUR PROJECT */}
-        <p className="text-white text-center font-Montserrat font-black text-sm md:text-2xl lg:text-3xl">OUR PROJECT</p>
-
-        {/* AWESOME LOGO */}
-        <Image
-          className="w-56 mt-16 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
-          src="/logos/awesome.svg"
-          alt={"AWESOME LOGO"}
-          width={450}
-          height={450}
-          sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-        />
-
-        <p className="mt-12 text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">AUTHENTIC ARTIST EXPERIENCE</p>
-
-        {/* Project Highlight */}
-        <div className="w-full flex flex-col mt-8 px-3 items-center">
-          <div className="w-full border border-gray-500 pl-4 pr-2 py-4">
-            <p className="text-gray-400 font-Montserrat text-center text-xs ">PROJECT HIGHLIGHT :</p>
-            <p className="text-white  font-Montserrat text-xs mt-3">• MV.FULL PRODUCTION 100 SQ.M VIRTUAL PRODUCTION LED VOLUME</p>
-            <p className="text-white  font-Montserrat text-xs ">• INDIVIDUAL PICTURE & VDO PROFILE</p>
-            <p className="text-white  font-Montserrat text-xs ">• PROFESSIONAL TRAINING TEAM</p>
-            <p className="text-white  font-Montserrat text-xs ">• EXCLUSIVE MUSIC TRACK</p>
-            <p className="text-white  font-Montserrat text-xs mb-3">• PROFILE SHARING WITHIN LABELS UNDER GMM MUSIC</p>
-          </div>
-
-          {/* SEE MORE BUTTON */}
-          <a
-            rel="noopener"
-            href="https://www.google.com/?gws_rd=ssl"
-            target="_blank">
-            <button
-              type="button"
-              className="mt-6 py-0.5 text-gray-900 font-Montserrat font-medium bg-white border border-gray-300 focus:ring-4 focus:ring-gray-100 rounded-full text-xxs px-8"
-            >SEE MORE</button>
-          </a>
-
-          {/* DOT DOT DOT */}
-
-        </div>
-
-        {/* Detail */}
-        <div className="w-full flex flex-col mt-10 px-2 ">
-          {/* Vocal */}
-          <div className="flex border-b border-white justify-between pb-4 pl-2">
-            <p className="text-white font-Montserrat font-black text-2xl md:text-3xl lg:text-4xl">VOCAL</p>
-            <Image
-              className="w-6"
-              src="/logos/arrow.svg"
-              alt={"ARROW"}
-              width={450}
-              height={450}
-              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-            />
-          </div>
-          {/* Dance */}
-          <div className="flex border-b mt-5 border-white justify-between pb-4 pl-2">
-            <p className="text-white font-Montserrat font-black text-2xl md:text-3xl lg:text-4xl">DANCE</p>
-            <Image
-              className="w-6"
-              src="/logos/arrow.svg"
-              alt={"ARROW"}
-              width={450}
-              height={450}
-              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-            />
-          </div>
-          {/* Rap */}
-          <div className="flex border-b mt-5 border-white justify-between pb-4 pl-2">
-            <p className="text-white font-Montserrat font-black text-2xl md:text-3xl lg:text-4xl">RAP</p>
-            <Image
-              className="w-6"
-              src="/logos/arrow.svg"
-              alt={"ARROW"}
-              width={450}
-              height={450}
-              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-            />
-          </div>
-          {/* Performance */}
-          <div className="flex border-b mt-5 border-white justify-between pb-4 pl-2">
-            <p className="text-white font-Montserrat font-black text-2xl md:text-3xl lg:text-4xl">PERFORMANCE</p>
-            <Image
-              className="w-6"
-              src="/logos/arrow.svg"
-              alt={"ARROW"}
-              width={450}
-              height={450}
-              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-            />
-          </div>
-        </div>
-      </div>
+      <OurProject />
 
       {/* PART OUR PROFESSIONAL TRAINERS */}
       <div className="flex flex-col mt-12 items-center">
