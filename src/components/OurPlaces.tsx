@@ -15,19 +15,20 @@ export default function OurPlaces() {
                 <Swiper
                     effect={'coverflow'}
                     coverflowEffect={{
-                        rotate: -45,
+                        rotate: 45,
                         stretch: 0,
-                        depth: 0,
-                        modifier: 1,
+                        depth: 100,
+                        modifier: 2.5,
                         slideShadows: true,
                     }}
-                    slidesPerView={1.7}
-                    spaceBetween={-10}
+                    slidesPerView={1.6}
+                    spaceBetween={-85}
                     centeredSlides={true}
                     autoplay={{
                         delay: 3000,
                         disableOnInteraction: false,
                     }}
+                    loop={true}
                     pagination={{
                         clickable: true,
                     }}
