@@ -1,9 +1,15 @@
 import { Swiper, SwiperSlide } from "swiper/react"
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation, } from 'swiper/modules';
+
+import 'swiper/css'
+import 'swiper/css/pagination'
 
 import Image from 'next/image'
 
+
+
 export default function OurProject() {
+
     return (
         <div className="flex flex-col mt-12 justify-center items-center overflow-hidden">
             {/* OUR PROJECT */}
@@ -23,10 +29,10 @@ export default function OurProject() {
                 }}
                 navigation={true}
                 modules={[Autoplay, Pagination, Navigation,]}
-                className="flex w-full">
+                className="mySwiper flex w-full">
                 {/* Page 1 */}
                 <SwiperSlide >
-                    <div className="flex flex-col mt-12 justify-center items-center overflow-hidden">
+                    <div className="flex flex-col mt-12 justify-center items-center">
                         {/* AWESOME LOGO */}
                         <Image
                             className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
@@ -69,7 +75,7 @@ export default function OurProject() {
                 </SwiperSlide>
                 {/* Page 2 */}
                 <SwiperSlide >
-                    <div className="flex flex-col mt-12 justify-center items-center overflow-hidden">
+                    <div className="flex flex-col mt-12 justify-center items-center">
                         {/* AWESOME LOGO */}
                         <Image
                             className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
@@ -110,10 +116,7 @@ export default function OurProject() {
 
                     </div>
                 </SwiperSlide>
-
             </Swiper>
-
-
 
             {/* Detail */}
             <div className="w-full flex flex-col mt-10 px-2 ">

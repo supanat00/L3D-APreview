@@ -63,3 +63,12 @@ canvas {
 .swiper-wrapper {
   display: flex;
 }
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: -32px;
+  z-index: 1000;
+}
+
+.swiper.swiper-initialized.swiper-horizontal.swiper-ios.swiper-backface-hidden.mySwiper {
+  overflow: visible;
+}
