@@ -11,7 +11,7 @@ export default function OurProject() {
 
             {/* Contents Slide */}
             <Swiper
-                slidesPerView={1}
+                slidesPerView={1.05}
                 spaceBetween={0}
                 centeredSlides={true}
                 autoplay={{
