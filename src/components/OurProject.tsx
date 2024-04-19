@@ -18,13 +18,12 @@ export default function OurProject() {
                     delay: 10000,
                     disableOnInteraction: false,
                 }}
-                loop={true}
                 pagination={{
                     clickable: true,
                 }}
                 navigation={true}
                 modules={[Autoplay, Pagination, Navigation,]}
-                className="flex w-full ">
+                className="flex w-full">
                 {/* Page 1 */}
                 <SwiperSlide >
                     <div className="flex flex-col mt-12 justify-center items-center overflow-hidden">
@@ -102,7 +101,7 @@ export default function OurProject() {
                                 <button
                                     type="button"
                                     className="mt-6 py-0.5 text-gray-900 font-Montserrat font-medium bg-white border border-gray-300 focus:ring-4 focus:ring-gray-100 rounded-full text-xxs px-8"
-                                >SEE MORE</button>
+                                >SEE MORE 2</button>
                             </a>
 
                             {/* DOT DOT DOT */}
