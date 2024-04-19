@@ -58,10 +58,10 @@ export default function Home() {
         {/* Icon BLKGEM / GMMMUSIC / HARIEM SHAKE */}
         <div className="flex flex-row mt-20 justify-center item-center px-12">
           {/* GMM LOGO */}
-          <div className="flex translate-x-0 translate-y-0 px-4">
+          <div className="flex flex-col justify-center item-center">
             <Image
               className="w-full"
-              src="/logos/gmm.svg"
+              src="/logos/gmm.png"
               alt={"GMM LOGO"}
               width={450}
               height={450}
@@ -70,10 +70,10 @@ export default function Home() {
           </div>
 
           {/* BLKGEM LOGO */}
-          <div className="flex translate-x-0	translate-y-0 px-4">
+          <div className="flex flex-col justify-center item-center px-8">
             <Image
               className="w-full"
-              src="/logos/blkgem.svg"
+              src="/logos/blkgem.png"
               alt={"BLKGEM LOGO"}
               width={450}
               height={450}
@@ -82,10 +82,10 @@ export default function Home() {
           </div>
 
           {/* HARIEM LOGO */}
-          <div className="flex translate-x-0	translate-y-0 px-4">
+          <div className="flex flex-col justify-center item-center ">
             <Image
               className="w-full"
-              src="/logos/hariem.svg"
+              src="/logos/hariem.png"
               alt={"BLKGEM LOGO"}
               width={450}
               height={450}
