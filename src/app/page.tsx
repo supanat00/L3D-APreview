@@ -58,7 +58,7 @@ export default function Home() {
         {/* Icon BLKGEM / GMMMUSIC / HARIEM SHAKE */}
         <div className="flex mt-20 justify-center item-center px-12">
           {/* GMM LOGO */}
-          <div className="flex justify-center item-center px-4">
+          <div className="flex justify-center item-center align-middle px-4">
             <Image
               className="w-full"
               src="/logos/gmm.svg"
@@ -70,7 +70,7 @@ export default function Home() {
           </div>
 
           {/* BLKGEM LOGO */}
-          <div className="flex justify-center item-center px-4">
+          <div className="flex justify-center item-center align-middle px-4">
             <Image
               className="w-full"
               src="/logos/blkgem.svg"
@@ -82,7 +82,7 @@ export default function Home() {
           </div>
 
           {/* HARIEM LOGO */}
-          <div className="flex justify-center item-center px-4">
+          <div className="flex justify-center item-center align-middle px-4">
             <Image
               className="w-full"
               src="/logos/hariem.svg"
