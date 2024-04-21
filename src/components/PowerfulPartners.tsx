@@ -245,7 +245,7 @@ export default function Trainers() {
                         target="_blank">
                         <button
                             type="button"
-                            className="mt-6 py-0.5 text-gray-900 font-Montserrat bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 rounded-full text-lg  px-24  dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+                            className="mt-6 py-0.5 text-black font-Montserrat bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 rounded-full text-lg  px-20"
                         >BLKGEMOFFICIAL.COM</button>
                     </a>
                 </div>

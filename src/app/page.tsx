@@ -210,43 +210,46 @@ export default function Home() {
 
         {/* STICKER LINE DOWNLOAD */}
         <div className="w-full px-4 mt-8">
-          <div className="relative bg-white w-full p-2 rounded-xl">
-            <Image
-              className="absolute w-6 top-2 right-2"
-              src="/logos/line2.svg"
-              alt={"LINE2"}
-              width={450}
-              height={450}
-              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-            />
-            <div className="flex justify-center mt-8">
+          <a href="https://www.google.com/?gws_rd=ssl" target="_blank" rel="noopener noreferrer" className="block w-full h-full relative bg-white p-2 rounded-xl">
+            <div className="relative bg-white w-full p-2 rounded-xl">
               <Image
-                className="w-24 mx-2"
-                src="/logos/sticker1.svg"
-                alt={"sticker1"}
+                className="absolute w-6 top-2 right-2"
+                src="/logos/line2.svg"
+                alt={"LINE2"}
                 width={450}
                 height={450}
                 sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
               />
-              <Image
-                className="w-24 mx-2"
-                src="/logos/sticker3.svg"
-                alt={"sticker3"}
-                width={450}
-                height={450}
-                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-              />
-              <Image
-                className="w-20 mx-2"
-                src="/logos/sticker2.svg"
-                alt={"sticker2"}
-                width={450}
-                height={450}
-                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-              />
+              <div className="flex justify-center mt-16 mb-14">
+                <Image
+                  className="w-24 mx-2"
+                  src="/sticker/BBGG-01.png"
+                  alt={"sticker1"}
+                  width={450}
+                  height={450}
+                  sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                />
+                <Image
+                  className="w-24 mx-2"
+                  src="/sticker/BBGG-10.png"
+                  alt={"sticker3"}
+                  width={450}
+                  height={450}
+                  sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                />
+                <Image
+                  className="w-20 mx-2"
+                  src="/sticker/BBGG-16.png"
+                  alt={"sticker2"}
+                  width={450}
+                  height={450}
+                  sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                />
+              </div>
+              <p className="text-center mt-8 mb-1 text-lg md:text-2xl lg:text-3xl font-Montserrat">DOWNLOAD STICKER LINE</p>
             </div>
-            <p className="text-center mt-8 mb-1 text-lg md:text-2xl lg:text-3xl font-Montserrat">DOWNLOAD STICKER LINE</p>
-          </div>
+          </a>
+
         </div>
 
         {/* APPLICATION DOWNLOAD */}
