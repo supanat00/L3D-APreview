@@ -97,9 +97,9 @@ export default function OurProject() {
                         <div className="w-full flex flex-col mt-8 items-center">
                             <div className="w-full ">
                                 <p className="text-white font-Montserrat text-center text-xs ">PROJECT HIGHLIGHT :</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mt-6">• Workshop with 9 Powerful Mentors</p>
-                                <p className="text-white font-medium font-Montserrat text-xs ">• Artist Training Program in 6 months</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mb-3">• The Final Concert</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mt-6">• WORKSHOP WITH 9 POWERFUL MENTORS</p>
+                                <p className="text-white font-medium font-Montserrat text-xs ">• ARTIST TRAINING PROGRAM IN 6 MONTHS</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mb-3">• THE FINAL CONCERT</p>
                             </div>
 
                             {/* SEE MORE BUTTON */}
@@ -183,8 +183,8 @@ export default function OurProject() {
                         <div className="w-full flex flex-col mt-16 items-center">
                             <div className="w-full px-16">
                                 <p className="text-white font-Montserrat text-center text-xs ">PROJECT HIGHLIGHT :</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mt-8 mb-3">• Full Production with Professional Team
-                                    <br /> Thai - International Concert</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mt-8 mb-3">• FULL PRODUCTION WITH PROFESSIONAL TEAM
+                                    <br />THAI - INTERNATIONAL CONCERT</p>
                             </div>
 
                             {/* SEE MORE BUTTON */}
@@ -207,7 +207,7 @@ export default function OurProject() {
             </Swiper>
 
             {/* Detail */}
-            <div className="w-full flex flex-col mt-10 px-2 ">
+            <div className="w-full flex flex-col mt-20 px-2 ">
                 {/* Vocal */}
                 <div className="flex border-b border-white justify-between pb-4 pl-2">
                     <p className="text-white font-Montserrat font-black text-2xl md:text-3xl lg:text-4xl">VOCAL</p>
