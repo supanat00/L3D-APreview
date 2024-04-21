@@ -1,4 +1,3 @@
-"use client"
 import dynamic from "next/dynamic";
 import Image from 'next/image'
 
@@ -30,7 +29,9 @@ const OurProject = dynamic(() => import('../components/OurProject'), {
   ssr: true,
 });
 
-
+const OurProfessional = dynamic(() => import('../components/OurProfessional'), {
+  ssr: true,
+});
 
 export default function Home() {
   return (
@@ -60,9 +61,9 @@ export default function Home() {
         <Video />
 
         {/* Icon BLKGEM / GMMMUSIC / HARIEM SHAKE */}
-        <div className="flex flex-row mt-20 justify-center item-center px-12">
+        <div className="flex flex-row mt-20 justify-center item-center px-10">
           {/* GMM LOGO */}
-          <div className="flex flex-col justify-center item-center">
+          <div className="flex flex-col justify-center item-center -mr-6">
             <Image
               className="w-full"
               src="/logos/gmm.png"
@@ -74,7 +75,7 @@ export default function Home() {
           </div>
 
           {/* BLKGEM LOGO */}
-          <div className="flex flex-col justify-center item-center px-8">
+          <div className="flex flex-col justify-center item-center px-12 w-48">
             <Image
               className="w-full"
               src="/logos/blkgem.png"
@@ -86,7 +87,7 @@ export default function Home() {
           </div>
 
           {/* HARIEM LOGO */}
-          <div className="flex flex-col justify-center item-center ">
+          <div className="flex flex-col justify-center item-center -ml-6">
             <Image
               className="w-full"
               src="/logos/hariem.png"
@@ -140,63 +141,7 @@ export default function Home() {
       <OurProject />
 
       {/* PART OUR PROFESSIONAL TRAINERS */}
-      <div className="flex flex-col mt-12 items-center">
-        <p className="text-gray-400 text-center font-Montserrat font-medium text-sm md:text-2xl lg:text-3xl">OUR PROFESSIONAL TRAINERS</p>
-        {/* PROFESIONAL TRAINERS PICTURE */}
-        {/* <div className="w-full flex mt-12 items-center justify-center overflow-hidden">
-          <Image
-            className="w-3/5 mx-3"
-            src="/logos/longhair.png"
-            alt={"longhair"}
-            width={450}
-            height={450}
-            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-          />
-          <Image
-            className="w-3/5 mx-3"
-            src="/logos/redhead.png"
-            alt={"redhead"}
-            width={450}
-            height={450}
-            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-          />
-          <Image
-            className="w-3/5 mx-3"
-            src="/logos/blacksuit.png"
-            alt={"blacksuit"}
-            width={450}
-            height={450}
-            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-          />
-        </div> */}
-
-        <Trainers />
-
-        <Image
-          className="w-full mt-10"
-          src="/logos/blackgem.svg"
-          alt={"BLACKGEM"}
-          width={450}
-          height={450}
-          sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-        />
-        <div className="w-full px-8">
-          {/* VISION */}
-          <div className="flex flex-col mt-16 w-full">
-            <p className="text-gray-600 font-Montserrat text-left text-sm md:text-2xl lg:text-3xl">VISION</p>
-            <p className="text-white mt-4 font-Montserrat font-bold text-left text-md md:text-2xl lg:text-3xl leading-5">
-              ❝<br />ACADEMY OF ARTISTIC<br />INSPIRATION IN ASIA<br />❞
-            </p>
-          </div>
-          {/* MISSION */}
-          <div className="flex flex-col mt-12 w-full">
-            <p className="text-gray-600 text-right text-sm font-Montserrat md:text-2xl lg:text-3xl">MISSION</p>
-            <p className="text-white mt-4 text-right font-Montserrat font-bold text-md md:text-2xl lg:text-3xl leading-5">
-              ❝<br />ENHANCE<br />ENTERTAINMENT<br />INDUSTRY TALENT<br />❞
-            </p>
-          </div>
-        </div>
-      </div>
+      <OurProfessional />
 
       {/* PART OUR PLACE */}
       <OurPlaces />

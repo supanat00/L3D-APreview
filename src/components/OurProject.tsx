@@ -1,3 +1,4 @@
+"use client"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Autoplay, Pagination, Navigation, } from 'swiper/modules';
 
@@ -25,7 +26,7 @@ export default function OurProject() {
                     disableOnInteraction: false,
                 }}
                 pagination={{
-                    clickable: true,
+                    dynamicBullets: true,
                 }}
                 navigation={true}
                 modules={[Autoplay, Pagination, Navigation,]}

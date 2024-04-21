@@ -1,3 +1,4 @@
+"use client"
 import { imagesour } from "../utils/constants";
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Autoplay, Pagination, Navigation, EffectCoverflow } from 'swiper/modules';
@@ -29,10 +30,6 @@ export default function OurPlaces() {
                         disableOnInteraction: false,
                     }}
                     loop={true}
-                    pagination={{
-                        clickable: true,
-                    }}
-                    navigation={true}
                     modules={[Autoplay, Pagination, Navigation, EffectCoverflow]}
                     className="mt-8 flex w-full">
 
