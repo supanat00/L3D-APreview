@@ -103,22 +103,58 @@ export const images = [
 export const imagesour = [
     {
         id: 1,
-        src: "/logos/blkgemplace1.png",
+        src: "/place/Asset1.png",
     },
     {
         id: 2,
-        src: "/logos/blkgemplace2.png",
+        src: "/place/Asset2.png",
     },
     {
         id: 3,
-        src: "/logos/blkgemplace3.png",
+        src: "/place/Asset3.png",
     },
     {
         id: 4,
-        src: "/logos/blkgemplace4.png",
+        src: "/place/Asset4.png",
     },
     {
         id: 5,
-        src: "/logos/blkgemplace5.png",
+        src: "/place/Asset5.png",
+    },
+    {
+        id: 6,
+        src: "/place/Asset6.png",
+    },
+    {
+        id: 7,
+        src: "/place/Asset7.png",
+    },
+    {
+        id: 8,
+        src: "/place/Asset8.png",
+    },
+    {
+        id: 9,
+        src: "/place/Asset9.png",
+    },
+    {
+        id: 10,
+        src: "/place/Asset10.png",
+    },
+    {
+        id: 11,
+        src: "/place/Asset11.png",
+    },
+    {
+        id: 12,
+        src: "/place/Asset12.png",
+    },
+    {
+        id: 13,
+        src: "/place/Asset13.png",
+    },
+    {
+        id: 14,
+        src: "/place/Asset14.png",
     },
 ]
