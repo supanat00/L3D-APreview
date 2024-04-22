@@ -6,31 +6,32 @@ import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap"
 
 const Scene = dynamic(() => import('../components/Scene'), {
-  ssr: true,
+  ssr: false,
+  loading: () => <p>I am fetching</p>
 });
 
 const Video = dynamic(() => import("../components/Video"), {
-  ssr: true,
+  ssr: false,
 });
 
 const OurPlaces = dynamic(() => import("../components/OurPlaces"), {
-  ssr: true,
+  ssr: false,
 });
 
 const PowerfulPartners = dynamic(() => import("../components/PowerfulPartners"), {
-  ssr: true,
+  ssr: false,
 });
 
 const TopScroll = dynamic(() => import('../components/TopScroll'), {
-  ssr: true,
+  ssr: false,
 });
 
 const OurProject = dynamic(() => import('../components/OurProject'), {
-  ssr: true,
+  ssr: false,
 });
 
 const OurProfessional = dynamic(() => import('../components/OurProfessional'), {
-  ssr: true,
+  ssr: false,
 });
 
 
@@ -44,6 +45,10 @@ export default function Home() {
         yPercent: "100",
         duration: 1.3,
         delay: 0.3,
+      }).from(["#blklogo"], {
+        opacity: 0,
+        y: "+=30",
+        stagager: 0.5
       })
     }, comp)
     return () => ctx.revert()
@@ -53,8 +58,6 @@ export default function Home() {
   return (
     <div className="flex flex-col h-full w-full" ref={comp} >
       {/* Intro Slider */}
-
-      {/* PART BLKGEM VIDEO SHOW*/}
       <div className="flex flex-col items-center"
         id="intro-slider"
       >
@@ -64,12 +67,18 @@ export default function Home() {
                      lg:w-60 lg:mt-36
                      xl:w-60 xl:mt-32
                      "
+          id="blklogo"
           src="/logos/blkgem.svg"
           alt={"BLKGEM LOGO"}
           width={450}
           height={450}
           sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
         />
+      </div>
+
+      {/* PART BLKGEM VIDEO SHOW*/}
+      <div className="flex flex-col items-center"
+      >
         {/* TITLE */}
         <p className="text-primary text-center font-Montserrat leading-none font-black mt-16 px-8 md:px-20 lg:px-40 text-3xl md:text-5xl lg:text-6xl"
         >THE ART OF
