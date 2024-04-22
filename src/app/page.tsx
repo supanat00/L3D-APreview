@@ -2,8 +2,13 @@
 import dynamic from "next/dynamic";
 import Image from 'next/image'
 
-import { useLayoutEffect, useRef } from "react";
-import gsap from "gsap"
+import { useRef } from "react";
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+import { useGSAP } from '@gsap/react';
+
+gsap.registerPlugin(ScrollTrigger)
 
 const Scene = dynamic(() => import('../components/Scene'), {
   ssr: false,
@@ -38,52 +43,38 @@ const OurProfessional = dynamic(() => import('../components/OurProfessional'), {
 
 export default function Home() {
   const comp = useRef(null)
-  useLayoutEffect(() => {
-    let ctx = gsap.context(() => {
-      const t1 = gsap.timeline()
-      t1.from("#intro-slider", {
-        yPercent: "100",
-        duration: 1.5,
-        delay: 0.3,
-      }).from(["#blklogo"], {
-        opacity: 0,
-        stagager: 0.5
-      })
-        .to(["#blklogo"], {
-          opacity: 0,
-          y: "-=30",
-          delay: 1.5,
-          stagager: 0.5
-        })
-    }, comp)
-    return () => ctx.revert()
-  }, [])
+  useGSAP(
+    () => {
+      ScrollTrigger.create({
+        trigger: '.box-c',
+        pin: true,
+        start: 'center center',
+        end: '+=300',
+        markers: true,
+      });
+    },
+    {
+      scope: comp,
+    }
+  );
 
 
   return (
-    <div className="flex flex-col h-full w-full" ref={comp} >
-      {/* Intro Slider */}
-      <div className="flex flex-col items-center"
-        id="intro-slider"
+    <div className="flex flex-col h-full w-full">
+      {/* PART BLKGEM VIDEO SHOW*/}
+      <div className="flex flex-col items-center " ref={comp}
       >
         {/* BLKGEM LOGO*/}
         <Image
           className="w-32 mt-20                     
                      lg:w-60 lg:mt-36
-                     xl:w-60 xl:mt-32
-                     "
-          id="blklogo"
+                     xl:w-60 xl:mt-32"
           src="/logos/blkgem.svg"
           alt={"BLKGEM LOGO"}
           width={450}
           height={450}
           sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
         />
-      </div>
-
-      {/* PART BLKGEM VIDEO SHOW*/}
-      <div className="flex flex-col items-center"
-      >
         {/* TITLE */}
         <p className="text-primary text-center font-Montserrat leading-none font-black mt-16 px-8 md:px-20 lg:px-40 text-3xl md:text-5xl lg:text-6xl"
         >THE ART OF
@@ -92,7 +83,10 @@ export default function Home() {
         </p>
 
         {/* Video Show */}
-        <Video />
+        <div className="box-c">
+          <Video />
+        </div>
+
 
         {/* Icon BLKGEM / GMMMUSIC / HARIEM SHAKE */}
         <div className="flex flex-row mt-20 justify-center item-center px-10">
