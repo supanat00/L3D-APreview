@@ -2,12 +2,8 @@
 import dynamic from "next/dynamic";
 import Image from 'next/image'
 
-import { useEffect } from "react";
-import { useGSAP } from '@gsap/react';
-
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
+import { useLayoutEffect, useRef } from "react";
+import gsap from "gsap"
 
 const Scene = dynamic(() => import('../components/Scene'), {
   ssr: true,
@@ -40,12 +36,28 @@ const OurProfessional = dynamic(() => import('../components/OurProfessional'), {
 
 
 export default function Home() {
+  const comp = useRef(null)
+  useLayoutEffect(() => {
+    let ctx = gsap.context(() => {
+      const t1 = gsap.timeline()
+      t1.from("#intro-slider", {
+        yPercent: "100",
+        duration: 1.3,
+        delay: 0.3,
+      })
+    }, comp)
+    return () => ctx.revert()
+  }, [])
 
 
   return (
-    <div className="flex flex-col h-full w-full" >
+    <div className="flex flex-col h-full w-full" ref={comp} >
+      {/* Intro Slider */}
+
       {/* PART BLKGEM VIDEO SHOW*/}
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center"
+        id="intro-slider"
+      >
         {/* BLKGEM LOGO*/}
         <Image
           className="w-32 mt-20                     
