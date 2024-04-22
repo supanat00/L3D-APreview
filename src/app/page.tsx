@@ -1,14 +1,12 @@
-"use client"
 import dynamic from "next/dynamic";
 import Image from 'next/image'
 
-import { useRef, useEffect } from "react";
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+// import { useRef, useEffect } from "react";
+// import gsap from 'gsap';
+// import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const Scene = dynamic(() => import('../components/Scene'), {
-  ssr: false,
-  loading: () => <p>I am fetching</p>
+  ssr: true,
 });
 
 const Video = dynamic(() => import("../components/Video"), {
@@ -42,22 +40,24 @@ const Sequence = dynamic(() => import('../components/Sequence'), {
 
 
 export default function Home() {
-  gsap.registerPlugin(ScrollTrigger)
+  // gsap.registerPlugin(ScrollTrigger)
 
-  const comp = useRef(null)
-  useEffect(() => {
-    gsap.to(".blkgemlogo", {
-      pin: true,
-      start: 'top top',
-      end: '+=400',
-      markers: true,
-    });
-  },
-  );
+  // const comp = useRef(null)
+  // useEffect(() => {
+  //   gsap.to(".blkgemlogo", {
+  //     pin: true,
+  //     start: 'top top',
+  //     end: '+=400',
+  //     markers: true,
+  //   });
+  // },
+  // );
+
+  // ref={comp}
 
 
   return (
-    <div className="flex flex-col h-full w-full" ref={comp}>
+    <div className="flex flex-col h-full w-full" >
       {/* PART BLKGEM VIDEO SHOW*/}
       <div className="flex flex-col items-center "
       >
