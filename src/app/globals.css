@@ -55,11 +55,9 @@ body {
   }
 }
 
-canvas.img-sequence {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+/* img.img-sequence {
+  margin-left: 16px;
+} */
 
 .swiper-pagination.swiper-pagination-bullets-dynamic.swiper-pagination-bullets.swiper-pagination-horizontal {
   bottom: -32px;

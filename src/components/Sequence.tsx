@@ -55,17 +55,15 @@ export default function Home() {
         if (!canvas || !context) return;
 
         context.canvas.width = window.innerWidth;
-        context.canvas.height = window.innerHeight;
-
-
+        context.canvas.height = 345;
     };
 
     return (
         <>
             <div className="relative w-full flex flex-col mt-12 items-center">
                 <p className="text-white">test</p>
-                <div className="w-full flex flex-col overflow-hidden">
-                    <canvas className="img-sequence" ref={canvasRef} />
+                <div className="w-full fixed overflow-hidden z-50">
+                    <canvas className="img-sequence flex w-full" ref={canvasRef} id="myCanvas" />
                     <Image
                         src={`/images-sequence/${scrolled.toString().padStart(4, '0000')}.png`}
                         layout="fill"
