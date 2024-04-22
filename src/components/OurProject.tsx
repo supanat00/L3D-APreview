@@ -57,20 +57,7 @@ export default function OurProject() {
                                 <p className="text-white font-medium font-Montserrat text-xs ">• SINGING WITH IDOL ARTIST</p>
                                 <p className="text-white font-medium font-Montserrat text-xs ">• SHOWCASE</p>
                                 <p className="text-white font-medium font-Montserrat text-xs ">• SUMMER FOR NATIONAL AND INTERNATIONAL</p>
-                            </div>
-
-                            {/* SEE MORE BUTTON */}
-                            <a
-                                rel="noopener"
-                                href="https://www.google.com/?gws_rd=ssl"
-                                target="_blank">
-                                <button
-                                    type="button"
-                                    className="mt-6 py-0.5 font-Montserrat font-medium bg-white border border-gray-300 focus:ring-4 focus:ring-gray-100 rounded-full text-xs px-8"
-                                >SEE MORE</button>
-                            </a>
-
-                            {/* DOT DOT DOT */}
+                            </div>                            
 
                         </div>
 
@@ -100,20 +87,7 @@ export default function OurProject() {
                                 <p className="text-white font-medium font-Montserrat text-xs mt-6">• WORKSHOP WITH 9 POWERFUL MENTORS</p>
                                 <p className="text-white font-medium font-Montserrat text-xs ">• ARTIST TRAINING PROGRAM IN 6 MONTHS</p>
                                 <p className="text-white font-medium font-Montserrat text-xs mb-3">• THE FINAL CONCERT</p>
-                            </div>
-
-                            {/* SEE MORE BUTTON */}
-                            <a
-                                rel="noopener"
-                                href="https://www.google.com/?gws_rd=ssl"
-                                target="_blank">
-                                <button
-                                    type="button"
-                                    className="mt-6 py-0.5 text-gray-900 font-Montserrat font-medium bg-white border border-gray-300 focus:ring-4 focus:ring-gray-100 rounded-full text-xxs px-8"
-                                >SEE MORE</button>
-                            </a>
-
-                            {/* DOT DOT DOT */}
+                            </div>                          
 
                         </div>
 
@@ -144,20 +118,7 @@ export default function OurProject() {
                                 <p className="text-white font-medium font-Montserrat text-xs ">• PROFESSIONAL TRAINING TEAM</p>
                                 <p className="text-white font-medium font-Montserrat text-xs ">• EXCLUSIVE MUSIC TRACK</p>
                                 <p className="text-white font-medium font-Montserrat text-xs mb-3">• PROFILE SHARING WITHIN LABELS UNDER GMM MUSIC</p>
-                            </div>
-
-                            {/* SEE MORE BUTTON */}
-                            <a
-                                rel="noopener"
-                                href="https://www.google.com/?gws_rd=ssl"
-                                target="_blank">
-                                <button
-                                    type="button"
-                                    className="mt-8 py-0.5 text-gray-900 font-Montserrat font-medium bg-white border border-gray-300 focus:ring-4 focus:ring-gray-100 rounded-full text-xxs px-8"
-                                >SEE MORE</button>
-                            </a>
-
-                            {/* DOT DOT DOT */}
+                            </div>                            
 
                         </div>
 
@@ -185,20 +146,7 @@ export default function OurProject() {
                                 <p className="text-white font-Montserrat text-center text-xs ">PROJECT HIGHLIGHT :</p>
                                 <p className="text-white font-medium font-Montserrat text-xs mt-8 mb-3">• FULL PRODUCTION WITH PROFESSIONAL TEAM
                                     <br />THAI - INTERNATIONAL CONCERT</p>
-                            </div>
-
-                            {/* SEE MORE BUTTON */}
-                            <a
-                                rel="noopener"
-                                href="https://www.google.com/?gws_rd=ssl"
-                                target="_blank">
-                                <button
-                                    type="button"
-                                    className="mt-9 py-0.5 text-gray-900 font-Montserrat font-medium bg-white border border-gray-300 focus:ring-4 focus:ring-gray-100 rounded-full text-xxs px-8"
-                                >SEE MORE</button>
-                            </a>
-
-                            {/* DOT DOT DOT */}
+                            </div>                            
 
                         </div>
 
