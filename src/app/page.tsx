@@ -82,14 +82,12 @@ export default function Home() {
         </p>
 
         {/* Sequence Show */}
-        <div className="">
-          <Sequence />
-        </div>
+        <Sequence />
+
 
         {/* Video Show */}
-        <div className="">
-          <Video />
-        </div>
+        <Video />
+
 
 
         {/* Icon BLKGEM / GMMMUSIC / HARIEM SHAKE */}

@@ -55,6 +55,11 @@ body {
   }
 }
 
+#myCanvas {
+  width: auto;
+  height: auto;
+}
+
 /* img.img-sequence {
   margin-left: 16px;
 } */

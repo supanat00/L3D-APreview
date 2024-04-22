@@ -53,27 +53,21 @@ export default function Home() {
         const canvas = canvasRef.current;
         const context = contextRef.current;
         if (!canvas || !context) return;
-
-        context.canvas.width = window.innerWidth;
-        context.canvas.height = 345;
     };
 
     return (
-        <>
-            <div className="relative w-full flex flex-col mt-12 items-center">
-                <p className="text-white">test</p>
-                <div className="w-full fixed overflow-hidden z-50">
-                    <canvas className="img-sequence flex w-full" ref={canvasRef} id="myCanvas" />
-                    <Image
-                        src={`/images-sequence/${scrolled.toString().padStart(4, '0000')}.png`}
-                        layout="fill"
-                        className="img-sequence w-full"
-                        priority={true}
-                        quality={1}
-                        alt="img sequence"
-                    />
-                </div>
+        <div className="relative w-full flex flex-col mt-12 items-center justify-center">
+            <div className="w-full flex overflow-hidden z-50 item-center justify-center">
+                <canvas className="img-sequence flex w-full" ref={canvasRef} />
+                <Image
+                    src={`/images-sequence/${scrolled.toString().padStart(4, '0000')}.png`}
+                    layout="fill"
+                    className="img-sequence w-full ml-5"
+                    priority={true}
+                    quality={1}
+                    alt="img sequence"
+                />
             </div>
-        </>
+        </div>
     );
 }
