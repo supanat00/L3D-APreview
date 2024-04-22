@@ -67,7 +67,6 @@ export default function Home() {
                      w-32 mt-20                     
                      lg:w-60 lg:mt-36
                      xl:w-60 xl:mt-32"
-          data-speed="0.5"
           src="/logos/blkgem.svg"
           alt={"BLKGEM LOGO"}
           width={450}
@@ -131,8 +130,7 @@ export default function Home() {
       </div>
 
       {/* PART BLKGEM ICONIC */}
-      <div className="box-c flex flex-col items-center"
-        data-speed="1.5">
+      <div className="box-c flex flex-col items-center">
         {/* BLKGEM ICONIC */}
         <div className="flex flex-col justify-center items-center w-full mt-28">
           <p className="text-white text-center font-Montserrat font-black text-md md:text-2xl lg:text-3xl">BLKGEM ICONIC</p>
@@ -236,9 +234,6 @@ export default function Home() {
       {/* ENDDING */}
       <div className="flex w-full flex-col mt-8 items-center">
 
-        {/* OFFICIAL */}
-        {/* VISIT OUR IMAGE */}
-
         {/* STICKER LINE DOWNLOAD */}
         <div className="w-full px-4 mt-8">
           <a href="https://www.google.com/?gws_rd=ssl" target="_blank" rel="noopener noreferrer" className="block w-full h-full relative bg-white p-2 rounded-xl">
@@ -253,7 +248,7 @@ export default function Home() {
               />
               <div className="flex justify-center mt-16 mb-14">
                 <Image
-                  className="w-24 mx-2"
+                  className="w-24"
                   src="/sticker/BBGG-01.png"
                   alt={"sticker1"}
                   width={450}
@@ -261,7 +256,7 @@ export default function Home() {
                   sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
                 />
                 <Image
-                  className="w-24 mx-2"
+                  className="w-24"
                   src="/sticker/BBGG-10.png"
                   alt={"sticker3"}
                   width={450}
@@ -269,7 +264,7 @@ export default function Home() {
                   sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
                 />
                 <Image
-                  className="w-20 mx-2"
+                  className="w-24"
                   src="/sticker/BBGG-16.png"
                   alt={"sticker2"}
                   width={450}
@@ -297,8 +292,6 @@ export default function Home() {
             <p className="text-center mt-8 mb-1 text-lg md:text-2xl lg:text-3xl font-Montserrat">DOWNLOAD APPLICATION</p>
           </div>
         </div>
-
-
 
         {/* SOCIAL */}
         <p className="text-white mt-8 text-center text-md md:text-2xl lg:text-3xl font-Montserrat">BLKGEM.OFFICIAL</p>
