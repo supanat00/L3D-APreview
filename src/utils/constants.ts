@@ -1,105 +1,3 @@
-export const images = [
-    {
-        id: 1,
-        src: "/trainers/1.png",
-    },
-    {
-        id: 2,
-        src: "/trainers/2.png",
-    },
-    {
-        id: 3,
-        src: "/trainers/3.png",
-    },
-    {
-        id: 4,
-        src: "/trainers/1.png",
-    },
-    {
-        id: 5,
-        src: "/trainers/2.png",
-    },
-    {
-        id: 6,
-        src: "/trainers/3.png",
-    },
-    {
-        id: 7,
-        src: "/trainers/1.png",
-    },
-    {
-        id: 8,
-        src: "/trainers/2.png",
-    },
-    {
-        id: 9,
-        src: "/trainers/3.png",
-    },
-    {
-        id: 10,
-        src: "/trainers/1.png",
-    },
-    {
-        id: 11,
-        src: "/trainers/2.png",
-    },
-    {
-        id: 12,
-        src: "/trainers/3.png",
-    },
-    {
-        id: 13,
-        src: "/trainers/1.png",
-    },
-    {
-        id: 14,
-        src: "/trainers/2.png",
-    },
-    {
-        id: 15,
-        src: "/trainers/3.png",
-    },
-    {
-        id: 16,
-        src: "/trainers/1.png",
-    },
-    {
-        id: 17,
-        src: "/trainers/2.png",
-    },
-    {
-        id: 18,
-        src: "/trainers/3.png",
-    },
-    {
-        id: 19,
-        src: "/trainers/1.png",
-    },
-    {
-        id: 20,
-        src: "/trainers/2.png",
-    },
-    {
-        id: 21,
-        src: "/trainers/3.png",
-    },
-    {
-        id: 22,
-        src: "/trainers/1.png",
-    },
-    {
-        id: 23,
-        src: "/trainers/2.png",
-    },
-    {
-        id: 24,
-        src: "/trainers/3.png",
-    },
-    {
-        id: 25,
-        src: "/trainers/1.png",
-    }
-]
 export const imagesour = [
     {
         id: 1,
@@ -161,186 +59,187 @@ export const imagesour = [
 export const imagevocal = [
     {
         id: 1,
-        src: "/vocal/Asset15.png",
+        src: "/vocal/Asset67.png",
     },
     {
         id: 2,
-        src: "/vocal/Asset16.png",
+        src: "/vocal/Asset68.png",
     },
     {
         id: 3,
-        src: "/vocal/Asset17.png",
+        src: "/vocal/Asset69.png",
     },
     {
         id: 4,
-        src: "/vocal/Asset18.png",
+        src: "/vocal/Asset70.png",
     },
     {
         id: 5,
-        src: "/vocal/Asset19.png",
+        src: "/vocal/Asset71.png",
     },
     {
         id: 6,
-        src: "/vocal/Asset20.png",
+        src: "/vocal/Asset72.png",
     },
     {
         id: 7,
-        src: "/vocal/Asset21.png",
+        src: "/vocal/Asset73.png",
     },
     {
         id: 8,
-        src: "/vocal/Asset22.png",
+        src: "/vocal/Asset74.png",
     },
     {
         id: 9,
-        src: "/vocal/Asset23.png",
+        src: "/vocal/Asset75.png",
     },
     {
         id: 10,
-        src: "/vocal/Asset24.png",
+        src: "/vocal/Asset76.png",
     },
     {
         id: 11,
-        src: "/vocal/Asset25.png",
+        src: "/vocal/Asset77.png",
     },
     {
         id: 12,
-        src: "/vocal/Asset26.png",
+        src: "/vocal/Asset78.png",
     },
     {
         id: 13,
-        src: "/vocal/Asset27.png",
+        src: "/vocal/Asset79.png",
     },
     {
         id: 14,
-        src: "/vocal/Asset28.png",
+        src: "/vocal/Asset80.png",
     },
     {
         id: 15,
-        src: "/vocal/Asset29.png",
+        src: "/vocal/Asset81.png",
     },
     {
         id: 16,
-        src: "/vocal/Asset30.png",
+        src: "/vocal/Asset82.png",
     },
     {
         id: 17,
-        src: "/vocal/Asset31.png",
+        src: "/vocal/Asset83.png",
     },
     {
         id: 18,
-        src: "/vocal/Asset32.png",
+        src: "/vocal/Asset84.png",
     },
     {
         id: 19,
-        src: "/vocal/Asset33.png",
+        src: "/vocal/Asset85.png",
     },
     {
         id: 20,
-        src: "/vocal/Asset34.png",
+        src: "/vocal/Asset86.png",
     },
     {
         id: 21,
-        src: "/vocal/Asset35.png",
+        src: "/vocal/Asset87.png",
     },
     {
         id: 22,
-        src: "/vocal/Asset36.png",
+        src: "/vocal/Asset88.png",
     },
     {
         id: 23,
-        src: "/vocal/Asset37.png",
+        src: "/vocal/Asset89.png",
     },
     {
         id: 24,
-        src: "/vocal/Asset38.png",
+        src: "/vocal/Asset90.png",
     },
     {
         id: 25,
-        src: "/vocal/Asset39.png",
+        src: "/vocal/Asset91.png",
+    },
+    {
+        id: 26,
+        src: "/vocal/Asset92.png",
     },
 ];
 
 export const imageperform = [
     {
         id: 1,
-        src: "/perform/Asset40.png",
+        src: "/perform/Asset93.png",
     },
     {
         id: 2,
-        src: "/perform/Asset41.png",
+        src: "/perform/Asset94.png",
     },
     {
         id: 3,
-        src: "/perform/Asset42.png",
+        src: "/perform/Asset95.png",
     },
     {
         id: 4,
-        src: "/perform/Asset43.png",
+        src: "/perform/Asset96.png",
     },
     {
         id: 5,
-        src: "/perform/Asset44.png",
+        src: "/perform/Asset97.png",
     },
     {
         id: 6,
-        src: "/perform/Asset45.png",
+        src: "/perform/Asset98.png",
     },
     {
         id: 7,
-        src: "/perform/Asset46.png",
+        src: "/perform/Asset99.png",
     },
     {
         id: 8,
-        src: "/perform/Asset47.png",
+        src: "/perform/Asset100.png",
     },
     {
         id: 9,
-        src: "/perform/Asset48.png",
+        src: "/perform/Asset101.png",
     },
     {
         id: 10,
-        src: "/perform/Asset49.png",
+        src: "/perform/Asset102.png",
     },
     {
         id: 11,
-        src: "/perform/Asset50.png",
+        src: "/perform/Asset103.png",
     },
     {
         id: 12,
-        src: "/perform/Asset51.png",
+        src: "/perform/Asset104.png",
     },
     {
         id: 13,
-        src: "/perform/Asset52.png",
+        src: "/perform/Asset112.png",
     },
     {
         id: 14,
-        src: "/perform/Asset53.png",
+        src: "/perform/Asset106.png",
     },
     {
         id: 15,
-        src: "/perform/Asset55.png",
+        src: "/perform/Asset107.png",
     },
     {
         id: 16,
-        src: "/perform/Asset56.png",
+        src: "/perform/Asset108.png",
     },
     {
         id: 17,
-        src: "/perform/Asset57.png",
+        src: "/perform/Asset109.png",
     },
     {
         id: 18,
-        src: "/perform/Asset58.png",
+        src: "/perform/Asset110.png",
     },
     {
         id: 19,
-        src: "/perform/Asset59.png",
-    },
-    {
-        id: 20,
-        src: "/perform/Asset60.png",
+        src: "/perform/Asset111.png",
     },
 ];
+
 
