@@ -11,7 +11,7 @@ const Scene = dynamic(() => import('../components/Scene'), {
 });
 
 const Video = dynamic(() => import("../components/Video"), {
-  ssr: false,
+  ssr: true,
 });
 
 const OurPlaces = dynamic(() => import("../components/OurPlaces"), {
@@ -43,13 +43,18 @@ export default function Home() {
       const t1 = gsap.timeline()
       t1.from("#intro-slider", {
         yPercent: "100",
-        duration: 1.3,
+        duration: 1.5,
         delay: 0.3,
       }).from(["#blklogo"], {
         opacity: 0,
-        y: "+=30",
         stagager: 0.5
       })
+        .to(["#blklogo"], {
+          opacity: 0,
+          y: "-=30",
+          delay: 1.5,
+          stagager: 0.5
+        })
     }, comp)
     return () => ctx.revert()
   }, [])
