@@ -65,7 +65,7 @@ export default function Home() {
             <div className="relative w-full flex flex-col mt-12 items-center">
                 <p className="text-white">test</p>
                 <div className="w-full flex flex-col overflow-hidden">
-                    <canvas ref={canvasRef} />
+                    <canvas className="img-sequence" ref={canvasRef} />
                     <Image
                         src={`/images-sequence/${scrolled.toString().padStart(4, '0000')}.png`}
                         layout="fill"

@@ -55,9 +55,10 @@ body {
   }
 }
 
-canvas {
-  height: 30vh;
-  overflow: hidden;
+canvas.img-sequence {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .swiper-pagination.swiper-pagination-bullets-dynamic.swiper-pagination-bullets.swiper-pagination-horizontal {
