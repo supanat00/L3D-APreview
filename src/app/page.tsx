@@ -1,15 +1,19 @@
+"use client"
 import dynamic from "next/dynamic";
 import Image from 'next/image'
+
+import { useEffect } from "react";
+import { useGSAP } from '@gsap/react';
+
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 
 const Scene = dynamic(() => import('../components/Scene'), {
   ssr: true,
 });
 
 const Video = dynamic(() => import("../components/Video"), {
-  ssr: true,
-});
-
-const Trainers = dynamic(() => import("../components/Trainers"), {
   ssr: true,
 });
 
@@ -33,9 +37,13 @@ const OurProfessional = dynamic(() => import('../components/OurProfessional'), {
   ssr: true,
 });
 
+
+
 export default function Home() {
+
+
   return (
-    <div className="flex flex-col h-full w-full">
+    <div className="flex flex-col h-full w-full" >
       {/* PART BLKGEM VIDEO SHOW*/}
       <div className="flex flex-col items-center">
         {/* BLKGEM LOGO*/}
@@ -101,7 +109,8 @@ export default function Home() {
       </div>
 
       {/* PART BLKGEM ICONIC */}
-      <div className="flex flex-col items-center">
+      <div className="box-c flex flex-col items-center"
+        data-speed="1.5">
         {/* BLKGEM ICONIC */}
         <div className="flex flex-col justify-center items-center w-full mt-28">
           <p className="text-white text-center font-Montserrat font-black text-md md:text-2xl lg:text-3xl">BLKGEM ICONIC</p>
