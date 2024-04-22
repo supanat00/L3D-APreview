@@ -56,13 +56,13 @@ export default function Home() {
     };
 
     return (
-        <div className="relative w-full flex flex-col mt-12 items-center justify-center">
+        <div className="relative w-full flex flex-col mt-12 items-center justify-center overflow-hidden">
             <div className="w-full flex overflow-hidden z-50 item-center justify-center">
                 <canvas className="img-sequence flex w-full" ref={canvasRef} />
                 <Image
                     src={`/images-sequence/${scrolled.toString().padStart(4, '0000')}.png`}
                     layout="fill"
-                    className="img-sequence w-full ml-5"
+                    className="img-sequence w-full ml-5 "
                     priority={true}
                     quality={1}
                     alt="img sequence"
