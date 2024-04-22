@@ -27,13 +27,14 @@ export default function OurProfessional() {
                         depth: 100,
                         modifier: 2.5,
                         slideShadows: true,
+
                     }}
                     slidesPerView={2}
                     spaceBetween={50}
                     centeredSlides={true}
                     freeMode={true}
                     autoplay={{
-                        delay: 4000,
+                        delay: 5000000,
                         disableOnInteraction: false,
                     }}
                     loop={true}
@@ -69,7 +70,7 @@ export default function OurProfessional() {
                     centeredSlides={true}
                     freeMode={true}
                     autoplay={{
-                        delay: 5000,
+                        delay: 5000000,
                         disableOnInteraction: false,
                         reverseDirection: true
                     }}

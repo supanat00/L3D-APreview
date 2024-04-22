@@ -34,7 +34,7 @@ export default function TopScroll() {
                 <div className="fixed w-9 bottom-32 right-3.5 opacity-80 z-50" onClick={scrollToTop}>
                     <Image
                         className="w-full"
-                        src="/logos/top.svg"
+                        src="/logos/top.png"
                         alt={"TOP"}
                         width={450}
                         height={450}

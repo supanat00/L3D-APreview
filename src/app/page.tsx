@@ -2,13 +2,9 @@
 import dynamic from "next/dynamic";
 import Image from 'next/image'
 
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
-import { useGSAP } from '@gsap/react';
-
-gsap.registerPlugin(ScrollTrigger)
 
 const Scene = dynamic(() => import('../components/Scene'), {
   ssr: false,
@@ -39,36 +35,39 @@ const OurProfessional = dynamic(() => import('../components/OurProfessional'), {
   ssr: false,
 });
 
+const Sequence = dynamic(() => import('../components/Sequence'), {
+  ssr: false,
+});
+
 
 
 export default function Home() {
+  gsap.registerPlugin(ScrollTrigger)
+
   const comp = useRef(null)
-  useGSAP(
-    () => {
-      ScrollTrigger.create({
-        trigger: '.box-c',
-        pin: true,
-        start: 'center center',
-        end: '+=300',
-        markers: true,
-      });
-    },
-    {
-      scope: comp,
-    }
+  useEffect(() => {
+    gsap.to(".blkgemlogo", {
+      pin: true,
+      start: 'top top',
+      end: '+=400',
+      markers: true,
+    });
+  },
   );
 
 
   return (
-    <div className="flex flex-col h-full w-full">
+    <div className="flex flex-col h-full w-full" ref={comp}>
       {/* PART BLKGEM VIDEO SHOW*/}
-      <div className="flex flex-col items-center " ref={comp}
+      <div className="flex flex-col items-center "
       >
         {/* BLKGEM LOGO*/}
         <Image
-          className="w-32 mt-20                     
+          className="blkgemlogo
+                     w-32 mt-20                     
                      lg:w-60 lg:mt-36
                      xl:w-60 xl:mt-32"
+          data-speed="0.5"
           src="/logos/blkgem.svg"
           alt={"BLKGEM LOGO"}
           width={450}
@@ -82,8 +81,13 @@ export default function Home() {
           ACADEMY
         </p>
 
+        {/* Sequence Show */}
+        <div className="">
+          <Sequence />
+        </div>
+
         {/* Video Show */}
-        <div className="box-c">
+        <div className="">
           <Video />
         </div>
 
