@@ -53,11 +53,11 @@ export default function Intro() {
                 start: "center center",
                 end: "75% top",
                 endTrigger: sequenceWrap,
-                markers: true,
+                // markers: true,
             },
         });
 
-        sequenceimg.from(sequenceImg, {
+        sequenceimg.to(sequenceImg, {
             opacity: 1,
             stagger: 0.05,
             delay: 0.2,

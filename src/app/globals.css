@@ -60,6 +60,10 @@ body {
   height: auto;
 }
 
+div canvas {
+  height: 40vh;
+}
+
 canvas.img-sequence {
   height: 70vh;
   width: 140vh;
