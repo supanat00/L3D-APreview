@@ -237,7 +237,7 @@ export default function Home() {
 
         {/* STICKER LINE DOWNLOAD */}
         <div className="w-full px-4 mt-8">
-          <a href="https://www.google.com/?gws_rd=ssl" target="_blank" rel="noopener noreferrer" className="block w-full h-full relative bg-white p-2 rounded-xl">
+          <a href="https://store.line.me/stickershop/product/26359583/en" target="_blank" rel="noopener noreferrer" className="block w-full h-full relative bg-white p-2 rounded-xl">
             <div className="relative bg-white w-full p-2 rounded-xl">
               <Image
                 className="absolute w-6 top-2 right-2"
@@ -280,7 +280,7 @@ export default function Home() {
         </div>
 
         {/* APPLICATION DOWNLOAD */}
-        <div className="w-full px-4 mt-8">
+        {/* <div className="w-full px-4 mt-8">
           <div className="bg-white flex flex-col w-full p-2 rounded-xl justify-center items-center">
             <Image
               className="w-40 mt-8"
@@ -292,7 +292,7 @@ export default function Home() {
             />
             <p className="text-center mt-8 mb-1 text-lg md:text-2xl lg:text-3xl font-Montserrat">DOWNLOAD APPLICATION</p>
           </div>
-        </div>
+        </div> */}
 
         {/* SOCIAL */}
         <p className="text-white mt-8 text-center text-md md:text-2xl lg:text-3xl font-Montserrat">BLKGEM.OFFICIAL</p>
