@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 export default function OurPlaces() {
     return (
-        <div className="flex flex-col w-full mt-16 items-center">
+        <div className="flex flex-col w-full mt-24 items-center">
             {/* OUR PLACE */}
             <p className="text-white text-center font-Montserrat font-bold text-sm md:text-2xl lg:text-3xl">OUR PLACE</p>
             {/* BLKGEM PLACE PICTURE */}

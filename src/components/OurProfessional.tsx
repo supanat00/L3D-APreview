@@ -14,7 +14,7 @@ import Image from 'next/image'
 export default function OurProfessional() {
 
     return (
-        <div className="flex flex-col mt-12 items-center">
+        <div className="flex flex-col mt-24 items-center">
             <p className="text-gray-400 text-center font-Montserrat font-medium text-sm md:text-2xl lg:text-3xl">OUR PROFESSIONAL TRAINERS</p>
             {/* PROFESIONAL TRAINERS PICTURE */}
             <div className="w-full flex flex-col overflow-hidden">

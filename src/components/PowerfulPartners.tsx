@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Trainers() {
     return (
         // POWERFUL PARTNERS
-        <div className="flex flex-col w-full mt-10 items-center justify-center">
+        <div className="flex flex-col w-full mt-24 items-center justify-center">
             {/* Header */}
             <p className="text-gray-500 font-Montserrat text-center text-md ">POWERFUL PARTNERS</p>
             {/* Body */}
@@ -211,7 +211,7 @@ export default function Trainers() {
                 </div>
             </div>
 
-            <div className="bg-black flex w-full mt-16 z-20">
+            <div className="bg-black flex w-full mt-8 z-20">
                 <Image
                     className="w-full"
                     src="/logos/model2.png"
@@ -223,7 +223,7 @@ export default function Trainers() {
             </div>
             {/* BE AN ARTIST */}
             <div className="flex  w-full  items-center justify-center">
-                <div className="flex flex-col w-full relative -mt-56">
+                <div className="flex flex-col w-full relative -mt-48">
                     <p className="absolute text-black font-Montserrat font-black text-center top-64 inset-x-0 text-4xl leading-none">BE AN ARTIST <br /> HERE & NOW</p>
                     <Image
                         className="w-full"

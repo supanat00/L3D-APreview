@@ -146,7 +146,7 @@ export default function Home() {
       <div className="flex w-full flex-col mt-8 items-center">
 
         {/* STICKER LINE DOWNLOAD */}
-        <div className="w-full px-4 mt-8">
+        <div className="w-full flex px-4 mt-8 ">
           <a href="https://store.line.me/stickershop/product/26359583/en" target="_blank" rel="noopener noreferrer" className="block w-full h-full relative bg-white p-2 rounded-xl">
             <div className="relative bg-white w-full p-2 rounded-xl">
               <Image
@@ -206,7 +206,7 @@ export default function Home() {
 
         {/* SOCIAL */}
         <p className="text-white mt-8 text-center text-md md:text-2xl lg:text-3xl font-Montserrat">BLKGEM.OFFICIAL</p>
-        <div className="w-full flex justify-center mt-4 px-8">
+        <div className="w-full flex items-center justify-center mt-4 px-8">
           {/* facebook link */}
           <a href="https://www.facebook.com/profile.php?id=61553747535595&sk=about" target="_blank" rel="noopener noreferrer">
             <Image

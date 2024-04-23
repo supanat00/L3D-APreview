@@ -12,7 +12,7 @@ import Image from 'next/image'
 export default function OurProject() {
 
     return (
-        <div className="flex flex-col mt-12 justify-center items-center overflow-hidden">
+        <div className="flex flex-col mt-36 justify-center items-center overflow-hidden">
             {/* OUR PROJECT */}
             <p className="text-white text-center font-Montserrat font-black text-sm md:text-2xl lg:text-3xl">OUR PROJECT</p>
 
@@ -158,7 +158,7 @@ export default function OurProject() {
             <div className="w-full flex flex-col mt-20 px-2 ">
                 {/* Vocal */}
                 <div className="flex border-b border-white justify-between pb-4 pl-2">
-                    <p className="text-white font-Montserrat font-black text-2xl md:text-3xl lg:text-4xl">VOCAL</p>
+                    <p className="text-white font-Montserrat font-bold text-2xl md:text-3xl lg:text-4xl">VOCAL</p>
                     <Image
                         className="w-6"
                         src="/logos/arrow.svg"
@@ -170,7 +170,7 @@ export default function OurProject() {
                 </div>
                 {/* Dance */}
                 <div className="flex border-b mt-5 border-white justify-between pb-4 pl-2">
-                    <p className="text-white font-Montserrat font-black text-2xl md:text-3xl lg:text-4xl">DANCE</p>
+                    <p className="text-white font-Montserrat font-bold text-2xl md:text-3xl lg:text-4xl">DANCE</p>
                     <Image
                         className="w-6"
                         src="/logos/arrow.svg"
@@ -182,7 +182,7 @@ export default function OurProject() {
                 </div>
                 {/* Rap */}
                 <div className="flex border-b mt-5 border-white justify-between pb-4 pl-2">
-                    <p className="text-white font-Montserrat font-black text-2xl md:text-3xl lg:text-4xl">RAP</p>
+                    <p className="text-white font-Montserrat font-bold text-2xl md:text-3xl lg:text-4xl">RAP</p>
                     <Image
                         className="w-6"
                         src="/logos/arrow.svg"
@@ -194,7 +194,7 @@ export default function OurProject() {
                 </div>
                 {/* Performance */}
                 <div className="flex border-b mt-5 border-white justify-between pb-4 pl-2">
-                    <p className="text-white font-Montserrat font-black text-2xl md:text-3xl lg:text-4xl">PERFORMANCE</p>
+                    <p className="text-white font-Montserrat font-bold text-2xl md:text-3xl lg:text-4xl">PERFORMANCE</p>
                     <Image
                         className="w-6"
                         src="/logos/arrow.svg"
