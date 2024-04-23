@@ -8,6 +8,16 @@ const nextConfig = {
     });
     return config;
   },
+  video: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "googleapis.com",
+        port: "",
+        pathname: "/drive/v3/files/**",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
