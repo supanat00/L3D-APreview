@@ -44,7 +44,7 @@ export default function Home() {
     //         document.documentElement.scrollHeight -
     //         document.documentElement.clientHeight;
 
-    //     const scrollLength = Math.ceil(((scrollPx / windowHeightPx) * 400) / 1);
+    //     const scrollLength = Math.ceil(((scrollPx / windowHeightPx) * 100) / 1);
 
     //     setScrolled(scrollLength);
     // };
@@ -57,19 +57,16 @@ export default function Home() {
 
     return (
         <div className="relative w-full flex flex-col mt-12 items-center justify-center overflow-hidden">
-            <div className="w-full flex overflow-hidden z-50 item-center justify-center">
-                <canvas className="img-sequence flex w-full" ref={canvasRef} />
-                <Image
-                    src={`/images-sequence/${count.toString().padStart(4, '0000')}.png`}
-                    width={450}
-                    height={450}
-                    className="img-sequence absolute w-full ml-6 "
-                    priority={true}
-                    quality={1}
-                    alt="img sequence"
-                    sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-                />
-            </div>
+            <canvas className="img-sequence flex w-full" ref={canvasRef} />
+            <Image
+                src={`/images-sequence/${count.toString().padStart(4, '0000')}.png`}
+                width={450}
+                height={450}
+                className="img-sequence absolute z-50"
+                priority={true}
+                quality={1}
+                alt="img sequence"
+            />
         </div>
     );
 }
