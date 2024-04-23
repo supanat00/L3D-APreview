@@ -251,7 +251,5 @@ export default function Trainers() {
                 </div>
             </div> */}
         </div>
-
-
     );
 }

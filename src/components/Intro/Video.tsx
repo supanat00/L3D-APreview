@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import VideoPlayerControls from "./VideoPlayerControls";
-import VideoPlayerMute from "./VideoPlayerMute";
+import VideoPlayerControls from "../VideoPlayerControls";
+import VideoPlayerMute from "../VideoPlayerMute";
 
 export default function Video() {
     const [muted, setMuted] = useState(true); // [muted, setmuted]
