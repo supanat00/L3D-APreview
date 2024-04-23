@@ -236,7 +236,7 @@ export default function Trainers() {
                 </div>
             </div>
 
-            {/* <div className="flex flex-col w-full  items-center justify-center mt-10">
+            <div className="flex flex-col w-full  items-center justify-center mt-10">
                 <p className="text-white text-center text-sm font-Montserrat">VISIT OUR WEBSITE</p>
                 <div className="flex w-full items-center justify-center">
                     <a
@@ -249,7 +249,7 @@ export default function Trainers() {
                         >BLKGEMOFFICIAL.COM</button>
                     </a>
                 </div>
-            </div> */}
+            </div>
         </div>
     );
 }

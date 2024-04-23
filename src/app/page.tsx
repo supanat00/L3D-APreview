@@ -207,46 +207,62 @@ export default function Home() {
         {/* SOCIAL */}
         <p className="text-white mt-8 text-center text-md md:text-2xl lg:text-3xl font-Montserrat">BLKGEM.OFFICIAL</p>
         <div className="w-full flex justify-center mt-4 px-8">
-          <Image
-            className="w-4 mx-4"
-            src="/logos/facebook.svg"
-            alt={"FACEBOOK"}
-            width={450}
-            height={450}
-            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-          />
-          <Image
-            className="w-6 mx-4"
-            src="/logos/x.svg"
-            alt={"X"}
-            width={450}
-            height={450}
-            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-          />
-          <Image
-            className="w-6 mx-4"
-            src="/logos/ig.svg"
-            alt={"IG"}
-            width={450}
-            height={450}
-            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-          />
-          <Image
-            className="w-6 mx-4"
-            src="/logos/youtube.svg"
-            alt={"YOUTUBE"}
-            width={450}
-            height={450}
-            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-          />
-          <Image
-            className="w-6 mx-4"
-            src="/logos/line.svg"
-            alt={"LINE"}
-            width={450}
-            height={450}
-            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-          />
+          {/* facebook link */}
+          <a href="https://www.facebook.com/profile.php?id=61553747535595&sk=about" target="_blank" rel="noopener noreferrer">
+            <Image
+              className="w-4 mx-4"
+              src="/logos/facebook.svg"
+              alt={"FACEBOOK"}
+              width={450}
+              height={450}
+              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            />
+          </a>
+          {/* x link */}
+          <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fblkgem_official" target="_blank" rel="noopener noreferrer">
+            <Image
+              className="w-6 mx-4"
+              src="/logos/x.svg"
+              alt={"X"}
+              width={450}
+              height={450}
+              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            />
+          </a>
+          {/* IG link */}
+          <a href="https://www.instagram.com/blkgem.official/" target="_blank" rel="noopener noreferrer">
+            <Image
+              className="w-6 mx-4"
+              src="/logos/ig.svg"
+              alt={"IG"}
+              width={450}
+              height={450}
+              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            />
+          </a>
+          {/* youtube link */}
+          <a href="https://www.youtube.com/channel/UCncNDrI7clpITa7PZYLQM6w" target="_blank" rel="noopener noreferrer">
+            <Image
+              className="w-6 mx-4"
+              src="/logos/youtube.svg"
+              alt={"YOUTUBE"}
+              width={450}
+              height={450}
+              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            />
+          </a>
+          {/* line */}
+          <a href="https://line.me/R/ti/p/@138uiegy?ts=04232241&oat_content=url" target="_blank" rel="noopener noreferrer">
+            <Image
+              className="w-6 mx-4"
+              src="/logos/line.svg"
+              alt={"LINE"}
+              width={450}
+              height={450}
+              sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+            />
+          </a>
+
 
         </div>
         {/* Texts */}
