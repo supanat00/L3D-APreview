@@ -1,3 +1,4 @@
+"use client"
 import dynamic from "next/dynamic";
 import Image from 'next/image'
 
@@ -35,12 +36,12 @@ const OurProfessional = dynamic(() => import('../components/OurProfessional'), {
 
 export default function Home() {
   return (
-    <div className="flex flex-col h-full w-full" >
+    <div className="flex flex-col w-full" >
       {/* PART INTRO */}
       <Intro />
 
       {/* PART BLKGEM ICONIC */}
-      <div className="box-c flex flex-col items-center">
+      <div className="flex flex-col items-center">
         {/* BLKGEM ICONIC */}
         <div className="flex flex-col justify-center items-center w-full mt-28">
           <p className="text-white text-center font-Montserrat font-black text-md md:text-2xl lg:text-3xl">BLKGEM ICONIC</p>

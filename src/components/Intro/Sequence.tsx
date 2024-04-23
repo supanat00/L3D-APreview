@@ -18,7 +18,7 @@ export default function Home() {
         if (count < 400) {
             setTimeout(() => {
                 setCount(count + 1);
-            }, 25);
+            }, 30);
         } else {
             setCount(1);
         }
@@ -56,7 +56,7 @@ export default function Home() {
     };
 
     return (
-        <div className="relative w-full flex flex-col mt-12 items-center justify-center overflow-hidden">
+        <>
             <canvas className="img-sequence flex w-full" ref={canvasRef} />
             <Image
                 src={`/images-sequence/${count.toString().padStart(4, '0000')}.png`}
@@ -66,7 +66,8 @@ export default function Home() {
                 priority={true}
                 quality={1}
                 alt="img sequence"
+                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
             />
-        </div>
+        </>
     );
 }
