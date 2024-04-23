@@ -57,7 +57,7 @@ export default function OurProject() {
                                 <p className="text-white font-medium font-Montserrat text-xs ">• SINGING WITH IDOL ARTIST</p>
                                 <p className="text-white font-medium font-Montserrat text-xs ">• SHOWCASE</p>
                                 <p className="text-white font-medium font-Montserrat text-xs ">• SUMMER FOR NATIONAL AND INTERNATIONAL</p>
-                            </div>                            
+                            </div>
 
                         </div>
 
@@ -87,7 +87,7 @@ export default function OurProject() {
                                 <p className="text-white font-medium font-Montserrat text-xs mt-6">• WORKSHOP WITH 9 POWERFUL MENTORS</p>
                                 <p className="text-white font-medium font-Montserrat text-xs ">• ARTIST TRAINING PROGRAM IN 6 MONTHS</p>
                                 <p className="text-white font-medium font-Montserrat text-xs mb-3">• THE FINAL CONCERT</p>
-                            </div>                          
+                            </div>
 
                         </div>
 
@@ -117,8 +117,8 @@ export default function OurProject() {
                                 <p className="text-white font-medium font-Montserrat text-xs ">• INDIVIDUAL PICTURE & VDO PROFILE</p>
                                 <p className="text-white font-medium font-Montserrat text-xs ">• PROFESSIONAL TRAINING TEAM</p>
                                 <p className="text-white font-medium font-Montserrat text-xs ">• EXCLUSIVE MUSIC TRACK</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mb-3">• PROFILE SHARING WITHIN LABELS UNDER GMM MUSIC</p>
-                            </div>                            
+                                <p className="text-white font-medium font-Montserrat text-xs mb-4">• PROFILE SHARING WITHIN LABELS UNDER GMM MUSIC</p>
+                            </div>
 
                         </div>
 
@@ -144,9 +144,9 @@ export default function OurProject() {
                         <div className="w-full flex flex-col mt-16 items-center">
                             <div className="w-full px-16">
                                 <p className="text-white font-Montserrat text-center text-xs ">PROJECT HIGHLIGHT :</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mt-8 mb-3">• FULL PRODUCTION WITH PROFESSIONAL TEAM
+                                <p className="text-white font-medium font-Montserrat text-xs mt-8 mb-5">• FULL PRODUCTION WITH PROFESSIONAL TEAM
                                     <br />THAI - INTERNATIONAL CONCERT</p>
-                            </div>                            
+                            </div>
 
                         </div>
 

@@ -14,27 +14,27 @@ const Video = dynamic(() => import("../components/Video"), {
 });
 
 const OurPlaces = dynamic(() => import("../components/OurPlaces"), {
-  ssr: false,
+  ssr: true,
 });
 
 const PowerfulPartners = dynamic(() => import("../components/PowerfulPartners"), {
-  ssr: false,
+  ssr: true,
 });
 
 const TopScroll = dynamic(() => import('../components/TopScroll'), {
-  ssr: false,
+  ssr: true,
 });
 
 const OurProject = dynamic(() => import('../components/OurProject'), {
-  ssr: false,
+  ssr: true,
 });
 
 const OurProfessional = dynamic(() => import('../components/OurProfessional'), {
-  ssr: false,
+  ssr: true,
 });
 
 const Sequence = dynamic(() => import('../components/Sequence'), {
-  ssr: false,
+  ssr: true,
 });
 
 
@@ -69,6 +69,7 @@ export default function Home() {
                      xl:w-60 xl:mt-32"
           src="/logos/blkgem.svg"
           alt={"BLKGEM LOGO"}
+          priority={true}
           width={450}
           height={450}
           sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
