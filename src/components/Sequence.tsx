@@ -8,11 +8,11 @@ export default function Home() {
     const canvasRef = useRef<HTMLCanvasElement | null>(null);
     const contextRef = useRef<CanvasRenderingContext2D | null>(null);
 
-    useEffect(() => {
-        window.addEventListener('scroll', scrollProgress);
+    // useEffect(() => {
+    //     window.addEventListener('scroll', scrollProgress);
 
-        return () => window.removeEventListener('scroll', scrollProgress);
-    }, []);
+    //     return () => window.removeEventListener('scroll', scrollProgress);
+    // }, []);
 
     useEffect(() => {
         if (count < 400) {
@@ -38,16 +38,16 @@ export default function Home() {
         };
     }, []);
 
-    const scrollProgress = () => {
-        const scrollPx = document.documentElement.scrollTop;
-        const windowHeightPx =
-            document.documentElement.scrollHeight -
-            document.documentElement.clientHeight;
+    // const scrollProgress = () => {
+    //     const scrollPx = document.documentElement.scrollTop;
+    //     const windowHeightPx =
+    //         document.documentElement.scrollHeight -
+    //         document.documentElement.clientHeight;
 
-        const scrollLength = Math.ceil(((scrollPx / windowHeightPx) * 400) / 1);
+    //     const scrollLength = Math.ceil(((scrollPx / windowHeightPx) * 400) / 1);
 
-        setScrolled(scrollLength);
-    };
+    //     setScrolled(scrollLength);
+    // };
 
     const renderCanvas = () => {
         const canvas = canvasRef.current;
