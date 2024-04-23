@@ -9,10 +9,16 @@ export default function Home() {
     const contextRef = useRef<CanvasRenderingContext2D | null>(null);
 
     useEffect(() => {
+        window.addEventListener('scroll', scrollProgress);
+
+        return () => window.removeEventListener('scroll', scrollProgress);
+    }, []);
+
+    useEffect(() => {
         if (count < 400) {
             setTimeout(() => {
                 setCount(count + 1);
-            }, 10);
+            }, 25);
         } else {
             setCount(1);
         }
@@ -31,6 +37,17 @@ export default function Home() {
             context.clearRect(0, 0, canvas.width, canvas.height);
         };
     }, []);
+
+    const scrollProgress = () => {
+        const scrollPx = document.documentElement.scrollTop;
+        const windowHeightPx =
+            document.documentElement.scrollHeight -
+            document.documentElement.clientHeight;
+
+        const scrollLength = Math.ceil(((scrollPx / windowHeightPx) * 400) / 1);
+
+        setScrolled(scrollLength);
+    };
 
     const renderCanvas = () => {
         const canvas = canvasRef.current;
