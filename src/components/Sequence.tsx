@@ -61,8 +61,8 @@ export default function Home() {
                 <canvas className="img-sequence flex w-full" ref={canvasRef} />
                 <Image
                     src={`/images-sequence/${scrolled.toString().padStart(4, '0000')}.png`}
-                    width={450}
-                    height={450}
+                    width={800}
+                    height={800}
                     className="img-sequence absolute w-full ml-6 "
                     priority={true}
                     quality={1}
