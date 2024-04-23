@@ -3,6 +3,8 @@ import { useEffect, useRef, useState } from "react";
 import VideoPlayerControls from "./VideoPlayerControls";
 import VideoPlayerMute from "./VideoPlayerMute";
 
+const apiKey = process.env.GOOGLEDRIVE_API_KEY;
+
 export default function Video() {
     const [muted, setMuted] = useState(true); // [muted, setmuted]
     const [isPaused, setIsPaused] = useState(false);
@@ -10,7 +12,6 @@ export default function Video() {
     const [videoDuration, setVideoDuration] = useState<number>();
     const [videoProgress, setVideoProgress] = useState<number>(0);
 
-    const VideoBlk = "https://www.googleapis.com/drive/v3/files/1YMmKoB83KBgQ8DALtU8Gri3w_UYPDRPo?alt=media&key=AIzaSyAQ6XPMWeP-Gbr3eplkd-ow8nr2n13qmYg&v=.mp4"
 
     useEffect(() => {
         const video = videoRef.current;
@@ -69,7 +70,7 @@ export default function Video() {
                 />
             </div>
             <video className="w-full lg:rounded-xl" ref={videoRef} loop muted autoPlay>
-                <source src={VideoBlk} />
+                <source src={`https://www.googleapis.com/drive/v3/files/1YMmKoB83KBgQ8DALtU8Gri3w_UYPDRPo?alt=media&key=${apiKey}&v=.mp4`} />
             </video>
         </div>
 
