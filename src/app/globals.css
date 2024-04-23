@@ -61,12 +61,12 @@ body {
 }
 
 canvas.img-sequence {
-  height: 60vh;
-  width: auto;
+  height: 70vh;
+  width: 140vh;
 }
 
 img.img-sequence {
-  margin-left: 16px;
+  margin-right: 26px;
   height: 60vh;
   width: auto;
 }
