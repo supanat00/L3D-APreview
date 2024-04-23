@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Home() {
     const [count, setCount] = useState(0);
-    const [scrolled, setScrolled] = useState(0);
+    // const [scrolled, setScrolled] = useState(0);
     const canvasRef = useRef<HTMLCanvasElement | null>(null);
     const contextRef = useRef<CanvasRenderingContext2D | null>(null);
 
