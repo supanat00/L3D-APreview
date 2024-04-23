@@ -51,24 +51,25 @@ export default function Intro() {
                 pinSpacing: false,
                 trigger: sequenceImg,
                 start: "center center",
-                endTrigger: ".sequence-wrap",
+                end: "75% top",
+                endTrigger: sequenceWrap,
                 markers: true,
             },
         });
 
-        gsap.to(blkLogo, {
-            y: 0,
+        sequenceimg.from(sequenceImg, {
+            opacity: 1,
             stagger: 0.05,
             delay: 0.2,
-            duration: 0.5,
-
+            duration: 1,
+            ease: "bounce.out"
         })
     })
 
     return (
         <div className="intro-div flex flex-col w-full h-full items-center">
             {/* wrap-1 */}
-            <div className="sequence-wrap flex flex-col w-full h-full items-center justify-center">
+            <div className="sequence-wrap relative flex flex-col w-full h-full items-center justify-center">
 
                 {/* Sequence Show */}
                 <div className="sequenceimg relative w-full flex flex-col items-center justify-center overflow-hidden z-50"
@@ -79,9 +80,8 @@ export default function Intro() {
                 {/* BLKGEM LOGO*/}
                 <Image
                     className="blkgemlogo
-                     w-32 mt-72                    
-                     lg:w-60 lg:mt-36
-                     xl:w-60 xl:mt-32 z-10"
+                    relative
+                     w-32 z-10 mt-42"
                     src="/logos/blkgem.svg"
                     alt={"BLKGEM LOGO"}
                     priority={true}
@@ -102,7 +102,7 @@ export default function Intro() {
             </div>
 
             {/* wrap-1 */}
-            <div className="video-wrap flex flex-col w-full h-full items-center justify-center">
+            <div className="video-wrap flex flex-col w-full h-full items-center justify-center mt-96">
 
                 {/* Video Show */}
                 <Video />
