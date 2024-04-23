@@ -18,7 +18,7 @@ export default function Home() {
         if (count < 90) {
             setTimeout(() => {
                 setCount(count + 1);
-            }, 50);
+            }, 5);
         } else {
             setCount(1);
         }
@@ -44,7 +44,7 @@ export default function Home() {
             document.documentElement.scrollHeight -
             document.documentElement.clientHeight;
 
-        const scrollLength = Math.ceil(((scrollPx / windowHeightPx) * 90) / 1);
+        const scrollLength = Math.ceil(((scrollPx / windowHeightPx) * 180) / 1);
 
         setScrolled(scrollLength);
     };
@@ -60,9 +60,9 @@ export default function Home() {
             <div className="w-full flex overflow-hidden z-50 item-center justify-center">
                 <canvas className="img-sequence flex w-full" ref={canvasRef} />
                 <Image
-                    src={`/images-sequence/${scrolled.toString().padStart(4, '0000')}.png`}
-                    width={800}
-                    height={800}
+                    src={`/images-sequence/${count.toString().padStart(4, '0000')}.png`}
+                    width={450}
+                    height={450}
                     className="img-sequence absolute w-full ml-6 "
                     priority={true}
                     quality={1}
