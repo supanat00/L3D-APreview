@@ -15,7 +15,7 @@ export default function Home() {
     }, []);
 
     useEffect(() => {
-        if (count < 90) {
+        if (count < 200) {
             setTimeout(() => {
                 setCount(count + 1);
             }, 5);
@@ -44,7 +44,7 @@ export default function Home() {
             document.documentElement.scrollHeight -
             document.documentElement.clientHeight;
 
-        const scrollLength = Math.ceil(((scrollPx / windowHeightPx) * 180) / 1);
+        const scrollLength = Math.ceil(((scrollPx / windowHeightPx) * 400) / 1);
 
         setScrolled(scrollLength);
     };

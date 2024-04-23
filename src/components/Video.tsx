@@ -67,7 +67,7 @@ export default function Video() {
                 />
             </div>
             <video className="w-full lg:rounded-xl" ref={videoRef} loop muted autoPlay playsInline>
-                <source src="/video/G-Junior.mp4" />
+                <source src="/video/G-Junior2.mp4" />
             </video>
         </div>
 

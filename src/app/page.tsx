@@ -249,7 +249,7 @@ export default function Home() {
               />
               <div className="flex justify-center mt-16 mb-14">
                 <Image
-                  className="w-24"
+                  className="w-28"
                   src="/sticker/BBGG-01.png"
                   alt={"sticker1"}
                   width={450}
@@ -257,7 +257,7 @@ export default function Home() {
                   sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
                 />
                 <Image
-                  className="w-24"
+                  className="w-28"
                   src="/sticker/BBGG-10.png"
                   alt={"sticker3"}
                   width={450}
@@ -265,7 +265,7 @@ export default function Home() {
                   sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
                 />
                 <Image
-                  className="w-24"
+                  className="w-28"
                   src="/sticker/BBGG-16.png"
                   alt={"sticker2"}
                   width={450}
@@ -273,7 +273,7 @@ export default function Home() {
                   sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
                 />
               </div>
-              <p className="text-center mt-8 mb-1 text-lg md:text-2xl lg:text-3xl font-Montserrat">DOWNLOAD STICKER LINE</p>
+              <p className="text-center mt-6 mb-1 text-lg md:text-2xl lg:text-3xl font-Montserrat">DOWNLOAD STICKER LINE</p>
             </div>
           </a>
 
