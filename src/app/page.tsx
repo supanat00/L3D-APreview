@@ -23,7 +23,7 @@ const TopScroll = dynamic(() => import('../components/TopScroll'), {
 });
 
 const OurProject = dynamic(() => import('../components/OurProject'), {
-  ssr: true,
+  ssr: false,
 });
 
 const OurProfessional = dynamic(() => import('../components/OurProfessional'), {
