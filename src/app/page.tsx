@@ -44,18 +44,17 @@ export default function Home() {
         {/* BLKGEM ICONIC */}
         <div className="flex flex-col justify-center items-center w-full mt-28">
           <p className="text-white text-center font-Montserrat font-black text-md md:text-2xl lg:text-3xl">BLKGEM ICONIC</p>
-          <Scene />
+          {/* <Scene /> */}
 
-          {/* <Image
-            className="w-2/3"
-            src="/logos/model.png"
+          <Image
+            className="w-full mt-16"
+            src="/logos/model3.png"
             alt={"Model"}
             width={450}
             height={450}
             sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-          /> */}
-          <div className="flex items-center justify-center mt-6">
-            {/* bb logo */}
+          />
+          {/* <div className="flex items-center justify-center mt-6">            
             <Image
               className="w-28 mx-6 md:w-40 lg:w-48 xl:w-64 2xl:w-80 "
               src="/logos/bb.svg"
@@ -72,7 +71,7 @@ export default function Home() {
               height={450}
               sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
             />
-          </div>
+          </div> */}
         </div>
       </div>
 
