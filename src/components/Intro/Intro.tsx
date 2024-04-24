@@ -85,7 +85,7 @@ export default function Intro() {
 
                 {/* BLKGEM LOGO*/}
                 <Image
-                    className="blkgemlogo -mt-48
+                    className="blkgemlogo -mt-80
                         w-32 "
                     src="/logos/blkgem.svg"
                     alt={"BLKGEM LOGO"}
