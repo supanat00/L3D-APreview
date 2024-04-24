@@ -1,9 +1,10 @@
+'use client'
 import dynamic from "next/dynamic";
 import Image from 'next/image'
 
-// import { useRef, useLayoutEffect, useEffect } from "react";
-// import gsap from 'gsap';
-// import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useRef, useLayoutEffect, useEffect } from "react";
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 
 const Video = dynamic(() => import("./Video"), {
@@ -14,7 +15,7 @@ const Video = dynamic(() => import("./Video"), {
 //     ssr: true,
 // });
 
-// gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger)
 
 export default function Intro() {
 
@@ -37,14 +38,25 @@ export default function Intro() {
 
 
 
-    // useEffect(() => {
-    //     const introDiv = document.querySelectorAll(".intro-div")
-    //     const sequenceImg = document.querySelectorAll(".sequenceimg")
-    //     const blkLogo = document.querySelectorAll(".blkgemlogo")
-    //     const sequenceWrap = document.querySelectorAll(".sequence-wrap")
+    useEffect(() => {
+        const introDiv = document.querySelectorAll(".intro-div")
+        const sequenceImg = document.querySelectorAll(".sequenceimg")
+        const blkLogo = document.querySelectorAll(".blkgemlogo")
+        const sequenceWrap = document.querySelectorAll(".sequence-wrap")
 
+        const sequenceimg = gsap.timeline({
+            scrollTrigger: {
+                pin: true,
+                pinSpacing: false,
+                trigger: sequenceImg,
+                start: "0% 20%",
+                end: "150% 70%",
+                endTrigger: sequenceWrap,
+                // markers: true,
+            },
+        });
 
-    // })
+    })
 
     return (
         <div className="flex flex-col w-full h-full items-center justify-center">
@@ -56,26 +68,46 @@ export default function Intro() {
                     <Sequence />
                 </div> */}
 
-            {/* BLKGEM LOGO*/}
-            <Image
-                className="blkgemlogo                    
-                     w-32 z-10"
-                src="/logos/blkgem.svg"
-                alt={"BLKGEM LOGO"}
-                priority={true}
-                width={450}
-                height={450}
-                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-            />
-            {/* TITLE */}
-            <p className="text-primary text-center font-Montserrat leading-none font-black mt-16 px-8 md:px-20 lg:px-40 text-3xl md:text-5xl lg:text-6xl"
-            >THE ART OF
-                ENTERTAINMENT
-                ACADEMY
-            </p>
+            <div className="sequence-wrap relative w-full flex flex-col items-center justify-center overflow-hidden z-50"
+            >
+                <div className="sequenceimg  relative flex w-full h-full items-center justify-center ">
+                    {/* BG */}
+                    <Image
+                        className="absoslute w-full "
+                        src="/logos/model4.png"
+                        alt={"BLKGEM LOGO"}
+                        priority={true}
+                        width={450}
+                        height={450}
+                        sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                    />
+                </div>
 
-            {/* wrap-1 */}
-            <div className="video-wrap flex flex-col w-full h-full items-center justify-center">
+                {/* BLKGEM LOGO*/}
+                <Image
+                    className="blkgemlogo                    
+                        w-32 "
+                    src="/logos/blkgem.svg"
+                    alt={"BLKGEM LOGO"}
+                    priority={true}
+                    width={450}
+                    height={450}
+                    sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                />
+                {/* TITLE */}
+                <p className="text-primary text-center font-Montserrat leading-none font-black mt-48 px-8 md:px-20 lg:px-40 text-3xl md:text-5xl lg:text-6xl"
+                >THE ART OF
+                    ENTERTAINMENT
+                    ACADEMY
+                </p>
+
+            </div>
+
+
+
+
+            {/* wrap-2 */}
+            <div className="video-wrap flex flex-col w-full h-full items-center justify-center mt-20">
 
                 {/* Video Show */}
                 <Video />

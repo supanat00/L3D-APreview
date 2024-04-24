@@ -52,7 +52,7 @@ export default function Video() {
         }
     }
     return (
-        <div className="relative mt-20 w-full lg:rounded-xl lg:w-[70%]">
+        <div className="relative mt-56 w-full lg:rounded-xl lg:w-[70%] z-50">
             {/* <div className="absolute top-2 right-12 z-10">
                 <VideoPlayerControls
                     progress={videoProgress}
@@ -66,7 +66,7 @@ export default function Video() {
                     onPlayerMuted={toggleMute}
                 />
             </div>
-            <video className="w-full lg:rounded-xl" ref={videoRef} loop muted autoPlay playsInline>
+            <video className="w-full lg:rounded-xl z-50" ref={videoRef} loop muted autoPlay playsInline>
                 <source src="/video/G-Junior2.mp4" />
             </video>
         </div>
