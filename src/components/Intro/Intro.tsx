@@ -50,7 +50,7 @@ export default function Intro() {
                 pinSpacing: false,
                 trigger: sequenceImg,
                 start: "0% 20%",
-                end: "180% 70%",
+                end: "210% 70%",
                 endTrigger: sequenceWrap,
                 // markers: true,
             },
@@ -107,7 +107,7 @@ export default function Intro() {
 
 
             {/* wrap-2 */}
-            <div className="video-wrap flex flex-col w-full h-full items-center justify-center mt-20">
+            <div className="video-wrap flex flex-col w-full h-full items-center justify-center mt-20 z-50">
 
                 {/* Video Show */}
                 <Video />
