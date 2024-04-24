@@ -60,19 +60,16 @@ body {
   height: auto;
 }
 
-div canvas {
-  height: 40vh;
-}
-
 canvas.img-sequence {
-  height: 70vh;
-  width: 140vh;
+  margin-right: 8px;
+  height: 40vh;
+  width: auto;
 }
 
 img.img-sequence {
-  margin-right: 26px;
-  height: 60vh;
+  height: 40vh;
   width: auto;
+  max-width: none;
 }
 
 .swiper-pagination.swiper-pagination-bullets-dynamic.swiper-pagination-bullets.swiper-pagination-horizontal {

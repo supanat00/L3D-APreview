@@ -1,4 +1,3 @@
-"use client"
 import dynamic from "next/dynamic";
 import Image from 'next/image'
 
@@ -36,7 +35,7 @@ const OurProfessional = dynamic(() => import('../components/OurProfessional'), {
 
 export default function Home() {
   return (
-    <div className="flex flex-col w-full" >
+    <div className="flex flex-col w-full mt-16" >
       {/* PART INTRO */}
       <Intro />
 
@@ -158,30 +157,38 @@ export default function Home() {
                 sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
               />
               <div className="flex justify-center mt-16 mb-14">
-                <Image
-                  className="w-28"
-                  src="/sticker/BBGG-01.png"
-                  alt={"sticker1"}
-                  width={450}
-                  height={450}
-                  sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-                />
-                <Image
-                  className="w-28"
-                  src="/sticker/BBGG-10.png"
-                  alt={"sticker3"}
-                  width={450}
-                  height={450}
-                  sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-                />
-                <Image
-                  className="w-28"
-                  src="/sticker/BBGG-16.png"
-                  alt={"sticker2"}
-                  width={450}
-                  height={450}
-                  sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-                />
+                <div className="w-1/3">
+                  <Image
+                    className="w-full"
+                    src="/sticker/BBGG-01.png"
+                    alt={"sticker1"}
+                    width={450}
+                    height={450}
+                    sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                  />
+                </div>
+
+                <div className="w-1/3">
+                  <Image
+                    className="w-full"
+                    src="/sticker/BBGG-10.png"
+                    alt={"sticker3"}
+                    width={450}
+                    height={450}
+                    sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                  />
+                </div>
+                <div className="w-1/3">
+                  <Image
+                    className="w-full"
+                    src="/sticker/BBGG-16.png"
+                    alt={"sticker2"}
+                    width={450}
+                    height={450}
+                    sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                  />
+                </div>
+
               </div>
               <p className="text-center mt-6 mb-1 text-lg md:text-2xl lg:text-3xl font-Montserrat">DOWNLOAD STICKER LINE</p>
             </div>

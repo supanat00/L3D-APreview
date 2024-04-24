@@ -1,59 +1,59 @@
 export const imagesour = [
     {
         id: 1,
-        src: "/place/Asset1.png",
+        src: "/place2/Asset1.png",
     },
     {
         id: 2,
-        src: "/place/Asset2.png",
+        src: "/place2/Asset2.png",
     },
     {
         id: 3,
-        src: "/place/Asset3.png",
+        src: "/place2/Asset3.png",
     },
     {
         id: 4,
-        src: "/place/Asset4.png",
+        src: "/place2/Asset4.png",
     },
     {
         id: 5,
-        src: "/place/Asset5.png",
+        src: "/place2/Asset5.png",
     },
     {
         id: 6,
-        src: "/place/Asset6.png",
+        src: "/place2/Asset6.png",
     },
     {
         id: 7,
-        src: "/place/Asset7.png",
+        src: "/place2/Asset7.png",
     },
     {
         id: 8,
-        src: "/place/Asset8.png",
+        src: "/place2/Asset8.png",
     },
     {
         id: 9,
-        src: "/place/Asset9.png",
+        src: "/place2/Asset9.png",
     },
     {
         id: 10,
-        src: "/place/Asset10.png",
+        src: "/place2/Asset10.png",
     },
     {
         id: 11,
-        src: "/place/Asset11.png",
+        src: "/place2/Asset11.png",
     },
     {
         id: 12,
-        src: "/place/Asset12.png",
+        src: "/place2/Asset12.png",
     },
     {
         id: 13,
-        src: "/place/Asset13.png",
+        src: "/place2/Asset13.png",
     },
     {
         id: 14,
-        src: "/place/Asset14.png",
+        src: "/place2/Asset14.png",
     },
 ]
 export const imagevocal = [

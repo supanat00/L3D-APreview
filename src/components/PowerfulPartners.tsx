@@ -223,11 +223,10 @@ export default function Trainers() {
             </div>
             {/* BE AN ARTIST */}
             <div className="flex  w-full  items-center justify-center">
-                <div className="flex flex-col w-full relative -mt-48">
-                    <p className="absolute text-black font-Montserrat font-black text-center top-64 inset-x-0 text-4xl leading-none">BE AN ARTIST <br /> HERE & NOW</p>
+                <div className="flex flex-col w-full relative ">
                     <Image
                         className="w-full"
-                        src="/logos/be-an.png"
+                        src="/logos/be-an2.jpg"
                         alt={"BE-AN"}
                         width={1920}
                         height={1080}
