@@ -74,7 +74,7 @@ export default function Intro() {
                     {/* BG */}
                     <Image
                         className="absoslute w-full "
-                        src="/logos/model4.png"
+                        src="/logos/1713979815109.png"
                         alt={"BLKGEM LOGO"}
                         priority={true}
                         width={450}
