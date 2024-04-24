@@ -50,7 +50,7 @@ export default function Intro() {
                 pinSpacing: false,
                 trigger: sequenceImg,
                 start: "0% 20%",
-                end: "150% 70%",
+                end: "160% 70%",
                 endTrigger: sequenceWrap,
                 // markers: true,
             },
