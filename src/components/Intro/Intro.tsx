@@ -49,8 +49,8 @@ export default function Intro() {
                 pin: true,
                 pinSpacing: false,
                 trigger: sequenceImg,
-                start: "20% 20%",
-                end: "130% 70%",
+                start: "0% 20%",
+                end: "150% 70%",
                 endTrigger: sequenceWrap,
                 // markers: true,
             },
@@ -70,7 +70,7 @@ export default function Intro() {
 
             <div className="sequence-wrap relative w-full flex flex-col items-center justify-center overflow-hidden z-50"
             >
-                <div className="sequenceimg  relative flex w-full h-full items-center justify-center ">
+                <div className="sequenceimg  relative flex w-full h-full items-center justify-center">
                     {/* BG */}
                     <Image
                         className="absoslute w-full "
@@ -85,7 +85,7 @@ export default function Intro() {
 
                 {/* BLKGEM LOGO*/}
                 <Image
-                    className="blkgemlogo                    
+                    className="blkgemlogo -mt-48
                         w-32 "
                     src="/logos/blkgem.svg"
                     alt={"BLKGEM LOGO"}
