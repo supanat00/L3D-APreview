@@ -32,9 +32,9 @@ export default function OurProfessional() {
                     slidesPerView={2}
                     spaceBetween={50}
                     centeredSlides={true}
-                    freeMode={true}
+                    freeMode={false}
                     autoplay={{
-                        delay: 5000000,
+                        delay: 3000,
                         disableOnInteraction: false,
                     }}
                     loop={true}
@@ -68,9 +68,9 @@ export default function OurProfessional() {
                     slidesPerView={2}
                     spaceBetween={50}
                     centeredSlides={true}
-                    freeMode={true}
+                    freeMode={false}
                     autoplay={{
-                        delay: 5000000,
+                        delay: 3000,
                         disableOnInteraction: false,
                         reverseDirection: true
                     }}

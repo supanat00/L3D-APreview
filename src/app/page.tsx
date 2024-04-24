@@ -1,4 +1,3 @@
-"use client"
 import dynamic from "next/dynamic";
 import Image from 'next/image'
 
@@ -24,7 +23,7 @@ const TopScroll = dynamic(() => import('../components/TopScroll'), {
 });
 
 const OurProject = dynamic(() => import('../components/OurProject'), {
-  ssr: true,
+  ssr: false,
 });
 
 const OurProfessional = dynamic(() => import('../components/OurProfessional'), {
