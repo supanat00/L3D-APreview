@@ -48,7 +48,7 @@ export default function OurPlaces() {
 
                 </Swiper>
             </div>
-            <p className="text-gray-400 mt-10 text-center text-md font-Montserrat md:text-2xl lg:text-3xl">- M THEATRE FLOOR 2-3 </br>- GMM BUILDING FLOOR 22 - 23</p>
+            <p className="text-gray-400 mt-10 text-center text-md font-Montserrat md:text-2xl lg:text-3xl">- M THEATRE FLOOR 2-3 <br />- GMM BUILDING FLOOR 22 - 23</p>
         </div>
 
 
