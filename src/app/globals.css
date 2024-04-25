@@ -84,11 +84,11 @@ img.img-sequence {
 span.swiper-pagination-bullet-active {
   opacity: var(--swiper-pagination-bullet-opacity, 1);
   background: white;
-  z-index: auto;
+  z-index: 1000;
 }
 
 span.swiper-pagination-bullet {
   border-color: white;
   border-width: 1px;
-  z-index: auto;
+  z-index: 1000;
 }
