@@ -58,10 +58,14 @@ export default function Intro() {
             },
         });
 
-        sequenceimg.to(sequenceImg, {
-            y: 100,
-            opacity: 0,
-        })
+        // sequenceimg.to(sequenceImg, {
+        //     y: 0,
+        //     opacity: 1,
+        // })
+        //     .to(sequenceImg, {
+        //         y: 100,
+        //         opacity: 0,
+        //     })
 
     })
 
