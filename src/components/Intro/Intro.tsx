@@ -43,6 +43,8 @@ export default function Intro() {
         const sequenceImg = document.querySelectorAll(".sequenceimg")
         const blkLogo = document.querySelectorAll(".blkgemlogo")
         const sequenceWrap = document.querySelectorAll(".sequence-wrap")
+        const videoWrap = document.querySelectorAll(".video-wrap")
+
 
         const sequenceimg = gsap.timeline({
             scrollTrigger: {
@@ -54,23 +56,12 @@ export default function Intro() {
                 endTrigger: sequenceWrap,
                 // markers: true,
             },
-        }
+        });
 
-        );
-
-
-        // sequenceimg.to(sequenceImg, {
-        //     opacity: 1,
-        //     duration: 3,
-        //     scrollTrigger: {
-        //         pin: true,
-        //         pinSpacing: false,
-        //         trigger: sequenceImg,
-        //         endTrigger: sequenceWrap,
-        //         // markers: true,
-        //     },
-        // })
-
+        sequenceimg.to(sequenceImg, {
+            y: 100,
+            opacity: 0,
+        })
 
     })
 
