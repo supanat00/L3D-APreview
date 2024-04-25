@@ -50,11 +50,27 @@ export default function Intro() {
                 pinSpacing: false,
                 trigger: sequenceImg,
                 start: "0% 20%",
-                end: "210% 70%",
+                end: "165% 70%",
                 endTrigger: sequenceWrap,
                 // markers: true,
             },
-        });
+        }
+
+        );
+
+
+        // sequenceimg.to(sequenceImg, {
+        //     opacity: 1,
+        //     duration: 3,
+        //     scrollTrigger: {
+        //         pin: true,
+        //         pinSpacing: false,
+        //         trigger: sequenceImg,
+        //         endTrigger: sequenceWrap,
+        //         // markers: true,
+        //     },
+        // })
+
 
     })
 
@@ -73,7 +89,7 @@ export default function Intro() {
                 <div className="sequenceimg  relative flex w-full h-full items-center justify-center">
                     {/* BG */}
                     <Image
-                        className="absoslute w-full"
+                        className="absoslute w-full opacity-50"
                         src="/logos/1713979815109.png"
                         alt={"BLKGEM LOGO"}
                         priority={true}
@@ -85,7 +101,7 @@ export default function Intro() {
 
                 {/* BLKGEM LOGO*/}
                 <Image
-                    className="blkgemlogo -mt-80 z-50
+                    className="blkgemlogo -mt-96 z-50
                         w-32 "
                     src="/logos/blkgem.svg"
                     alt={"BLKGEM LOGO"}

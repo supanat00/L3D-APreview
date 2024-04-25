@@ -35,7 +35,7 @@ const OurProfessional = dynamic(() => import('../components/OurProfessional'), {
 
 export default function Home() {
   return (
-    <div className="flex flex-col w-full mt-16" >
+    <div className="flex flex-col w-full" >
       {/* PART INTRO */}
       <Intro />
 
