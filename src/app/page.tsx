@@ -145,7 +145,7 @@ export default function Home() {
 
         {/* STICKER LINE DOWNLOAD */}
         <div className="w-full flex px-4 mt-8 ">
-          <a href="https://line.me/ti/p/GzDSJHKAeg" target="_blank" rel="noopener noreferrer" className="block w-full h-full relative bg-white p-2 rounded-xl">
+          <a href="https://store.line.me/stickershop/product/26359583/en" target="_blank" rel="noopener noreferrer" className="block w-full h-full relative bg-white p-2 rounded-xl">
             <div className="relative bg-white w-full p-2 rounded-xl">
               <Image
                 className="absolute w-6 top-2 right-2"
