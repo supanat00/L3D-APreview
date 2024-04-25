@@ -73,7 +73,7 @@ export default function Intro() {
                 <div className="sequenceimg  relative flex w-full h-full items-center justify-center">
                     {/* BG */}
                     <Image
-                        className="absoslute w-full "
+                        className="absoslute w-full"
                         src="/logos/1713979815109.png"
                         alt={"BLKGEM LOGO"}
                         priority={true}
@@ -85,7 +85,7 @@ export default function Intro() {
 
                 {/* BLKGEM LOGO*/}
                 <Image
-                    className="blkgemlogo -mt-80
+                    className="blkgemlogo -mt-80 z-50
                         w-32 "
                     src="/logos/blkgem.svg"
                     alt={"BLKGEM LOGO"}
@@ -95,7 +95,7 @@ export default function Intro() {
                     sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
                 />
                 {/* TITLE */}
-                <p className="text-primary text-center font-Montserrat leading-none font-black mt-48 px-8 md:px-20 lg:px-40 text-3xl md:text-5xl lg:text-6xl"
+                <p className="text-primary text-center font-Montserrat leading-none font-black mt-48 px-8 md:px-20 lg:px-40 text-3xl md:text-5xl lg:text-6xl z-50"
                 >THE ART OF
                     ENTERTAINMENT
                     ACADEMY
