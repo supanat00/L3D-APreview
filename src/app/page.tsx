@@ -214,7 +214,7 @@ export default function Home() {
         <p className="text-white mt-8 text-center text-md md:text-2xl lg:text-3xl font-Montserrat">BLKGEM.OFFICIAL</p>
         <div className="w-full flex items-center justify-center mt-4 px-8">
           {/* facebook link */}
-          <a href="https://www.facebook.com/profile.php?id=61553747535595&sk=about" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/profile.php?id=61558713966144" target="_blank" rel="noopener noreferrer">
             <Image
               className="w-4 mx-4"
               src="/logos/facebook.svg"
