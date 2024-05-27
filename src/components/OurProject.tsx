@@ -49,11 +49,10 @@ export default function OurProject() {
                         <div className="w-full flex flex-col mt-8 items-center">
                             <div className="w-full">
                                 <p className="text-white font-Montserrat  text-center text-xs ">PROJECT HIGHLIGHT :</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• VOCAL</p>
-                                <p className="text-white font-medium font-Montserrat text-xs ">• DANCE</p>
-                                <p className="text-white font-medium font-Montserrat text-xs ">• ACTING</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• AGES 6 - 12 YEARS</p>
+                                <p className="text-white font-medium font-Montserrat text-xs ">• DANCE / VOCAL / ACTING</p>
                                 <p className="text-white font-medium font-Montserrat text-xs ">• PROFILE SHOOTING</p>
-                                <p className="text-white font-medium font-Montserrat text-xs ">• SINGING WITH IDOL ARTIST</p>
+                                <p className="text-white font-medium font-Montserrat text-xs ">• DANCING WITH BB-GG </p>
                                 <p className="text-white font-medium font-Montserrat text-xs ">• SHOWCASE</p>
                                 <p className="text-white font-medium font-Montserrat text-xs ">• SUMMER FOR NATIONAL AND INTERNATIONAL</p>
                             </div>
