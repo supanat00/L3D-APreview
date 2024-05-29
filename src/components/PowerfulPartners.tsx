@@ -3,9 +3,56 @@ import Image from 'next/image'
 export default function Trainers() {
     return (
         // POWERFUL PARTNERS
-        <div className="flex flex-col w-full mt-24 items-center justify-center">
+        <div className="flex flex-col w-full mt-20 items-center justify-center">
+            <div className='flex flex-col w-full justify-center items-center'>
+                <div className="items-center justify-center">
+                    <Image
+                        className="w-48"
+                        src="/logos/gmmaudition.png"
+                        alt={"gmmaudition"}
+                        width={450}
+                        height={450}
+                        sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                    />
+                </div>
+                <div className="flex flex-row w-full items-center justify-center">
+                    <a
+                        rel="noopener"
+                        href="https://lin.ee/jSQWvoT"
+                        target="_blank">
+                        <button
+                            type="button"
+                            className="flex flex-row items-center  mt-12 w-64 h-12 text-white font-Montserrat font-semibold border-2 border-gray-500  rounded-xl text-sm"
+                        >
+
+                            <Image
+                                className="w-16 mx-5"
+                                src="/logos/line-oa.png"
+                                alt={"gmmaudition"}
+                                width={450}
+                                height={450}
+                                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                            />
+                            <p>@gmmmusicaudition</p>
+                        </button>
+
+                    </a>
+                </div>
+                <div className="flex w-full items-center justify-center">
+                    <a
+                        rel="noopener"
+                        href="https://gmmaudition.gmmgrammy.com/audition/"
+                        target="_blank">
+                        <button
+                            type="button"
+                            className="mt-4 w-64 h-12 text-white font-Montserrat border-2 border-gray-500  rounded-xl text-md font-bold"
+                        >SUBMIT AUDITION</button>
+                    </a>
+                </div>
+
+            </div>
             {/* Header */}
-            <p className="text-gray-500 font-Montserrat text-center text-md ">POWERFUL PARTNERS</p>
+            <p className="text-gray-500 font-Montserrat text-center text-md mt-16">POWERFUL PARTNERS</p>
             {/* Body */}
             <div className="flex flex-col mt-6 items-center">
                 {/* GMM MUSIC ICON */}
