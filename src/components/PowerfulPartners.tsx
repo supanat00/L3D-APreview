@@ -22,7 +22,7 @@ export default function Trainers() {
                         target="_blank">
                         <button
                             type="button"
-                            className="flex flex-row items-center justify-center mt-12 w-64 h-12 text-white font-Montserrat font-semibold border-2 border-gray-500  rounded-xl text-sm"
+                            className="flex flex-row items-center justify-center mt-12 w-72 h-12 text-white font-Montserrat font-semibold border-2 border-gray-500  rounded-xl text-sm"
                         >
 
                             <Image
@@ -46,7 +46,7 @@ export default function Trainers() {
                         target="_blank">
                         <button
                             type="button"
-                            className="mt-4 w-64 h-12 text-white font-Montserrat border-2 border-gray-500  rounded-xl text-md font-bold"
+                            className="mt-4 w-72 h-12 text-white font-Montserrat border-2 border-gray-500  rounded-xl text-md font-bold"
                         >SUBMIT AUDITION</button>
                     </a>
                 </div>
