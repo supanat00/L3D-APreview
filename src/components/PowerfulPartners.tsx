@@ -22,17 +22,18 @@ export default function Trainers() {
                         target="_blank">
                         <button
                             type="button"
-                            className="flex flex-row items-center  mt-12 w-64 h-12 text-white font-Montserrat font-semibold border-2 border-gray-500  rounded-xl text-sm"
+                            className="flex flex-row items-center justify-center mt-12 w-64 h-12 text-white font-Montserrat font-semibold border-2 border-gray-500  rounded-xl text-sm"
                         >
 
                             <Image
-                                className="w-16 mx-5"
+                                className="w-16 "
                                 src="/logos/line-oa.png"
                                 alt={"gmmaudition"}
                                 width={450}
                                 height={450}
                                 sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
                             />
+                            <div className='mx-2'></div>
                             <p>@gmmmusicaudition</p>
                         </button>
 
@@ -111,7 +112,6 @@ export default function Trainers() {
                             sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
                         />
                     </div>
-
                 </div>
                 {/* row two */}
                 <div className="flex  items-center justify-center w-full px-10">
@@ -296,6 +296,6 @@ export default function Trainers() {
                     </a>
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
