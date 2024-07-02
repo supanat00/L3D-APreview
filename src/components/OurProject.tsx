@@ -75,7 +75,7 @@ export default function OurProject() {
                             sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
                         />
 
-                        <p className="mt-8 text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">ARTIST TRAINING PROGRAM
+                        <p className="mt-8 text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">ARTIST TRAINING PROJECT <br/>
                             WITH 9 POWERFUL MENTORS</p>
 
                         {/* Project Highlight */}
