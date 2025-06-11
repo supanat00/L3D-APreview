@@ -46,14 +46,14 @@ export default function OurProject() {
                         <p className="mt-14 text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">AUTHENTIC ARTIST EXPERIENCE</p>
 
                         {/* Project Highlight */}
-                        <div className="w-full flex flex-col mt-14 items-center">
+                        <div className="w-full flex flex-col mt-8 items-center">
                             <div className="w-full px-5">
-                                <p className="text-white  font-Montserrat text-center text-xs ">PROJECT HIGHLIGHT :</p>
+                                <p className="text-white  font-Montserrat text-center text-xs">PROJECT HIGHLIGHT :</p>
                                 <p className="text-white font-medium font-Montserrat text-xs mt-3">• MV.FULL PRODUCTION 100 SQ.M VIRTUAL</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• PRODUCTION LED VOLUME</p>
-                                <p className="text-white font-medium font-Montserrat text-xs ">• INDIVIDUAL PICTURE & VDO PROFILE</p>
-                                <p className="text-white font-medium font-Montserrat text-xs ">• PROFESSIONAL TRAINING TEAM</p>
-                                <p className="text-white font-medium font-Montserrat text-xs ">• EXCLUSIVE MUSIC TRACK</p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• PRODUCTION LED VOLUME</p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• INDIVIDUAL PICTURE & VDO PROFILE</p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• PROFESSIONAL TRAINING TEAM</p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• EXCLUSIVE MUSIC TRACK</p>
                                 <p className="text-white font-medium font-Montserrat text-xs mb-4">• PROFILE SHARING WITHIN LABELS UNDER GMM MUSIC</p>
                             </div>
 
@@ -80,12 +80,12 @@ export default function OurProject() {
                         {/* Project Highlight */}
                         <div className="w-full flex flex-col mt-8 items-center">
                             <div className="w-full">
-                                <p className="text-white font-Montserrat  text-center text-xs ">PROJECT HIGHLIGHT :</p>
+                                <p className="text-white font-Montserrat  text-center text-xs">PROJECT HIGHLIGHT :</p>
                                 <p className="text-white font-medium font-Montserrat text-xs mt-3">• VOCAL / DANCE / ACTING</p>
-                                <p className="text-white font-medium font-Montserrat text-xs ">• PROFILE SHOOTING</p>
-                                <p className="text-white font-medium font-Montserrat text-xs ">• DANCING WITH BB-GG </p>
-                                <p className="text-white font-medium font-Montserrat text-xs ">• SHOWCASE</p>
-                                <p className="text-white font-medium font-Montserrat text-xs ">• SUMMER FOR NATIONAL AND INTERNATIONAL</p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• PROFILE SHOOTING</p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• DANCING WITH BB-GG </p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• SHOWCASE</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mb-4">• SUMMER FOR NATIONAL AND INTERNATIONAL</p>
                             </div>
 
                         </div>
@@ -96,7 +96,7 @@ export default function OurProject() {
                 {/* Part 3 TEEN CAMP */}
                 <SwiperSlide >
                     <div className="flex flex-col mt-10 justify-center items-center pt-8 pb-10 px-12 rounded-3xl border border-gray-500">
-                        {/* ATP2024 LOGO */}
+                        {/* Teen Camp LOGO */}
                         <Image
                             className="w-40 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
                             src="/logos/TeenCamp.png"
@@ -110,10 +110,10 @@ export default function OurProject() {
                         <div className="w-full flex flex-col mt-8 items-center">
                             <div className="w-full ">
                                 <p className="text-white font-Montserrat text-center text-xs ">PROJECT HIGHLIGHT :</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mt-6">• Learn to sing, dance, rap, act, practice modeling</p>
-                                <p className="text-white font-medium font-Montserrat text-xs ">• showcase on the GMM Auditorium stage</p>
-                                <p className="text-white font-medium font-Montserrat text-xs ">• special jacket for Teen Camp</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mb-3">• Learn for a total of 7 days</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• Learn to sing, dance, rap, act, practice modeling</p>
+                                <p className="text-white font-medium font-Montserrat text-xs ">• Showcase on the GMM Auditorium stage</p>
+                                <p className="text-white font-medium font-Montserrat text-xs ">• Special jacket for Teen Camp</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mb-4">• Learn for a total of 7 days</p>
                             </div>
 
                         </div>
@@ -124,24 +124,25 @@ export default function OurProject() {
                 {/* Part 4 Snow Gem*/}
                 <SwiperSlide >
                     <div className="flex flex-col mt-10 justify-center items-center py-8 pb-10  rounded-3xl border border-gray-500">
-                        {/* AWESOME LOGO */}
+                        {/* SnowGem LOGO */}
                         <Image
                             className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
-                            src="/logos/blkcon.png"
-                            alt={"AWESOME LOGO"}
+                            src="/logos/SnowGem.png"
+                            alt={"SnowGem LOGO"}
                             width={450}
                             height={450}
                             sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
                         />
 
-                        <p className="mt-12 text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">STAGE PERFORMANCE EXPERIENCE</p>
-
                         {/* Project Highlight */}
-                        <div className="w-full flex flex-col mt-16 items-center">
+                        <div className="w-full flex flex-col mt-8 items-center">
                             <div className="w-full px-16">
-                                <p className="text-white font-Montserrat text-center text-xs ">PROJECT HIGHLIGHT :</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mt-8 mb-5">• FULL PRODUCTION WITH PROFESSIONAL TEAM
-                                    <br />THAI - INTERNATIONAL CONCERT</p>
+                                <p className="text-white font-Montserrat text-center text-xs">PROJECT HIGHLIGHT :</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• Musical performance in the snow on the GMM <br /> Auditorium stage </p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• Special show, cute bunny ears</p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• Practice singing, playing, dancing, acting, modeling and showcase on stage</p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• A delicious lunch and snacks</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mb-4">• Learn for 9 days</p>
                             </div>
 
                         </div>
@@ -149,27 +150,77 @@ export default function OurProject() {
                     </div>
                 </SwiperSlide>
 
-                {/* Part 5 Snow Gem*/}
+                {/* Part 5 GEMX*/}
                 <SwiperSlide >
                     <div className="flex flex-col mt-10 justify-center items-center py-8 pb-10  rounded-3xl border border-gray-500">
-                        {/* AWESOME LOGO */}
+                        {/* SnowGem LOGO */}
                         <Image
                             className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
-                            src="/logos/blkcon.png"
-                            alt={"AWESOME LOGO"}
+                            src="/logos/GEMX.png"
+                            alt={"SnowGem LOGO"}
                             width={450}
                             height={450}
                             sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
                         />
 
-                        <p className="mt-12 text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">STAGE PERFORMANCE EXPERIENCE</p>
+                        <p className="mt-6 text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">Experience Sharing & Real Collaboration</p>
 
                         {/* Project Highlight */}
-                        <div className="w-full flex flex-col mt-16 items-center">
+                        <div className="w-full flex flex-col mt-8 items-center">
                             <div className="w-full px-16">
-                                <p className="text-white font-Montserrat text-center text-xs ">PROJECT HIGHLIGHT :</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mt-8 mb-5">• FULL PRODUCTION WITH PROFESSIONAL TEAM
-                                    <br />THAI - INTERNATIONAL CONCERT</p>
+                                <p className="text-white font-Montserrat text-center text-xs">PROJECT HIGHLIGHT :</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• Learn singing, dancing and performing techniques on stage like an artist with a teacher who creates real artists</p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• Dance workshop with Korean choreographer BICO LIM, the man behind Enhypen / Riize / TITOT</p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• Workshop on building Inner and confidence with Lukkade Metinee</p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• Profile Shooting and Com-card to present profiles to music labels</p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• Open the experience of performing on the concert stage</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mb-4">• Casting & Audition with famous artists and leading music label teams in Thailand from GNEST / GeneLab / LIT Entertainment / ONE MUSIC / Sanamluang Music / WhiteFox / White Music / ONE31</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </SwiperSlide>
+
+                {/* Part 6 AET-01*/}
+                <SwiperSlide >
+                    <div className="flex flex-col mt-10 justify-center items-center  pb-10  rounded-3xl border border-gray-500">
+                        {/* AET-01 LOGO */}
+                        <Image
+                            className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
+                            src="/logos/AET-01.png"
+                            alt={"AET-01 LOGO"}
+                            width={450}
+                            height={450}
+                            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                        />
+
+                        <p className="text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">Trainee Creation Course <br /> with Trainee Artist Training by GMM Music </p>
+
+                    </div>
+                </SwiperSlide>
+
+                {/* Part 7 BGConcert*/}
+                <SwiperSlide >
+                    <div className="flex flex-col mt-10 justify-center items-center py-8 pb-10  rounded-3xl border border-gray-500">
+                        {/* BGConcert LOGO */}
+                        <Image
+                            className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
+                            src="/logos/BGConcert.png"
+                            alt={"BGConcert LOGO"}
+                            width={450}
+                            height={450}
+                            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                        />
+
+                        <p className="text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl mt-8">FULL PRODUCTION WITH PROFESSIONAL TEAM THAI - INTERNATIONAL CONCERT</p>
+
+                        {/* Project Highlight */}
+                        <div className="w-full flex flex-col mt-8 items-center">
+                            <div className="w-full px-16">
+                                <p className="text-white font-Montserrat text-center text-xs">PROJECT HIGHLIGHT :</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• Perform on a grand concert stage with full lighting, sound, and effects systems.</p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• The show is designed and supervised by a professional team from Harlem Shake.</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mb-4">• Opportunity to work with a national concert production team</p>
                             </div>
 
                         </div>
@@ -177,83 +228,25 @@ export default function OurProject() {
                     </div>
                 </SwiperSlide>
 
-                {/* Part 6 Snow Gem*/}
+                {/* Part 8 MegaMV*/}
                 <SwiperSlide >
                     <div className="flex flex-col mt-10 justify-center items-center py-8 pb-10  rounded-3xl border border-gray-500">
-                        {/* AWESOME LOGO */}
+                        {/* MegaMV LOGO */}
                         <Image
                             className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
-                            src="/logos/blkcon.png"
-                            alt={"AWESOME LOGO"}
+                            src="/logos/MegaMV.png"
+                            alt={"MegaMV LOGO"}
                             width={450}
                             height={450}
                             sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
                         />
 
-                        <p className="mt-12 text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">STAGE PERFORMANCE EXPERIENCE</p>
-
                         {/* Project Highlight */}
-                        <div className="w-full flex flex-col mt-16 items-center">
+                        <div className="w-full flex flex-col mt-8 items-center">
                             <div className="w-full px-16">
-                                <p className="text-white font-Montserrat text-center text-xs ">PROJECT HIGHLIGHT :</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mt-8 mb-5">• FULL PRODUCTION WITH PROFESSIONAL TEAM
-                                    <br />THAI - INTERNATIONAL CONCERT</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </SwiperSlide>
-
-                {/* Part 7 Snow Gem*/}
-                <SwiperSlide >
-                    <div className="flex flex-col mt-10 justify-center items-center py-8 pb-10  rounded-3xl border border-gray-500">
-                        {/* AWESOME LOGO */}
-                        <Image
-                            className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
-                            src="/logos/blkcon.png"
-                            alt={"AWESOME LOGO"}
-                            width={450}
-                            height={450}
-                            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-                        />
-
-                        <p className="mt-12 text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">STAGE PERFORMANCE EXPERIENCE</p>
-
-                        {/* Project Highlight */}
-                        <div className="w-full flex flex-col mt-16 items-center">
-                            <div className="w-full px-16">
-                                <p className="text-white font-Montserrat text-center text-xs ">PROJECT HIGHLIGHT :</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mt-8 mb-5">• FULL PRODUCTION WITH PROFESSIONAL TEAM
-                                    <br />THAI - INTERNATIONAL CONCERT</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </SwiperSlide>
-
-                {/* Part 8 Snow Gem*/}
-                <SwiperSlide >
-                    <div className="flex flex-col mt-10 justify-center items-center py-8 pb-10  rounded-3xl border border-gray-500">
-                        {/* AWESOME LOGO */}
-                        <Image
-                            className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
-                            src="/logos/blkcon.png"
-                            alt={"AWESOME LOGO"}
-                            width={450}
-                            height={450}
-                            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-                        />
-
-                        <p className="mt-12 text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">STAGE PERFORMANCE EXPERIENCE</p>
-
-                        {/* Project Highlight */}
-                        <div className="w-full flex flex-col mt-16 items-center">
-                            <div className="w-full px-16">
-                                <p className="text-white font-Montserrat text-center text-xs ">PROJECT HIGHLIGHT :</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mt-8 mb-5">• FULL PRODUCTION WITH PROFESSIONAL TEAM
-                                    <br />THAI - INTERNATIONAL CONCERT</p>
+                                <p className="text-white font-Montserrat text-center text-xs">PROJECT HIGHLIGHT :</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• Filming the MV for BLKGEM's Theme song with Full Production </p>
+                                <p className="text-white font-medium font-Montserrat text-xs mb-4">• Under the supervision of Harlem Shake and the professional team of national production</p>
                             </div>
 
                         </div>
