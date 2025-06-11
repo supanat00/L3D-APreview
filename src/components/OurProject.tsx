@@ -110,7 +110,7 @@ export default function OurProject() {
                         <div className="w-full flex flex-col mt-8 items-center">
                             <div className="w-full ">
                                 <p className="text-white font-Montserrat text-center text-xs ">PROJECT HIGHLIGHT :</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• Learn to sing, dance, rap, act, practice modeling</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• Learn to sing&apos; dance&apos; rap&apos; act&apos; practice modeling</p>
                                 <p className="text-white font-medium font-Montserrat text-xs ">• Showcase on the GMM Auditorium stage</p>
                                 <p className="text-white font-medium font-Montserrat text-xs ">• Special jacket for Teen Camp</p>
                                 <p className="text-white font-medium font-Montserrat text-xs mb-4">• Learn for a total of 7 days</p>
@@ -139,8 +139,8 @@ export default function OurProject() {
                             <div className="w-full px-16">
                                 <p className="text-white font-Montserrat text-center text-xs">PROJECT HIGHLIGHT :</p>
                                 <p className="text-white font-medium font-Montserrat text-xs mt-3">• Musical performance in the snow on the GMM <br /> Auditorium stage </p>
-                                <p className="text-white font-medium font-Montserrat text-xs">• Special show, cute bunny ears</p>
-                                <p className="text-white font-medium font-Montserrat text-xs">• Practice singing, playing, dancing, acting, modeling and showcase on stage</p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• Special show&apos; cute bunny ears</p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• Practice singing&apos; playing&apos; dancing&apos; acting&apos; modeling and showcase on stage</p>
                                 <p className="text-white font-medium font-Montserrat text-xs">• A delicious lunch and snacks</p>
                                 <p className="text-white font-medium font-Montserrat text-xs mb-4">• Learn for 9 days</p>
                             </div>
@@ -169,8 +169,8 @@ export default function OurProject() {
                         <div className="w-full flex flex-col mt-8 items-center">
                             <div className="w-full px-16">
                                 <p className="text-white font-Montserrat text-center text-xs">PROJECT HIGHLIGHT :</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• Learn singing, dancing and performing techniques on stage like an artist with a teacher who creates real artists</p>
-                                <p className="text-white font-medium font-Montserrat text-xs">• Dance workshop with Korean choreographer BICO LIM, the man behind Enhypen / Riize / TITOT</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• Learn singing&apos; dancing and performing techniques on stage like an artist with a teacher who creates real artists</p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• Dance workshop with Korean choreographer BICO LIM&apos; the man behind Enhypen / Riize / TITOT</p>
                                 <p className="text-white font-medium font-Montserrat text-xs">• Workshop on building Inner and confidence with Lukkade Metinee</p>
                                 <p className="text-white font-medium font-Montserrat text-xs">• Profile Shooting and Com-card to present profiles to music labels</p>
                                 <p className="text-white font-medium font-Montserrat text-xs">• Open the experience of performing on the concert stage</p>
@@ -218,7 +218,7 @@ export default function OurProject() {
                         <div className="w-full flex flex-col mt-8 items-center">
                             <div className="w-full px-16">
                                 <p className="text-white font-Montserrat text-center text-xs">PROJECT HIGHLIGHT :</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• Perform on a grand concert stage with full lighting, sound, and effects systems.</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• Perform on a grand concert stage with full lighting&apos; sound&apos; and effects systems.</p>
                                 <p className="text-white font-medium font-Montserrat text-xs">• The show is designed and supervised by a professional team from Harlem Shake.</p>
                                 <p className="text-white font-medium font-Montserrat text-xs mb-4">• Opportunity to work with a national concert production team</p>
                             </div>
