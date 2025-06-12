@@ -33,7 +33,7 @@ export default function OurProject() {
 
                 {/* Page 1: AWESOME SUMMER */}
                 <SwiperSlide>
-                    <div className="flex flex-col h-[400px] items-center justify-center p-6 rounded-3xl border border-gray-500 text-center">
+                    <div className="flex flex-col h-[480px] items-center justify-center p-6 rounded-3xl border border-gray-500 text-center">
                         <Image
                             className="h-28 w-auto mb-8"
                             src="/logos/awesome.svg"
@@ -47,7 +47,7 @@ export default function OurProject() {
                         </p>
                         <div className="w-full max-w-md">
                             <p className="text-white font-Montserrat text-xs mb-4">PROJECT HIGHLIGHT :</p>
-                            <div className="space-y-2 text-white font-medium font-Montserrat text-xs">
+                            <div className="space-y-2 text-white font-medium font-Montserrat text-xs text-left">
                                 <p>• MV.FULL PRODUCTION 100 SQ.M VIRTUAL</p>
                                 <p>• PRODUCTION LED VOLUME</p>
                                 <p>• INDIVIDUAL PICTURE & VDO PROFILE</p>
@@ -61,7 +61,7 @@ export default function OurProject() {
 
                 {/* Page 2: GEM JUNIOR */}
                 <SwiperSlide>
-                    <div className="flex flex-col h-[400px] items-center justify-center p-6 rounded-3xl border border-gray-500 text-center">
+                    <div className="flex flex-col h-[480px] items-center justify-center p-6 rounded-3xl border border-gray-500 text-center">
                         <Image
                             className="h-28 w-auto mb-8"
                             src="/logos/gemjunior.png"
@@ -74,7 +74,7 @@ export default function OurProject() {
                         </p>
                         <div className="w-full max-w-md">
                             <p className="text-white font-Montserrat text-xs mb-4">PROJECT HIGHLIGHT :</p>
-                            <div className="space-y-2 text-white font-medium font-Montserrat text-xs">
+                            <div className="space-y-2 text-white font-medium font-Montserrat text-xs text-left">
                                 <p>• VOCAL / DANCE / ACTING</p>
                                 <p>• PROFILE SHOOTING</p>
                                 <p>• DANCING WITH BB-GG</p>
@@ -87,7 +87,7 @@ export default function OurProject() {
 
                 {/* Page 3: TEEN CAMP */}
                 <SwiperSlide>
-                    <div className="flex flex-col h-[400px] items-center justify-center p-6 rounded-3xl border border-gray-500 text-center">
+                    <div className="flex flex-col h-[480px] items-center justify-center p-6 rounded-3xl border border-gray-500 text-center">
                         <Image
                             className="h-28 w-auto mb-8"
                             src="/logos/TeenCamp.png"
@@ -97,7 +97,7 @@ export default function OurProject() {
                         />
                         <div className="w-full max-w-md mt-8">
                             <p className="text-white font-Montserrat text-xs mb-4">PROJECT HIGHLIGHT :</p>
-                            <div className="space-y-2 text-white font-medium font-Montserrat text-xs">
+                            <div className="space-y-2 text-white font-medium font-Montserrat text-xs text-left uppercase">
                                 <p>• Learn to sing&apos; dance&apos; rap&apos; act&apos; practice modeling</p>
                                 <p>• Showcase on the GMM Auditorium stage</p>
                                 <p>• Special jacket for Teen Camp</p>
@@ -109,7 +109,7 @@ export default function OurProject() {
 
                 {/* Page 4: Snow Gem */}
                 <SwiperSlide>
-                    <div className="flex flex-col h-[400px] items-center justify-center p-6 rounded-3xl border border-gray-500 text-center">
+                    <div className="flex flex-col h-[480px] items-center justify-center p-6 rounded-3xl border border-gray-500 text-center">
                         <Image
                             className="h-28 w-auto mb-8"
                             src="/logos/SnowGem.png"
@@ -119,7 +119,7 @@ export default function OurProject() {
                         />
                         <div className="w-full max-w-md mt-8">
                             <p className="text-white font-Montserrat text-xs mb-4">PROJECT HIGHLIGHT :</p>
-                            <div className="space-y-2 text-white font-medium font-Montserrat text-xs">
+                            <div className="space-y-2 text-white font-medium font-Montserrat text-xs text-left uppercase">
                                 <p>• Musical performance in the snow on the GMM Auditorium stage</p>
                                 <p>• Special show&apos; cute bunny ears</p>
                                 <p>• Practice singing&apos; playing&apos; dancing&apos; acting&apos; modeling and showcase on stage</p>
@@ -132,7 +132,7 @@ export default function OurProject() {
 
                 {/* Page 5: GEMX */}
                 <SwiperSlide>
-                    <div className="flex flex-col h-[400px] items-center justify-center p-6 rounded-3xl border border-gray-500 text-center">
+                    <div className="flex flex-col h-[480px] items-center justify-center p-6 rounded-3xl border border-gray-500 text-center">
                         <Image
                             className="h-28 w-auto mb-8"
                             src="/logos/GEMX.png"
@@ -145,7 +145,7 @@ export default function OurProject() {
                         </p>
                         <div className="w-full max-w-md">
                             <p className="text-white font-Montserrat text-xs mb-4">PROJECT HIGHLIGHT :</p>
-                            <div className="space-y-2 text-white font-medium font-Montserrat text-xs">
+                            <div className="space-y-2 text-white font-medium font-Montserrat text-xs text-left uppercase">
                                 <p>• Learn singing&apos; dancing and performing techniques on stage like an artist with a teacher who creates real artists</p>
                                 <p>• Dance workshop with Korean choreographer BICO LIM&apos; the man behind Enhypen / Riize / TITOT</p>
                                 <p>• Workshop on building Inner and confidence with Lukkade Metinee</p>
@@ -159,9 +159,9 @@ export default function OurProject() {
 
                 {/* Page 6: AET-01 */}
                 <SwiperSlide>
-                    <div className="flex flex-col h-[400px] items-center justify-center p-6 rounded-3xl border border-gray-500 text-center">
+                    <div className="flex flex-col h-[480px] items-center justify-center p-6 rounded-3xl border border-gray-500 text-center">
                         <Image
-                            className="h-28 w-auto mb-8"
+                            className="h-56 w-auto mb-6"
                             src="/logos/AET-01.png"
                             alt="AET-01 LOGO"
                             width={450}
@@ -175,7 +175,7 @@ export default function OurProject() {
 
                 {/* Page 7: BGConcert */}
                 <SwiperSlide>
-                    <div className="flex flex-col h-[400px] items-center justify-center p-6 rounded-3xl border border-gray-500 text-center">
+                    <div className="flex flex-col h-[480px] items-center justify-center p-6 rounded-3xl border border-gray-500 text-center">
                         <Image
                             className="h-28 w-auto mb-8"
                             src="/logos/BGConcert.png"
@@ -188,7 +188,7 @@ export default function OurProject() {
                         </p>
                         <div className="w-full max-w-md">
                             <p className="text-white font-Montserrat text-xs mb-4">PROJECT HIGHLIGHT :</p>
-                            <div className="space-y-2 text-white font-medium font-Montserrat text-xs">
+                            <div className="space-y-2 text-white font-medium font-Montserrat text-xs text-left uppercase">
                                 <p>• Perform on a grand concert stage with full lighting&apos; sound&apos; and effects systems.</p>
                                 <p>• The show is designed and supervised by a professional team from Harlem Shake.</p>
                                 <p>• Opportunity to work with a national concert production team</p>
@@ -199,7 +199,7 @@ export default function OurProject() {
 
                 {/* Page 8: MegaMV */}
                 <SwiperSlide>
-                    <div className="flex flex-col h-[400px] items-center justify-center p-6 rounded-3xl border border-gray-500 text-center">
+                    <div className="flex flex-col h-[480px] items-center justify-center p-6 rounded-3xl border border-gray-500 text-center">
                         <Image
                             className="h-28 w-auto mb-8"
                             src="/logos/MegaMV.png"
@@ -209,7 +209,7 @@ export default function OurProject() {
                         />
                         <div className="w-full max-w-md mt-8">
                             <p className="text-white font-Montserrat text-xs mb-4">PROJECT HIGHLIGHT :</p>
-                            <div className="space-y-2 text-white font-medium font-Montserrat text-xs">
+                            <div className="space-y-2 text-white font-medium font-Montserrat text-xs text-left uppercase">
                                 <p>• Filming the MV for BLKGEM&apos;s Theme song with Full Production</p>
                                 <p>• Under the supervision of Harlem Shake and the professional team of national production</p>
                             </div>
