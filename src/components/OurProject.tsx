@@ -30,25 +30,22 @@ export default function OurProject() {
                 }}
                 modules={[Autoplay, Pagination,]}
                 className="mySwiper flex w-full">
-
                 {/* Page 1 AWESOME SUMMER */}
-                <SwiperSlide className="h-full flex">
-                    {/* MODIFIED: Added h-full, w-full, changed to justify-between and grouped content */}
-                    <div className="flex flex-col h-full w-full justify-between items-center mt-10 pt-14 pb-10 px-5 rounded-3xl border border-gray-500">
-                        {/* Top Content Group */}
-                        <div className="flex flex-col items-center w-full">
-                            <Image
-                                className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
-                                src="/logos/awesome.svg"
-                                alt={"AWESOME LOGO"}
-                                width={450}
-                                height={450}
-                                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-                            />
-                            <p className="mt-14 text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">AUTHENTIC ARTIST EXPERIENCE</p>
-                        </div>
+                <SwiperSlide >
+                    <div className="flex flex-col mt-10 justify-center items-center pt-14 pb-10  rounded-3xl border border-gray-500">
+                        {/* AWESOME LOGO */}
+                        <Image
+                            className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
+                            src="/logos/awesome.svg"
+                            alt={"AWESOME LOGO"}
+                            width={450}
+                            height={450}
+                            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                        />
 
-                        {/* Bottom Content Group */}
+                        <p className="mt-14 text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">AUTHENTIC ARTIST EXPERIENCE</p>
+
+                        {/* Project Highlight */}
                         <div className="w-full flex flex-col mt-8 items-center">
                             <div className="w-full px-5">
                                 <p className="text-white  font-Montserrat text-center text-xs">PROJECT HIGHLIGHT :</p>
@@ -59,27 +56,28 @@ export default function OurProject() {
                                 <p className="text-white font-medium font-Montserrat text-xs">• EXCLUSIVE MUSIC TRACK</p>
                                 <p className="text-white font-medium font-Montserrat text-xs mb-4">• PROFILE SHARING WITHIN LABELS UNDER GMM MUSIC</p>
                             </div>
+
                         </div>
+
                     </div>
                 </SwiperSlide>
 
                 {/* Page 2 GEM JUNIOR */}
-                <SwiperSlide className="h-full flex">
-                    <div className="flex flex-col h-full w-full justify-between items-center mt-10 pt-14 pb-10 px-12 rounded-3xl border border-gray-500">
-                        {/* Top Content Group */}
-                        <div className="flex flex-col items-center w-full">
-                            <Image
-                                className="w-40"
-                                src="/logos/gemjunior.png"
-                                alt={"gemjunior LOGO"}
-                                width={450}
-                                height={450}
-                                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-                            />
-                            <p className="mt-12 text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">THE ARTIST JOURNEY BEGINS</p>
-                        </div>
+                <SwiperSlide >
+                    <div className="flex flex-col mt-10 justify-center items-center pt-14 pb-10 px-12 rounded-3xl border border-gray-500">
+                        {/* GEM JUNIOR LOGO */}
+                        <Image
+                            className="w-40"
+                            src="/logos/gemjunior.png"
+                            alt={"gemjunior LOGO"}
+                            width={450}
+                            height={450}
+                            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                        />
 
-                        {/* Bottom Content Group */}
+                        <p className="mt-12 text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">THE ARTIST JOURNEY BEGINS</p>
+
+                        {/* Project Highlight */}
                         <div className="w-full flex flex-col mt-8 items-center">
                             <div className="w-full">
                                 <p className="text-white font-Montserrat  text-center text-xs">PROJECT HIGHLIGHT :</p>
@@ -89,102 +87,104 @@ export default function OurProject() {
                                 <p className="text-white font-medium font-Montserrat text-xs">• SHOWCASE</p>
                                 <p className="text-white font-medium font-Montserrat text-xs mb-4">• SUMMER FOR NATIONAL AND INTERNATIONAL</p>
                             </div>
+
                         </div>
+
                     </div>
                 </SwiperSlide>
 
                 {/* Part 3 TEEN CAMP */}
-                <SwiperSlide className="h-full flex">
-                    <div className="flex flex-col h-full w-full justify-between items-center mt-10 pt-14 pb-10 px-12 rounded-3xl border border-gray-500">
-                        {/* Top Content Group */}
-                        <div className="flex flex-col items-center w-full">
-                            <Image
-                                className="w-40 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
-                                src="/logos/TeenCamp.png"
-                                alt={"APT2024 LOGO"}
-                                width={450}
-                                height={450}
-                                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-                            />
-                        </div>
+                <SwiperSlide >
+                    <div className="flex flex-col mt-10 justify-center items-center pt-8 pb-10 px-12 rounded-3xl border border-gray-500">
+                        {/* Teen Camp LOGO */}
+                        <Image
+                            className="w-40 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
+                            src="/logos/TeenCamp.png"
+                            alt={"APT2024 LOGO"}
+                            width={450}
+                            height={450}
+                            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                        />
 
-                        {/* Bottom Content Group */}
+                        {/* Project Highlight */}
                         <div className="w-full flex flex-col mt-8 items-center">
                             <div className="w-full ">
                                 <p className="text-white font-Montserrat text-center text-xs ">PROJECT HIGHLIGHT :</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• Learn to sing' dance' rap' act' practice modeling</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• Learn to sing&apos; dance&apos; rap&apos; act&apos; practice modeling</p>
                                 <p className="text-white font-medium font-Montserrat text-xs ">• Showcase on the GMM Auditorium stage</p>
                                 <p className="text-white font-medium font-Montserrat text-xs ">• Special jacket for Teen Camp</p>
                                 <p className="text-white font-medium font-Montserrat text-xs mb-4">• Learn for a total of 7 days</p>
                             </div>
+
                         </div>
+
                     </div>
                 </SwiperSlide>
 
                 {/* Part 4 Snow Gem*/}
-                <SwiperSlide className="h-full flex">
-                    <div className="flex flex-col h-full w-full justify-between items-center mt-10 pt-14 pb-10 px-12 rounded-3xl border border-gray-500">
-                        {/* Top Content Group */}
-                        <div className="flex flex-col items-center w-full">
-                            <Image
-                                className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
-                                src="/logos/SnowGem.png"
-                                alt={"SnowGem LOGO"}
-                                width={450}
-                                height={450}
-                                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-                            />
-                        </div>
+                <SwiperSlide >
+                    <div className="flex flex-col mt-10 justify-center items-center py-8 pb-10  rounded-3xl border border-gray-500">
+                        {/* SnowGem LOGO */}
+                        <Image
+                            className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
+                            src="/logos/SnowGem.png"
+                            alt={"SnowGem LOGO"}
+                            width={450}
+                            height={450}
+                            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                        />
 
-                        {/* Bottom Content Group */}
+                        {/* Project Highlight */}
                         <div className="w-full flex flex-col mt-8 items-center">
-                            <div className="w-full px-5">
+                            <div className="w-full px-16">
                                 <p className="text-white font-Montserrat text-center text-xs">PROJECT HIGHLIGHT :</p>
                                 <p className="text-white font-medium font-Montserrat text-xs mt-3">• Musical performance in the snow on the GMM <br /> Auditorium stage </p>
-                                <p className="text-white font-medium font-Montserrat text-xs">• Special show' cute bunny ears</p>
-                                <p className="text-white font-medium font-Montserrat text-xs">• Practice singing' playing' dancing' acting' modeling and showcase on stage</p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• Special show&apos; cute bunny ears</p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• Practice singing&apos; playing&apos; dancing&apos; acting&apos; modeling and showcase on stage</p>
                                 <p className="text-white font-medium font-Montserrat text-xs">• A delicious lunch and snacks</p>
                                 <p className="text-white font-medium font-Montserrat text-xs mb-4">• Learn for 9 days</p>
                             </div>
+
                         </div>
+
                     </div>
                 </SwiperSlide>
 
                 {/* Part 5 GEMX*/}
-                <SwiperSlide className="h-full flex">
-                    <div className="flex flex-col h-full w-full justify-between items-center mt-10 pt-14 pb-10 px-8 rounded-3xl border border-gray-500">
-                        {/* Top Content Group */}
-                        <div className="flex flex-col items-center w-full">
-                            <Image
-                                className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
-                                src="/logos/GEMX.png"
-                                alt={"GEMX LOGO"}
-                                width={450}
-                                height={450}
-                                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-                            />
-                            <p className="mt-6 text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">Experience Sharing & Real Collaboration</p>
-                        </div>
+                <SwiperSlide >
+                    <div className="flex flex-col mt-10 justify-center items-center py-8 pb-10  rounded-3xl border border-gray-500">
+                        {/* SnowGem LOGO */}
+                        <Image
+                            className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
+                            src="/logos/GEMX.png"
+                            alt={"SnowGem LOGO"}
+                            width={450}
+                            height={450}
+                            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                        />
 
-                        {/* Bottom Content Group */}
+                        <p className="mt-6 text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">Experience Sharing & Real Collaboration</p>
+
+                        {/* Project Highlight */}
                         <div className="w-full flex flex-col mt-8 items-center">
-                            <div className="w-full px-5">
+                            <div className="w-full px-16">
                                 <p className="text-white font-Montserrat text-center text-xs">PROJECT HIGHLIGHT :</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• Learn singing' dancing and performing techniques on stage like an artist with a teacher who creates real artists</p>
-                                <p className="text-white font-medium font-Montserrat text-xs">• Dance workshop with Korean choreographer BICO LIM' the man behind Enhypen / Riize / TITOT</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• Learn singing&apos; dancing and performing techniques on stage like an artist with a teacher who creates real artists</p>
+                                <p className="text-white font-medium font-Montserrat text-xs">• Dance workshop with Korean choreographer BICO LIM&apos; the man behind Enhypen / Riize / TITOT</p>
                                 <p className="text-white font-medium font-Montserrat text-xs">• Workshop on building Inner and confidence with Lukkade Metinee</p>
                                 <p className="text-white font-medium font-Montserrat text-xs">• Profile Shooting and Com-card to present profiles to music labels</p>
                                 <p className="text-white font-medium font-Montserrat text-xs">• Open the experience of performing on the concert stage</p>
                                 <p className="text-white font-medium font-Montserrat text-xs mb-4">• Casting & Audition with famous artists and leading music label teams in Thailand from GNEST / GeneLab / LIT Entertainment / ONE MUSIC / Sanamluang Music / WhiteFox / White Music / ONE31</p>
                             </div>
                         </div>
+
                     </div>
                 </SwiperSlide>
 
                 {/* Part 6 AET-01*/}
-                <SwiperSlide className="h-full flex">
-                    {/* MODIFIED: Using justify-center here because there's no bottom content */}
-                    <div className="flex flex-col h-full w-full justify-center items-center mt-10 p-8 rounded-3xl border border-gray-500">
+                <SwiperSlide >
+                    <div className="flex flex-col mt-10 justify-center items-center  pb-10  rounded-3xl border border-gray-500">
+                        {/* AET-01 LOGO */}
                         <Image
                             className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
                             src="/logos/AET-01.png"
@@ -193,61 +193,64 @@ export default function OurProject() {
                             height={450}
                             sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
                         />
-                        <p className="text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl mt-8">Trainee Creation Course <br /> with Trainee Artist Training by GMM Music </p>
+
+                        <p className="text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl">Trainee Creation Course <br /> with Trainee Artist Training by GMM Music </p>
+
                     </div>
                 </SwiperSlide>
 
                 {/* Part 7 BGConcert*/}
-                <SwiperSlide className="h-full flex">
-                    <div className="flex flex-col h-full w-full justify-between items-center mt-10 pt-14 pb-10 px-8 rounded-3xl border border-gray-500">
-                        {/* Top Content Group */}
-                        <div className="flex flex-col items-center w-full">
-                            <Image
-                                className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
-                                src="/logos/BGConcert.png"
-                                alt={"BGConcert LOGO"}
-                                width={450}
-                                height={450}
-                                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-                            />
-                            <p className="text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl mt-8">FULL PRODUCTION WITH PROFESSIONAL TEAM THAI - INTERNATIONAL CONCERT</p>
-                        </div>
+                <SwiperSlide >
+                    <div className="flex flex-col mt-10 justify-center items-center py-8 pb-10  rounded-3xl border border-gray-500">
+                        {/* BGConcert LOGO */}
+                        <Image
+                            className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
+                            src="/logos/BGConcert.png"
+                            alt={"BGConcert LOGO"}
+                            width={450}
+                            height={450}
+                            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                        />
 
-                        {/* Bottom Content Group */}
+                        <p className="text-white text-center text-sm font-Montserrat font-medium md:text-2xl lg:text-3xl mt-8">FULL PRODUCTION WITH PROFESSIONAL TEAM THAI - INTERNATIONAL CONCERT</p>
+
+                        {/* Project Highlight */}
                         <div className="w-full flex flex-col mt-8 items-center">
-                            <div className="w-full px-5">
+                            <div className="w-full px-16">
                                 <p className="text-white font-Montserrat text-center text-xs">PROJECT HIGHLIGHT :</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• Perform on a grand concert stage with full lighting' sound' and effects systems.</p>
+                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• Perform on a grand concert stage with full lighting&apos; sound&apos; and effects systems.</p>
                                 <p className="text-white font-medium font-Montserrat text-xs">• The show is designed and supervised by a professional team from Harlem Shake.</p>
                                 <p className="text-white font-medium font-Montserrat text-xs mb-4">• Opportunity to work with a national concert production team</p>
                             </div>
+
                         </div>
+
                     </div>
                 </SwiperSlide>
 
                 {/* Part 8 MegaMV*/}
-                <SwiperSlide className="h-full flex">
-                    <div className="flex flex-col h-full w-full justify-between items-center mt-10 pt-14 pb-10 px-8 rounded-3xl border border-gray-500">
-                        {/* Top Content Group */}
-                        <div className="flex flex-col items-center w-full">
-                            <Image
-                                className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
-                                src="/logos/MegaMV.png"
-                                alt={"MegaMV LOGO"}
-                                width={450}
-                                height={450}
-                                sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
-                            />
-                        </div>
+                <SwiperSlide >
+                    <div className="flex flex-col mt-10 justify-center items-center py-8 pb-10  rounded-3xl border border-gray-500">
+                        {/* MegaMV LOGO */}
+                        <Image
+                            className="w-56 md:w-48 lg:w-64 xl:w-80 2xl:w-96 "
+                            src="/logos/MegaMV.png"
+                            alt={"MegaMV LOGO"}
+                            width={450}
+                            height={450}
+                            sizes="(min-width: 720px) 650px, calc(95.5vw - 19px)"
+                        />
 
-                        {/* Bottom Content Group */}
+                        {/* Project Highlight */}
                         <div className="w-full flex flex-col mt-8 items-center">
-                            <div className="w-full px-5">
+                            <div className="w-full px-16">
                                 <p className="text-white font-Montserrat text-center text-xs">PROJECT HIGHLIGHT :</p>
-                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• Filming the MV for BLKGEM's Theme song with Full Production </p>
+                                <p className="text-white font-medium font-Montserrat text-xs mt-3">• Filming the MV for BLKGEM&apos;s Theme song with Full Production </p>
                                 <p className="text-white font-medium font-Montserrat text-xs mb-4">• Under the supervision of Harlem Shake and the professional team of national production</p>
                             </div>
+
                         </div>
+
                     </div>
                 </SwiperSlide>
             </Swiper>
