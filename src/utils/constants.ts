@@ -66,10 +66,6 @@ export const imagevocal = [
         src: "/vocal/Asset68.png",
     },
     {
-        id: 3,
-        src: "/vocal/Asset69.png",
-    },
-    {
         id: 4,
         src: "/vocal/Asset70.png",
     },
@@ -96,10 +92,6 @@ export const imagevocal = [
     {
         id: 10,
         src: "/vocal/Asset76.png",
-    },
-    {
-        id: 11,
-        src: "/vocal/Asset77.png",
     },
     {
         id: 12,
